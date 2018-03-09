@@ -1302,6 +1302,47 @@ public class Utility {
 			array.addLast(string.charAt(i));
 		}
 	}
+	//CALENDER
+	
+			/**
+			 * @param month
+			 * @param day
+			 * @param year
+			 * @return day of the week
+			 */
+			public static int dayInMonth(int month, int day, int year) 
+			{
+		        int y = year - (14 - month) / 12;
+		        int x = y + y/4 - y/100 + y/400;
+		        int m = month + 12 * ((14 - month) / 12) - 2;
+		        int d = (day + x + (31*m)/12) % 7;
+		        return d;
+		    }
+			
+			// NUMBER OF BINARY TREE
+			
+			/**
+			 * @param number
+			 * @return
+			 */
+			public static long binarySearchTree(int node)
+			{
+				long sum=0;
+				
+				if(node<=1)
+					return 1;
+				else
+				{
+					
+					for(int i=1;i<=node;i++)
+					{
+						sum = sum+(binarySearchTree(i-1)*binarySearchTree(node-i));
+					}
+				}
+				return sum;
+				
+			}
+
 
 
 

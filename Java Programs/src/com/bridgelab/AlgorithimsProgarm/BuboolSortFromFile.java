@@ -7,19 +7,18 @@
  *
  ******************************************************************************/
 
-
 package com.bridgelab.AlgorithimsProgarm;
+
 import com.bridgelab.utility.Utility;
 
 public class BuboolSortFromFile {
-	
-		public static void main(String[] args) {
-			Utility utility = new Utility();
-			String string[]=Utility.insertionSortFromFile();
-			
-			Utility.bubbleSortInt(string);
-			Utility.print(string,string.length);
-		}
 
+	public static void main(String[] args) {
+		Utility utility = new Utility();
+		String string[] = Utility.insertionSortFromFile();
+
+		Utility.bubbleSortInt(string);
+		Utility.print(string, string.length);
+	}
 
 }

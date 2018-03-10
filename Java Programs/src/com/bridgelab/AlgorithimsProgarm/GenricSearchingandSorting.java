@@ -7,16 +7,12 @@
  *
  ******************************************************************************/
 
-
 package com.bridgelab.AlgorithimsProgarm;
-/**
-*  @version 1.0
-*  @since   05-03-2018
-*/
+
 import com.bridgelab.utility.Utility;
 
 public class GenricSearchingandSorting {
-	
+
 	public static void main(String[] args) {
 
 		Utility utility = new Utility();
@@ -37,9 +33,8 @@ public class GenricSearchingandSorting {
 		System.out.println("if you want searh any string key then press  6");
 		System.out.println("--------------------------------------------------------------------");
 
-
 		Integer array[];
-		
+
 		String stringArray[];
 		String str[];
 
@@ -50,17 +45,17 @@ public class GenricSearchingandSorting {
 		case 1:
 			System.out.println("enter integer element ");
 
-			 array = new Integer[n];
+			array = new Integer[n];
 			for (int i = 0; i < n; i++) {
-				array[i] =utility.inputInteger();
+				array[i] = utility.inputInteger();
 			}
-			array= Utility.insertionSortString(array);
+			array = Utility.insertionSortString(array);
 			Utility.print(array, array.length);
 			break;
 
 		case 2:
 			System.out.println("enter String ");
-			 stringArray = new String[n];
+			stringArray = new String[n];
 			for (int i = 0; i < n; i++) {
 				stringArray[i] = utility.inputString();
 			}
@@ -68,11 +63,11 @@ public class GenricSearchingandSorting {
 			Utility.print(str, stringArray.length);
 
 			break;
-			
+
 		case 3:
 			System.out.println("enter integer element ");
 
-			 array = new Integer[n];
+			array = new Integer[n];
 			for (int i = 0; i < n; i++) {
 				array[i] = utility.inputInteger();
 			}
@@ -82,45 +77,46 @@ public class GenricSearchingandSorting {
 
 		case 4:
 			System.out.println("enter String ");
-			 stringArray = new String[n];
+			stringArray = new String[n];
 			for (int i = 0; i < n; i++) {
-				stringArray[i] =utility.inputString();
+				stringArray[i] = utility.inputString();
 			}
-			 str = Utility.bubbleSortInt(stringArray);
-			 Utility.print(str, stringArray.length);
+			str = Utility.bubbleSortInt(stringArray);
+			Utility.print(str, stringArray.length);
 
 			break;
-			
+
 		case 5:
 			System.out.println("enter integer element ");
 
-			 array = new Integer[n];
+			array = new Integer[n];
 			for (int i = 0; i < n; i++) {
 				array[i] = utility.inputInteger();
 			}
 			Utility.insertionSortString(array);
 			System.out.println("enter key ");
 			Integer key = utility.inputInteger();
-			array = Utility.binarySearchInt(array,key);
+			array = Utility.binarySearchInt(array, key);
 			Utility.print(array, array.length);
 			break;
 
 		case 6:
 			System.out.println("enter String ");
-			 stringArray = new String[n];
+			stringArray = new String[n];
 			for (int i = 0; i < n; i++) {
-				stringArray[i] =utility.inputString();
+				stringArray[i] = utility.inputString();
 			}
-			
+
 			Utility.insertionSortString(stringArray);
 			System.out.println("enter Stringkey ");
-			String stringKey =utility.inputString();
+			String stringKey = utility.inputString();
 			System.out.println();
-			str = Utility.binarySearchInt(stringArray,stringKey);
+			str = Utility.binarySearchInt(stringArray, stringKey);
 			Utility.print(str, stringArray.length);
 
 			break;
-		default: System.out.println("program end");
+		default:
+			System.out.println("program end");
 
 		}
 	}

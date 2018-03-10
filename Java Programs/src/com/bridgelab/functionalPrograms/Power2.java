@@ -7,27 +7,19 @@
  *
  ******************************************************************************/
 
-
 package com.bridgelab.functionalPrograms;
-/**
-*  @author  Abhishek Pratap Singh
-*  @version 1.0
-*  @since   05-03-2018
-*/
+
 import com.bridgelab.utility.Utility;
 
-public class Power2 
-{
+public class Power2 {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		Utility utility = new Utility();
 		System.out.println("Enter a number:");
-		int number=utility.inputInteger();
+		int number = utility.inputInteger();
 
 		Utility.power(number);
-		System.out.println("Printing the all Power Value until "+number);
-
+		System.out.println("Printing the all Power Value until " + number);
 
 	}
 }

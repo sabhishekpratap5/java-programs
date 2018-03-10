@@ -7,21 +7,16 @@
  *
  ******************************************************************************/
 
-
 package com.bridgelab.AlgorithimsProgarm;
-
-import java.util.Arrays;
-
 
 import com.bridgelab.utility.Utility;
 
 public class InsertionSortFromFile {
 	public static void main(String[] args) {
-		String str[]=Utility.insertionSortFromFile();
-		
-		Utility.insertionSortString(str);
-		Utility.print(str,str.length);
-	}
+		String string[] = Utility.insertionSortFromFile();
 
+		Utility.insertionSortString(string);
+		Utility.print(string, string.length);
+	}
 
 }

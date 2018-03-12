@@ -19,7 +19,7 @@ public class StopWatch {
 
 		int choice = utility.inputInteger();
 
-		long elapsed = Utility.stopwatch(choice);
+		long elapsed = utility.stopwatch(choice);
 
 		System.out.println(elapsed);
 	}

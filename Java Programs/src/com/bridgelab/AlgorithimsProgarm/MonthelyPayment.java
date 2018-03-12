@@ -23,7 +23,7 @@ public class MonthelyPayment {
 		rate = utility.inputDouble();
 		System.out.println("Enter the year ");
 		year = utility.inputDouble();
-		Utility.monthlyPayment(year, principale, rate);
+		utility.monthlyPayment(year, principale, rate);
 
 	}
 

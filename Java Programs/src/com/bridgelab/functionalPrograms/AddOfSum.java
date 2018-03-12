@@ -24,7 +24,7 @@ public class AddOfSum {
 			array[i] = utility.inputInteger();
 		}
 
-		int sum = Utility.addOfSum(array, size);
+		int sum = utility.addOfSum(array, size);
 		System.out.println("Number of tripltes :" + sum);
 
 	}

@@ -25,7 +25,7 @@ public class DayOfWeek {
 		System.out.println("Enter the year ");
 		year = utility.inputInteger();
 		System.out.print("Week of the day is ");
-		Utility.dayOfWeek(day, month, year);
+		utility.dayOfWeek(day, month, year);
 
 	}
 

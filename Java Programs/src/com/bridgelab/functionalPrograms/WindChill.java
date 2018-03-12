@@ -22,7 +22,7 @@ public class WindChill {
 		System.out.println("Enter value of speed ");
 		double value = utility.inputDouble();
 
-		double windchill = Utility.windChill(temperature, value);
+		double windchill = utility.windChill(temperature, value);
 
 		if (windchill > 0) {
 

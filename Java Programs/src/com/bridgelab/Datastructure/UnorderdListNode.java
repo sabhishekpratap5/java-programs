@@ -30,7 +30,7 @@ public class UnorderdListNode {
 			linkedlist.remove(key);
 			System.out.println(key+" Key is deleted ");
 			System.out.println("updated list is ");
-			Utility.writeFileOrUpdate(linkedlist);
+			utility.writeFileOrUpdate(linkedlist);
 
 
 
@@ -41,7 +41,7 @@ public class UnorderdListNode {
 			System.out.println(key+" Key is not Found ");
 			System.out.println(key+" Key is added ");
 			System.out.println("updated list is ");
-			Utility.writeFileOrUpdate(linkedlist);
+			utility.writeFileOrUpdate(linkedlist);
 
 		}
 

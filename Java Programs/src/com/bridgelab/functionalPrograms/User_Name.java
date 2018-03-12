@@ -19,12 +19,12 @@ public class User_Name {
 
 		System.out.println("enter username ");
 		String username = utility.inputString();
-		int n = username.length();
-		if (n < 3) {
+		int length = username.length();
+		if (length < 3) {
 			System.out.println("Username not valid");
 
 		} else {
-			System.out.println(Utility.replaceWithPattern(string, username));
+			System.out.println(utility.replaceWithPattern(string, username));
 		}
 
 	}

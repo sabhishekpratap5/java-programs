@@ -22,7 +22,7 @@ public class Gambler {
 		System.out.println("Enter number of times for play: ");
 		int NoOfTimes = utility.inputInteger();
 
-		Utility.GamblerGame(stack, goal, NoOfTimes);
+		utility.GamblerGame(stack, goal, NoOfTimes);
 
 	}
 }

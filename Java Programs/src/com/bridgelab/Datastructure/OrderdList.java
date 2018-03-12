@@ -33,7 +33,7 @@ public class OrderdList {
 			
 			
 			String array[]=OrderdLinkedList.sortList(orderdlinkedlist);
-			Utility.writeFileOrUpdateIntegerfile(array);
+			utility.writeFileOrUpdateIntegerfile(array);
 
 
 
@@ -46,7 +46,7 @@ public class OrderdList {
 			System.out.println("updated list is ");
 			
 			String array[]=OrderdLinkedList.sortList(orderdlinkedlist);
-			Utility.writeFileOrUpdateIntegerfile(array);
+			utility.writeFileOrUpdateIntegerfile(array);
 
 		}
 

@@ -22,7 +22,7 @@ public class Quadratic {
 		double b = utility.inputDouble();
 		double c = utility.inputDouble();
 
-		double delta = Utility.quadratic(a, b, c);
+		double delta = utility.quadratic(a, b, c);
 
 	}
 

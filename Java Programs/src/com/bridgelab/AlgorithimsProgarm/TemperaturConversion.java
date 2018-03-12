@@ -23,12 +23,12 @@ public class TemperaturConversion {
 		if (choice.equals("ctf")) {
 			System.out.println("Enter temperatue in Celcious");
 			int temperatuer = utility.inputInteger();
-			int f = Utility.temperaturConversiontoFarenhit(temperatuer);
+			int f = utility.temperaturConversiontoFarenhit(temperatuer);
 			System.out.println("temperature in Farenhit  " + f);
 		} else if (choice.equals("ftc")) {
 			System.out.println("Enter temperatue in Fahrenheit");
 			int temperatuer1 = utility.inputInteger();
-			int c = Utility.temperaturConversiontoCelcius(temperatuer1);
+			int c = utility.temperaturConversiontoCelcius(temperatuer1);
 			System.out.println("temperature in Celcious " + c);
 		} else {
 			System.out.println("enter corect choice ");

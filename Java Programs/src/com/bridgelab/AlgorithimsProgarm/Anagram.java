@@ -27,7 +27,7 @@ public class Anagram {
 		char char1[] = string1.toCharArray();
 		char char2[] = string2.toCharArray();
 
-		Utility.anagram(char1, char2);
+		utility.anagram(char1, char2);
 
 	}
 

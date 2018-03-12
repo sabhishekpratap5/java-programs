@@ -18,7 +18,7 @@ public class Vendingmachine {
 		System.out.println("enter amount ");
 		int value = utility.inputInteger();
 
-		Utility.vendingMachine(value);
+		utility.vendingMachine(value);
 	}
 
 }

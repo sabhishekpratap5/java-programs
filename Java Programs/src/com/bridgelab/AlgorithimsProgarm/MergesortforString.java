@@ -14,8 +14,8 @@ import com.bridgelab.utility.Utility;
 public class MergesortforString {
 
 	public static void printArray(char array[]) {
-		int n = array.length;
-		for (int i = 0; i < n; ++i)
+		int number = array.length;
+		for (int i = 0; i < number; ++i)
 			System.out.print(array[i]);
 		System.out.println();
 	}
@@ -26,7 +26,7 @@ public class MergesortforString {
 		String str = utility.inputString();
 		char array[] = str.toCharArray();
 
-		Utility.stringSort(array, 0, array.length - 1);
+		utility.stringSort(array, 0, array.length - 1);
 		printArray(array);
 
 	}

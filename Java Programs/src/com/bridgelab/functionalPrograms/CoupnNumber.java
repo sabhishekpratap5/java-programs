@@ -18,7 +18,7 @@ public class CoupnNumber {
 		System.out.println("Please enter the number of coupen ");
 		int number = utility.inputInteger();
 		System.out.println("----------------------------------");
-		Utility.random1(number);
+		utility.random1(number);
 		System.out.println();
 	}
 

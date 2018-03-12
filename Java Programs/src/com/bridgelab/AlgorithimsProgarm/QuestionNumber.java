@@ -21,7 +21,7 @@ public class QuestionNumber {
 		int low = 0;
 		System.out.println("assume the number between " + low + " to " + power);
 
-		int value = Utility.questionNumber(low, power);
+		int value = utility.questionNumber(low, power);
 		System.out.println("your asumed number is " + value);
 
 	}

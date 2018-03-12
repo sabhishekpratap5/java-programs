@@ -17,7 +17,7 @@ public class Harmonic_Number {
 		Utility utility = new Utility();
 		System.out.println("Enter a number: ");
 		double number = utility.inputDouble();
-		double result = Utility.harmonicValue(number);
+		double result = utility.harmonicValue(number);
 
 		if (number > 0) {
 			System.out.println("The Harmonic Value for the number is: " + result);

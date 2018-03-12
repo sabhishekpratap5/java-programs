@@ -16,7 +16,7 @@ public class BalancedParentheses {
 		}
 		else
 		{	
-			result = Utility.balancedParentheses(string);
+			result = utility.balancedParentheses(string);
 			if(result == true) 
 			{
 				System.out.println("it is a valid expression ");

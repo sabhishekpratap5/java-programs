@@ -14,7 +14,7 @@ public class BinarySearchTree {
 			{
 				System.out.println("enter the number of node ");
 				long node = utility.inputInteger();
-				long count = Utility.binarySearchTree((int) node);
+				long count = utility.binarySearchTree((int) node);
 				System.out.println(count);
 			}
 		}

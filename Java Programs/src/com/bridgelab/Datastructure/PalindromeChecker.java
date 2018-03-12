@@ -14,9 +14,9 @@ public class PalindromeChecker {
 		String string = utility.inputString();
 		String reverse = "";
 		ArrayDeque<Character> array = new ArrayDeque<Character>();
-		Utility.insertChar(string,array);
-		reverse = Utility.popChar(array,reverse);
-		Utility.checkPalindrom(string,reverse);
+		utility.insertChar(string,array);
+		reverse = utility.popChar(array,reverse);
+		utility.checkPalindrom(string,reverse);
 	}
 
 }

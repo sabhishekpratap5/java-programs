@@ -21,7 +21,7 @@ public class Distance {
 		System.out.println("enter second number ");
 		int argumentY = utility.inputInteger();
 
-		Utility.distanceOfTwoArguments(argumentX, argumentY);
+		utility.distanceOfTwoArguments(argumentX, argumentY);
 
 	}
 }

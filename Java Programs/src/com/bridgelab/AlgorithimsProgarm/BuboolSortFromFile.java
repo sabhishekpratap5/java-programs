@@ -15,10 +15,10 @@ public class BuboolSortFromFile {
 
 	public static void main(String[] args) {
 		Utility utility = new Utility();
-		String string[] = Utility.insertionSortFromFile();
+		String string[] = utility.insertionSortFromFile();
 
-		Utility.bubbleSortInt(string);
-		Utility.print(string, string.length);
+		utility.bubbleSortInt(string);
+		utility.print(string, string.length);
 	}
 
 }

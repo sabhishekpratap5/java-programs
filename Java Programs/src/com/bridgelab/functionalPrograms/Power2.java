@@ -18,7 +18,7 @@ public class Power2 {
 		System.out.println("Enter a number:");
 		int number = utility.inputInteger();
 
-		Utility.power(number);
+		utility.power(number);
 		System.out.println("Printing the all Power Value until " + number);
 
 	}

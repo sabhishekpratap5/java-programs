@@ -13,10 +13,11 @@ import com.bridgelab.utility.Utility;
 
 public class InsertionSortFromFile {
 	public static void main(String[] args) {
-		String string[] = Utility.insertionSortFromFile();
+		Utility utility = new Utility();
+		String string[] = utility.insertionSortFromFile();
 
-		Utility.insertionSortString(string);
-		Utility.print(string, string.length);
+		utility.insertionSortString(string);
+		utility.print(string, string.length);
 	}
 
 }

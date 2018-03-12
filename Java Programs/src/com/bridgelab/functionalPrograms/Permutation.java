@@ -14,9 +14,11 @@ import com.bridgelab.utility.Utility;
 public class Permutation {
 
 	public static void main(String[] args) {
+		Utility utility = new Utility();
+
 		String string = "ABC";
-		int n = string.length();
-		Utility.permute(string, 0, n - 1);
+		int stringLength = string.length();
+		utility.permute(string, 0, stringLength - 1);
 	}
 
 }

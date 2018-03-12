@@ -36,7 +36,7 @@ public class GenricSearchingandSorting {
 		Integer array[];
 
 		String stringArray[];
-		String str[];
+		String string[];
 
 		System.out.println("enter choice ");
 		int choice = utility.inputInteger();
@@ -49,8 +49,8 @@ public class GenricSearchingandSorting {
 			for (int i = 0; i < n; i++) {
 				array[i] = utility.inputInteger();
 			}
-			array = Utility.insertionSortString(array);
-			Utility.print(array, array.length);
+			array = utility.insertionSortString(array);
+			utility.print(array, array.length);
 			break;
 
 		case 2:
@@ -59,8 +59,8 @@ public class GenricSearchingandSorting {
 			for (int i = 0; i < n; i++) {
 				stringArray[i] = utility.inputString();
 			}
-			str = Utility.insertionSortString(stringArray);
-			Utility.print(str, stringArray.length);
+			string = utility.insertionSortString(stringArray);
+			utility.print(string, stringArray.length);
 
 			break;
 
@@ -71,8 +71,8 @@ public class GenricSearchingandSorting {
 			for (int i = 0; i < n; i++) {
 				array[i] = utility.inputInteger();
 			}
-			array = Utility.bubbleSortInt(array);
-			Utility.print(array, array.length);
+			array = utility.bubbleSortInt(array);
+			utility.print(array, array.length);
 			break;
 
 		case 4:
@@ -81,8 +81,8 @@ public class GenricSearchingandSorting {
 			for (int i = 0; i < n; i++) {
 				stringArray[i] = utility.inputString();
 			}
-			str = Utility.bubbleSortInt(stringArray);
-			Utility.print(str, stringArray.length);
+			string = utility.bubbleSortInt(stringArray);
+			utility.print(string, stringArray.length);
 
 			break;
 
@@ -93,11 +93,11 @@ public class GenricSearchingandSorting {
 			for (int i = 0; i < n; i++) {
 				array[i] = utility.inputInteger();
 			}
-			Utility.insertionSortString(array);
+			utility.insertionSortString(array);
 			System.out.println("enter key ");
 			Integer key = utility.inputInteger();
-			array = Utility.binarySearchInt(array, key);
-			Utility.print(array, array.length);
+			array = utility.binarySearchInt(array, key);
+			utility.print(array, array.length);
 			break;
 
 		case 6:
@@ -107,12 +107,12 @@ public class GenricSearchingandSorting {
 				stringArray[i] = utility.inputString();
 			}
 
-			Utility.insertionSortString(stringArray);
+			utility.insertionSortString(stringArray);
 			System.out.println("enter Stringkey ");
 			String stringKey = utility.inputString();
 			System.out.println();
-			str = Utility.binarySearchInt(stringArray, stringKey);
-			Utility.print(str, stringArray.length);
+			string = utility.binarySearchInt(stringArray, stringKey);
+			utility.print(stringArray, stringArray.length);
 
 			break;
 		default:

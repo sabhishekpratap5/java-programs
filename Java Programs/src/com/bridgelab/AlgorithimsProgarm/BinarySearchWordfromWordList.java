@@ -16,13 +16,13 @@ import com.bridgelab.utility.Utility;
 public class BinarySearchWordfromWordList {
 	public static void main(String[] args) {
 		Utility utility = new Utility();
-		String string[] = Utility.readWordFromFile();
+		String string[] = utility.readWordFromFile();
 		Arrays.sort(string);
 		System.out.println("enter String ");
 
 		String key = utility.inputString();
-		Utility.binarySearchInt(string, key);
-		Utility.print(string, string.length);
+		utility.binarySearchInt(string, key);
+		utility.print(string, string.length);
 	}
 
 }

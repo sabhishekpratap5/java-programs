@@ -16,20 +16,20 @@ public class MergeSort {
 	public static void main(String args[]) {
 		Utility utility = new Utility();
 		System.out.println("enter array length ");
-		int n = utility.inputInteger();
-		int array[] = new int[n];
+		int number = utility.inputInteger();
+		int array[] = new int[number];
 
 		System.out.println("enter array elements ");
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < number; i++) {
 			array[i] = utility.inputInteger();
 		}
 
 		System.out.println("Given Array ");
-		Utility.printArray(array);
+		utility.printArray(array);
 
-		Utility.sort(array, 0, array.length - 1);
+		utility.sort(array, 0, array.length - 1);
 
 		System.out.println("\nSorted array");
-		Utility.printArray(array);
+		utility.printArray(array);
 	}
 }

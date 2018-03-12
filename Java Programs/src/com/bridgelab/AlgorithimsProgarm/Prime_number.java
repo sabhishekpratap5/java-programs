@@ -14,10 +14,12 @@ import com.bridgelab.utility.Utility;
 public class Prime_number {
 
 	public static void main(String[] args) {
+		Utility utility = new Utility();
+
 		int low = 0;
 
 		int high = 1000;
 
-		Utility.primeNumInRange(low, high);
+		utility.primeNumInRange(low, high);
 	}
 }

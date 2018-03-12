@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
 
 public class Utility {
 
-	public static Scanner scanner;
+	public  Scanner scanner;
 
 	/**
 	 *  
@@ -85,7 +85,7 @@ public class Utility {
 	 * @param replace
 	 * @return a replace string
 	 */
-	public static String replaceWithPattern(String string, String replace) {
+	public String replaceWithPattern(String string, String replace) {
 
 		Pattern pattern = Pattern.compile("<<UserName>>");
 		Matcher match = pattern.matcher(string);
@@ -98,7 +98,7 @@ public class Utility {
 	 *            nothing return this method is give the percentage of flip coin
 	 *            head and tell
 	 */
-	public static void flipCoin(int number) {
+	public void flipCoin(int number) {
 		int head = 0;
 		int tell = 0;
 		for (int i = 1; i <= number; i++) {
@@ -124,7 +124,7 @@ public class Utility {
 	 * @param year
 	 * @return boolean datatype this method is give the year is leap year or not
 	 */
-	public static boolean leapYear(int year) {
+	public boolean leapYear(int year) {
 		if (year > 1000) {
 			if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
 				return true;
@@ -138,7 +138,7 @@ public class Utility {
 	 * @param number
 	 * @return double datatype power of 2 until number
 	 */
-	public static double power(int number) {
+	public double power(int number) {
 		for (int i = 1; i <= number; i++) {
 			double power = (Math.pow(2, i));
 			System.out.println("Power of 2^" + i + " is: " + power);
@@ -151,7 +151,7 @@ public class Utility {
 	 * @param number
 	 * @return double datatype harmonic value until number
 	 */
-	public static double harmonicValue(double number) {
+	public double harmonicValue(double number) {
 
 		double value = 0.0;
 
@@ -168,7 +168,7 @@ public class Utility {
 	 * @param NoOfTimes
 	 * @return integer value its return the percents of win && loss
 	 */
-	public static int GamblerGame(int stack, int goal, int NoOfTimes) {
+	public int GamblerGame(int stack, int goal, int NoOfTimes) {
 		int loss = 0;
 		int wins = 0;
 		int cash = 0;
@@ -200,7 +200,7 @@ public class Utility {
 	 * @param length
 	 * @return integer value its return the in a array how much triplets are there.
 	 */
-	public static int addOfSum(int array[], int length) {
+	public int addOfSum(int array[], int length) {
 		System.out.println();
 		int i, j, k, count = 0;
 		for (i = 0; i < length; i++) {
@@ -225,7 +225,7 @@ public class Utility {
 	 *            is the cofficient of Y
 	 * @return double value its return the distance between two arguments;
 	 */
-	public static double distanceOfTwoArguments(int argumentX, int argumentY) {
+	public double distanceOfTwoArguments(int argumentX, int argumentY) {
 		double distance = Math.sqrt(argumentX * argumentX + argumentX * argumentY);
 		System.out.println("distance from (" + argumentX + ", " + argumentY + ") to (0, 0) = " + distance);
 		return distance;
@@ -238,7 +238,7 @@ public class Utility {
 	 * @param nothing
 	 *            return permute strings of the string
 	 */
-	public static void permute(String string, int l, int r) {
+	public void permute(String string, int l, int r) {
 		if (l == r)
 			System.out.println(string);
 		else {
@@ -256,7 +256,7 @@ public class Utility {
 	 * @param j
 	 * @return its return swap string
 	 */
-	public static String swap(String string, int i, int j) {
+	public String swap(String string, int i, int j) {
 		char tempreri;
 		char[] charArray = string.toCharArray();
 		tempreri = charArray[i];
@@ -269,7 +269,7 @@ public class Utility {
 	 * @param choice
 	 * @return long value of elapsed time
 	 */
-	public static long stopwatch(int choice) {
+	public long stopwatch(int choice) {
 		long startTime = 0;
 		long stopTime = 0;
 		Scanner scan = new Scanner(System.in);
@@ -293,7 +293,7 @@ public class Utility {
 	 * @param number
 	 *            nothing return it give the prime factor of given number
 	 */
-	public static void primeFactor(int number) {
+	public void primeFactor(int number) {
 		String string = "";
 
 		for (int i = 2; i <= number;) {
@@ -319,7 +319,7 @@ public class Utility {
 	 * @param number
 	 *            nothing return its generate the random number.
 	 */
-	public static void random1(int number) {
+	public void random1(int number) {
 		Random r = new Random();
 		for (int i = 0; i < number; i++) {
 			System.out.print(" " + r.nextInt(9999) + " ");
@@ -332,7 +332,7 @@ public class Utility {
 	 * @param c
 	 * @return double value of delta
 	 */
-	public static double quadratic(double a, double b, double c) {
+	public double quadratic(double a, double b, double c) {
 		double root1 = 0;
 		double root2 = 0;
 
@@ -355,7 +355,7 @@ public class Utility {
 	 * @param value
 	 * @return double value of windchill temprature
 	 */
-	public static double windChill(double temperature, double value) {
+	public double windChill(double temperature, double value) {
 		double windchill = 0.0;
 		if (temperature > 50 && (value > 3 && value < 120)) {
 			windchill = (35.74 + (0.6215 * temperature) + ((0.4275 * temperature) - 35.75) * Math.pow(2, 0.16));
@@ -371,7 +371,7 @@ public class Utility {
 	 * @param char2
 	 *            nothing return its work for check string is anagram string or not
 	 */
-	public static void anagram(char char1[], char char2[]) {
+	public void anagram(char char1[], char char2[]) {
 		if (char1.length != char2.length) {
 			System.out.println("not anagram");
 		}
@@ -402,7 +402,7 @@ public class Utility {
 	 * @param high
 	 * @return integer value of all prime value from 0 to 1000.
 	 */
-	public static int primeNumInRange(int low, int high) {
+	public int primeNumInRange(int low, int high) {
 		for (int i = 2; i < high; ++i) {
 			int flag = 0;
 			for (int j = 2; j <= i / 2; ++j) {
@@ -422,7 +422,7 @@ public class Utility {
 	 * @param array
 	 *            nothing return it is work for print the array
 	 */
-	public static void printArray(int array[]) {
+	public void printArray(int array[]) {
 		int n = array.length;
 		for (int i = 0; i < n; ++i)
 			System.out.print(array[i] + " ");
@@ -435,7 +435,7 @@ public class Utility {
 	 * @param power
 	 * @return int value of the assumed number.
 	 */
-	public static int questionNumber(int low, int power) {
+	public int questionNumber(int low, int power) {
 		Scanner scanner = new Scanner(System.in);
 
 		if (low > power) {
@@ -466,7 +466,7 @@ public class Utility {
 	 * @param high
 	 *            nothing return it is work for sort the array.
 	 */
-	public static void sort(int array[], int low, int high) {
+	public void sort(int array[], int low, int high) {
 		if (low < high) {
 
 			int middle = (low + high) / 2;
@@ -485,7 +485,7 @@ public class Utility {
 	 * @param high
 	 *            nothing return it is work for merge array.
 	 */
-	public static void merge(int array[], int low, int middle, int high) {
+	public  void merge(int array[], int low, int middle, int high) {
 
 		int n1 = middle - low + 1;
 		int n2 = high - middle;
@@ -533,7 +533,7 @@ public class Utility {
 	 * @param high
 	 *            nothing return it is give the sorted character of string
 	 */
-	public static void stringSort(char array[], int low, int high) {
+	public  void stringSort(char array[], int low, int high) {
 		if (low < high) {
 
 			int middle = (low + high) / 2;
@@ -550,7 +550,7 @@ public class Utility {
 	 * @return its a generic method for insertion sorting and it give the sorted
 	 *         array and sorted string
 	 */
-	public static <T extends Comparable<T>> T[] insertionSortString(T[] array) {
+	public  <T extends Comparable<T>> T[] insertionSortString(T[] array) {
 		for (int i = 1; i < array.length; i++) {
 			for (int j = i; j > 0; j--) {
 				if ((array[j - 1]).compareTo(array[j]) > 0) {
@@ -568,7 +568,7 @@ public class Utility {
 	 * @return its a generic method for bubbol sorting and it give the sorted array
 	 *         and sorted string
 	 */
-	public static <T extends Comparable<T>> T[] bubbleSortInt(T[] array) {
+	public static  <T extends Comparable<T>> T[] bubbleSortInt(T[] array) {
 		for (int i = 1; i < array.length; i++) {
 			for (int j = 0; j < array.length - i; j++) {
 				if (array[j].compareTo(array[j + 1]) > 0) {
@@ -587,7 +587,7 @@ public class Utility {
 	 * @param num
 	 * @return generic binary search
 	 */
-	public static <T extends Comparable<T>> T[] binarySearchInt(T[] array, T num) {
+	public  <T extends Comparable<T>> T[] binarySearchInt(T[] array, T num) {
 		int size = array.length;
 
 		int start, end, mid, count = 0;
@@ -613,7 +613,7 @@ public class Utility {
 
 	}
 
-	public static <T> void print(T[] array, int number) {
+	public static  <T> void print(T[] array, int number) {
 		for (int j = 0; j < number; j++) {
 			System.out.print(array[j] + " ");
 		}
@@ -623,7 +623,7 @@ public class Utility {
 	/**
 	 * @return
 	 */
-	public static String[] readWordFromFile() {
+	public  String[] readWordFromFile() {
 		String string[] = null;
 		try {
 			FileReader fr = new FileReader("/home/bridgelab/test.text");
@@ -649,7 +649,7 @@ public class Utility {
 	/**
 	 * @return
 	 */
-	public static String[] insertionSortFromFile() {
+	public  String[] insertionSortFromFile() {
 		String string[] = null;
 		try {
 			FileReader fr = new FileReader("/home/bridgelab/aps.text");
@@ -679,7 +679,7 @@ public class Utility {
 	 * @param high
 	 *            nothing return it is work for merge array.
 	 */
-	public static void stringMerge(char array[], int low, int middle, int high) {
+	public  void stringMerge(char array[], int low, int middle, int high) {
 
 		int n1 = middle - low + 1;
 		int n2 = high - middle;
@@ -724,7 +724,7 @@ public class Utility {
 	 * @param value
 	 *            its give the number of note.
 	 */
-	public static void vendingMachine(int value) {
+	public  void vendingMachine(int value) {
 		int count = 0;
 		if (value > 0) {
 			while (value >= 1000) {
@@ -783,14 +783,14 @@ public class Utility {
 	 * @param temperatuer
 	 * @return integer value this method is use for converting the temperature.
 	 */
-	public static int temperaturConversiontoFarenhit(int temperatuer) {
+	public  int temperaturConversiontoFarenhit(int temperatuer) {
 
 		int F = ((temperatuer * 9 / 5) + 32);
 		return F;
 
 	}
 
-	public static int temperaturConversiontoCelcius(int temperatuer) {
+	public  int temperaturConversiontoCelcius(int temperatuer) {
 
 		int C = ((temperatuer - 32) * 5 / 9);
 		return C;
@@ -803,7 +803,7 @@ public class Utility {
 	 * @param year
 	 *            nothing return this method is using for find the day of week
 	 */
-	public static void dayOfWeek(int day, int month, int year) {
+	public  void dayOfWeek(int day, int month, int year) {
 		int m, x, d, y;
 		y = year - (14 - month) / 12;
 		x = y + y / 4 - y / 100 + y / 400;
@@ -854,7 +854,7 @@ public class Utility {
 	 * @param rate
 	 *            nothing return calculate interest of monthly
 	 */
-	public static void monthlyPayment(double year, double principal, double rate) {
+	public  void monthlyPayment(double year, double principal, double rate) {
 		double payment = 0;
 		double l = 100 * 12;
 		double n = 12 * year;
@@ -866,7 +866,7 @@ public class Utility {
 	 * @param num
 	 * @return integer value it is work for converting decimal to binary number
 	 */
-	public static int[] toBinary(int num) {
+	public  int[] toBinary(int num) {
 		int array[] = new int[32];
 		int index = 0;
 
@@ -889,7 +889,7 @@ public class Utility {
 	 * @param c
 	 *            nothing return it is work for giving the square root of the value
 	 */
-	public static void sqrt(double c) {
+	public  void sqrt(double c) {
 		double t1 = Math.sqrt(c);
 		System.out.println(t1);
 		double t = c;
@@ -907,7 +907,7 @@ public class Utility {
 	 * @param list
 	 *            it is work for update the file for string value
 	 */
-	public static void writeFileOrUpdate(LinkedList list) {
+	public  void writeFileOrUpdate(LinkedList list) {
 		try {
 			String string = list.toString();
 			FileWriter fw = new FileWriter("/home/bridgelab/linkedlist.text");
@@ -925,7 +925,7 @@ public class Utility {
 	 * @param list
 	 *            it is work for update the file for integer value
 	 */
-	public static void writeFileOrUpdateIntegerfile(String[] array) {
+	public  void writeFileOrUpdateIntegerfile(String[] array) {
 		try {
 			String string = "";
 
@@ -948,7 +948,7 @@ public class Utility {
 	 * 
 	 * 		this method is work for read words from file from
 	 */
-	public static String[] readListOfWords() {
+	public  String[] readListOfWords() {
 		String string[] = null;
 		try {
 			FileReader fr = new FileReader("/home/bridgelab/linkedlist.text");
@@ -977,7 +977,7 @@ public class Utility {
 	 * 
 	 * 		this method is work for read integer value from file from
 	 */
-	public static String[] readListOfInteger() {
+	public  String[] readListOfInteger() {
 		String string[] = null;
 		try {
 			FileReader fr = new FileReader("/home/bridgelab/linledlistinteger.text");
@@ -1008,7 +1008,7 @@ public class Utility {
 	 * @return boolean expression this method is work for balanced parentheses from
 	 *         arithmetic expression.
 	 */
-	public static boolean balancedParentheses(String string) {
+	public  boolean balancedParentheses(String string) {
 		int count = 0;
 		Stack<Character> stack = new Stack<Character>();
 		for (int i = 0; i < string.length(); i++) {
@@ -1039,7 +1039,7 @@ public class Utility {
 	 * @param string
 	 * @param reverse
 	 */
-	public static void checkPalindrom(String string, String reverse) {
+	public  void checkPalindrom(String string, String reverse) {
 		if (string.equals(reverse)) {
 			System.out.println("Given string is palindrome");
 		} else {
@@ -1053,7 +1053,7 @@ public class Utility {
 	 * @param reverse
 	 * @return
 	 */
-	public static String popChar(ArrayDeque<Character> array, String reverse) {
+	public  String popChar(ArrayDeque<Character> array, String reverse) {
 		while (!array.isEmpty()) {
 			reverse += array.removeLast();
 		}
@@ -1064,7 +1064,7 @@ public class Utility {
 	 * @param string
 	 * @param array
 	 */
-	public static void insertChar(String string, ArrayDeque array) {
+	public  void insertChar(String string, ArrayDeque array) {
 		for (int i = 0; i < string.length(); i++) {
 			array.addLast(string.charAt(i));
 		}
@@ -1077,7 +1077,7 @@ public class Utility {
 	 * @param year
 	 * @return day of the week
 	 */
-	public static int dayInMonth(int month, int day, int year) {
+	public  int dayInMonth(int month, int day, int year) {
 		int y = year - (14 - month) / 12;
 		int x = y + y / 4 - y / 100 + y / 400;
 		int m = month + 12 * ((14 - month) / 12) - 2;
@@ -1091,7 +1091,7 @@ public class Utility {
 	 * @param number
 	 * @return
 	 */
-	public static long binarySearchTree(int node) {
+	public static  long binarySearchTree(int node) {
 		long sum = 0;
 
 		if (node <= 1)
@@ -1111,7 +1111,7 @@ public class Utility {
 	 * @param limit
 	 * @return arraylist integer
 	 */
-	public static ArrayList<Integer> primeNumbers(int starrt, int limit) {
+	public  ArrayList<Integer> primeNumbers(int starrt, int limit) {
 		ArrayList<Integer> primeNumbersList = new ArrayList<Integer>();
 		for (int i = 2; i <= limit; i++) {
 			boolean prime = true;

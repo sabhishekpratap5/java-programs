@@ -13,7 +13,7 @@ import com.bridgelab.utility.Utility;
 
 public class DayOfWeek {
 	public static void main(String[] args) {
-		System.out.println("Program Started");
+		
 
 		System.out.println("Day of Week is :");
 		Utility utility = new Utility();

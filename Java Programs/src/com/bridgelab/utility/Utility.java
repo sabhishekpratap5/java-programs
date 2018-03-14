@@ -9,20 +9,32 @@
 
 package com.bridgelab.utility;
 
+
+
+
 import com.bridgelab.Datastructure.*;
 import com.bridgelab.Datastructure.LinkedList;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.*;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 public class Utility {
 
-	public  Scanner scanner;
+	public static  Scanner scanner;
 
 	/**
 	 *  
@@ -402,19 +414,104 @@ public class Utility {
 	 * @param high
 	 * @return integer value of all prime value from 0 to 1000.
 	 */
-	public int primeNumInRange(int low, int high) {
-		for (int i = 2; i < high; ++i) {
-			int flag = 0;
-			for (int j = 2; j <= i / 2; ++j) {
-				if (i % j == 0) {
-					flag = 1;
+	public void primeNumInRange(int low, int high) {
+		
+		Integer arr[] = new Integer[high/2]; 
+		int k=0,len = 0;
+		// loop until last number
+		for (int i=2;i<=high;i++)
+		{
+			boolean prime = true;
+			// to check the number is prime or not
+			for(int j=2;j<i;j++)
+			{
+				if(i%j==0)
+				{
+					prime=false;
 					break;
 				}
 			}
-			if (flag == 0)
-				System.out.print(i);
+			// to store each prime number in array
+			if(prime==true)
+			{
+				arr[k]=i;
+				k++;
+			}
 		}
-		return 0;
+	    for (int i=0; i<arr.length; i++)
+	    {
+	        if (arr[i] != null)
+	            len++;
+	    }
+	    
+	    Integer [] newArray = new Integer[len];
+	    for (int i=0, j=0; i<arr.length; i++)
+	    {
+	        if (arr[i] != null) {
+	            newArray[j] = arr[i];
+	            j++;
+	        }
+	    }
+	    System.out.println();
+	   
+	    printArray(newArray);
+	}
+	
+	public <T extends Comparable<T>> void printArray(T[] array)
+	{
+		for (int i=0 ; i<array.length ; i++)
+		{
+			System.out.print(array[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	//PrimeAnagram
+	/**
+	 * @param start
+	 * @param limit
+	 * @return
+	 */
+	public Integer[] disp(int start, int limit)
+	{
+		Integer arr[] = new Integer[limit/2]; 
+		int k=0,len = 0;
+		// find prime number between range 
+		for (int i=2;i<=limit;i++)
+		{
+			boolean prime = true;
+			for(int j=2;j<i;j++)
+			{
+				if(i%j==0)
+				{
+					prime=false;
+					break;
+				}
+			}
+			if(prime==true)
+			{
+				arr[k]=i;
+				k++;
+			}
+		}
+
+        for (int i=0; i<arr.length; i++)
+        {
+            if (arr[i] != null)
+                len++;
+        }
+        // to store prime number in array
+        Integer [] newArray = new Integer[len];
+        for (int i=0, j=0; i<arr.length; i++)
+        {
+            if (arr[i] != null) {
+                newArray[j] = arr[i];
+                j++;
+            }
+        }
+        System.out.println();
+        //to print prime numbers
+        return (newArray);
 	}
 
 	// print method for array integers
@@ -1161,5 +1258,156 @@ public class Utility {
 			System.out.println();
 		}
 	}
+	
+	
+	// Object oriented programs
+	
+	/**
+	 * it is work for read the data file form system.
+	 */
+	public static void readingData()  
+	{
+		File file =new File("/home/bridgeit/abhishek-workspace/Java Programs/src/InventoryDetails.json");
+		FileReader fr;
+		try {
+			fr = new FileReader(file);
+			JSONParser parser = new JSONParser();
+			JSONObject obj = (JSONObject) parser.parse(fr);
+			Iterator<?> iterator = obj.keySet().iterator(); 
+			while(iterator.hasNext()) 
+			{
+			    String topkey = (String) iterator.next();
+				JSONObject jsonObject1=(JSONObject)obj.get(topkey);
+				Iterator<?> iterator1 = jsonObject1.keySet().iterator(); 
+				
+				while(iterator1.hasNext()) 
+				{
+					String key=(String) iterator1.next();
+					System.out.println(key+" : "+jsonObject1.get(key));
+				}
+				System.out.println("The Toatal cost of "+jsonObject1.get("Name")+" is: "+Integer.parseInt(jsonObject1.get("Price").toString())*Integer.parseInt(jsonObject1.get("Weight").toString()));
+			}
+		} catch (FileNotFoundException  e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+	
+	/**
+	 * for data file writing.
+	 * @throws IOException
+	 */
+	public static void writingData() throws IOException
+	{
+		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/InventoryDetails.json");
+	
+		FileWriter fw = new FileWriter(file);
+		JSONObject object1 = new JSONObject();
+		JSONObject object2= new JSONObject();
+		JSONObject object3= new JSONObject();
+		
+		System.out.println("enter Rice name ");
+		String riceName=scanner.next();
+		System.out.println("enter Rice weight ");
+		int riceWeight=scanner.nextInt();
+		System.out.println("enter Rice Price ");
+		int ricePrice=scanner.nextInt();
+		
+		System.out.println("enter Pulse name ");
+		String pulseName=scanner.next();
+		System.out.println("enter Pulse weight ");
+		int pulseWeight=scanner.nextInt();
+		System.out.println("enter Pulse Price ");
+		int pulsePrice=scanner.nextInt();
+		
+		
+
+		
+		System.out.println("enter Wheat name ");
+		String wheatName=scanner.next();
+		System.out.println("enter Wheat weight ");
+		int wheatWeight=scanner.nextInt();
+		System.out.println("enter Wheat Price ");
+		int wheatPrice=scanner.nextInt();
+
+
+
+
+
+		object1.put("Name",riceName);
+		object1.put("Weight", riceWeight);
+		object1.put("Price", ricePrice);
+		
+		object2.put("Name", pulseName);
+		object2.put("Weight", pulseWeight);
+		object2.put("Price", pulsePrice);
+		
+		object3.put("Name", wheatName);
+		object3.put("Weight",wheatWeight);
+		object3.put("Price", wheatPrice);
+		JSONObject items = new JSONObject();
+		
+		items.put("Rice",object1);
+		items.put("Pulses",object2);
+		items.put("Wheat",object3);
+		
+		fw.write(JSONValue.toJSONString(items));
+		fw.flush();
+		fw.close();
+
+	}
+	
+	//Stock Report
+		/**
+		 * @throws IOException
+		 * @throws ParseException
+		 */
+		public static void calculateStockReport()  
+		{
+			
+			File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/stockReport.json");
+			
+			try {
+				FileReader fr = new FileReader(file);
+			
+			JSONParser parser = new JSONParser();
+			
+			
+				JSONArray arr = (JSONArray) parser.parse(fr);
+				long total=0;
+				Iterator <?>itr = arr.iterator();
+				while (itr.hasNext())
+				{
+					JSONObject obj = (JSONObject) itr.next();
+					Iterator<?> iterator = obj.keySet().iterator(); 
+					while(iterator.hasNext()) 
+					{
+					    String topkey = (String) iterator.next();
+						JSONObject jsonObject1=(JSONObject)obj.get(topkey);
+						System.out.println("Company Name: " +topkey);
+						long price = (long) jsonObject1.get("Price");
+						long shares = (long) jsonObject1.get("NumShare");
+						total += price*shares;
+						System.out.println("Share price: "+price);
+						System.out.println("Number of Shares: "+shares);
+						System.out.println("Total cost: "+(price*shares));
+					}
+				}
+				System.out.println("Total cost of share is : "+total);
+			} catch (IOException | ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		
 
 }

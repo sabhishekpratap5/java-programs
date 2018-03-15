@@ -1699,3 +1699,363 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.lsp4e 2 0 2018-03-15 09:37:04.441
 !MESSAGE server 'org.eclipse.bluesky.jsts' not available
+!SESSION 2018-03-15 15:03:15.951 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.lsp4e 4 2 2018-03-15 15:04:22.301
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.lsp4e".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.CSSLanguageServer".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:186)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.CSSLanguageServer.<init>(CSSLanguageServer.java:36)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	... 10 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-03-15 15:04:22.302
+!MESSAGE Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.CSSLanguageServer".
+!STACK 0
+java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.CSSLanguageServer.<init>(CSSLanguageServer.java:36)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-03-15 15:04:22.303
+!MESSAGE Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.CSSLanguageServer".
+!STACK 0
+java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.CSSLanguageServer.<init>(CSSLanguageServer.java:36)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.lsp4e 4 2 2018-03-15 15:04:22.347
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.lsp4e".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.HTMLLanguageServer".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:186)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.HTMLLanguageServer.<init>(HTMLLanguageServer.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	... 10 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-03-15 15:04:22.347
+!MESSAGE Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.HTMLLanguageServer".
+!STACK 0
+java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.HTMLLanguageServer.<init>(HTMLLanguageServer.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-03-15 15:04:22.347
+!MESSAGE Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.HTMLLanguageServer".
+!STACK 0
+java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.HTMLLanguageServer.<init>(HTMLLanguageServer.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.lsp4e 4 2 2018-03-15 15:04:22.366
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.lsp4e".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.JSonLanguageServer".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:186)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.JSonLanguageServer.<init>(JSonLanguageServer.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	... 10 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-03-15 15:04:22.366
+!MESSAGE Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.JSonLanguageServer".
+!STACK 0
+java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.JSonLanguageServer.<init>(JSonLanguageServer.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-03-15 15:04:22.366
+!MESSAGE Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.JSonLanguageServer".
+!STACK 0
+java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.JSonLanguageServer.<init>(JSonLanguageServer.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.lsp4e 4 2 2018-03-15 15:04:22.378
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.lsp4e".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.JSTSLanguageServer".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:186)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.JSTSLanguageServer.<init>(JSTSLanguageServer.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	... 10 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-03-15 15:04:22.378
+!MESSAGE Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.JSTSLanguageServer".
+!STACK 0
+java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.JSTSLanguageServer.<init>(JSTSLanguageServer.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2018-03-15 15:04:22.378
+!MESSAGE Plug-in "org.eclipse.bluesky" was unable to instantiate class "org.eclipse.bluesky.JSTSLanguageServer".
+!STACK 0
+java.lang.NullPointerException
+	at sun.nio.fs.UnixPath.normalizeAndCheck(UnixPath.java:77)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at org.eclipse.bluesky.InitializeLaunchConfigurations.getNodeJsLocation(InitializeLaunchConfigurations.java:78)
+	at org.eclipse.bluesky.JSTSLanguageServer.<init>(JSTSLanguageServer.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry$1.run(LSPStreamConnectionProviderRegistry.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.initialize(LSPStreamConnectionProviderRegistry.java:110)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.<init>(LSPStreamConnectionProviderRegistry.java:88)
+	at org.eclipse.lsp4e.LSPStreamConnectionProviderRegistry.getInstance(LSPStreamConnectionProviderRegistry.java:77)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.lsp4e 2 0 2018-03-15 15:04:22.381
+!MESSAGE server 'org.eclipse.bluesky.css' not available
+
+!ENTRY org.eclipse.lsp4e 2 0 2018-03-15 15:04:22.382
+!MESSAGE server 'org.eclipse.bluesky.css' not available
+
+!ENTRY org.eclipse.lsp4e 2 0 2018-03-15 15:04:22.382
+!MESSAGE server 'org.eclipse.bluesky.css' not available
+
+!ENTRY org.eclipse.lsp4e 2 0 2018-03-15 15:04:22.382
+!MESSAGE server 'org.eclipse.bluesky.html' not available
+
+!ENTRY org.eclipse.lsp4e 2 0 2018-03-15 15:04:22.382
+!MESSAGE server 'org.eclipse.bluesky.json' not available
+
+!ENTRY org.eclipse.lsp4e 2 0 2018-03-15 15:04:22.382
+!MESSAGE server 'org.eclipse.bluesky.jsts' not available
+
+!ENTRY org.eclipse.lsp4e 2 0 2018-03-15 15:04:22.382
+!MESSAGE server 'org.eclipse.bluesky.jsts' not available

@@ -1,5 +1,5 @@
 package com.bridgelab.utility;
-class Node
+public class Node
 {
     protected Object data;
     protected Node link;
@@ -32,8 +32,8 @@ class Node
         return link;
     }    
     /*  Function to get data from current Node  */
-    public <T> int getData()
-    {
-        return (int) data;
+    public   Object getData() {
+    	return  data;
     }
+    
 }

@@ -16,14 +16,17 @@ import org.json.simple.JSONValue;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import com.bridgelab.utility.Utility;
+
 public class CompanyShares {
 
-	private static Scanner scan;
+	//private static Scanner scan;
 
 	@SuppressWarnings({ "unused", "rawtypes", "unchecked" })
 	public static void main(String[] args) //throws IOException, ParseException 
 	{
-		scan = new Scanner(System.in);
+		Utility utility=new Utility();
+		//scan = new Scanner(System.in);
 		Stack stk = new Stack();
 		Queue que = new Queue();
 		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Companyshare.json");
@@ -40,7 +43,7 @@ public class CompanyShares {
 		Iterator itr = array.iterator();
 		LinkedList ll = new LinkedList();
 		System.out.println("Enter the share symbol");
-		String symbol = scan.nextLine();
+		String symbol = utility.inputString();
 		while(itr.hasNext())
 		{
 			JSONObject obj = (JSONObject) itr.next();
@@ -50,12 +53,12 @@ public class CompanyShares {
 			{
 				System.out.println("Share symbol already their in list");
 				System.out.println("To add share press 1 and To remove share press 2");
-				int choice = scan.nextInt();
+				int choice = utility.inputInteger();
 				switch(choice)
 				{
 				case 1 : 
 							System.out.println("Enter the number of share want to buy");
-							int num_share = scan.nextInt();
+							int num_share = utility.inputInteger();
 							JSONObject object = (JSONObject) obj.get(symbol);
 							int key = Integer.parseInt(object.get("NumOfShare").toString());
 							int new_shares_count = key + num_share;
@@ -68,7 +71,7 @@ public class CompanyShares {
 						
 					break;
 				case 2 : 	System.out.println("Enter the amount of share to sale");
-							int amt = scan.nextInt();
+							int amt = utility.inputInteger();
 							JSONObject object1 = (JSONObject) obj.get(symbol);
 							int share_amt = Integer.parseInt(object1.get("ShareAmt").toString());
 							int num_share1 = Integer.parseInt(object1.get("NumOfShare").toString());
@@ -87,9 +90,9 @@ public class CompanyShares {
 			{
 				JSONObject object = new JSONObject();
 				System.out.println("Enter number of share");
-				int num = scan.nextInt();
+				int num = utility.inputInteger();
 				System.out.println("Enter share amount");
-				int amt = scan.nextInt();
+				int amt = utility.inputInteger();
 				object.put("NumOfShare",num );
 				object.put("ShareAmt",amt);
 				obj.put(symbol,object);

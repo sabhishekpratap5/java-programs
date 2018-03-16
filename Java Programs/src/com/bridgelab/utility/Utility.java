@@ -1680,6 +1680,101 @@ public class Utility {
 			e.printStackTrace();
 		}
 		}
+		
+		//DECKOFCARD
+		/**
+		 * @param deck
+		 * to initialize deck array
+		 */
+		public void initialize(int[] deck) 
+		{
+			// Initialize cards
+		    for (int i = 0; i < deck.length; i++) 
+		    {
+		      deck[i] = i;
+		    }
+			
+		}
+		
+		/**
+		 * @param deck
+		 * to shuffle card
+		 * @return shuffles array
+		 */
+		public int[] shuffleCards(int[] deck) 
+		{
+			// Shuffle the cards
+		    for (int i = 0; i < deck.length; i++) 
+		    {
+		      int index = i + (int)(Math.random() * (52-i));
+		      int temp = deck[i];
+		      deck[i] = deck[index];
+		      deck[index] = temp;
+		      //System.out.println(i+"->"+index);
+		    }
+		    return deck;
+		}
+		
+		/**
+		 * @param arr
+		 * @param deck
+		 * @param suits
+		 * @param ranks
+		 * to generate unique cards
+		 */
+		public void generateCard(String[] arr, int[] deck, String[] suits, String[] ranks) 
+		{
+			for (int i = 0; i < 52; i++) 
+		    {
+		      String suit = suits[deck[i] / 13];
+		      String rank = ranks[deck[i] % 13];
+		      arr[i]=( rank + "->" + suit);
+		    }
+		}
+
+		/**
+		 * @param deck
+		 * @param arr
+		 * to distribute cards
+		 */
+		
+		public void distribute(int[] deck, String[] arr) 
+		{
+			String arr1[][] = new String[4][9];
+		    Random r = new Random();
+		    int m = deck.length;
+		    for(int i=0;i<4;i++)
+			{
+				for(int j=0;j<9;j++)
+				{	
+					int a = r.nextInt(m);
+					arr1[i][j] = arr[a];
+				}
+			}
+		    for(int i=0;i<arr1.length;i++)
+			{	
+				System.out.print("Player"+(i+1)+": ");
+				for(int j=0;j<arr1[i].length;j++)
+				{
+					System.out.print(arr1[i][j]+ "\t");
+				}
+				System.out.println();
+			}	
+		    
+		    System.out.println("--------------------------------");
+		   for (String outer[] : arr1) 
+		   {
+		       Arrays.sort(outer);
+
+		       for (String integer : outer) {
+		           System.out.print(integer+"\t");
+		       }
+		       System.out.println();
+		   }
+		}
+
+	
+
 }
 
 

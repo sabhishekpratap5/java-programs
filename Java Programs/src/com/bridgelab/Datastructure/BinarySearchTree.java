@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Purpose: for find out the key element using Binary Search Tree of the String
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
+
 package com.bridgelab.Datastructure;
 
 import com.bridgelab.utility.Utility;

@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Purpose: This Program is refer for UnorderdList for String
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
+
 package com.bridgelab.Datastructure;
 
 import com.bridgelab.utility.Utility;

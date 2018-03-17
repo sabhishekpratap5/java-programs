@@ -1,7 +1,16 @@
+/******************************************************************************
+ *  Purpose: This program is refer for find out the week day using Queue 
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
+
 package com.bridgelab.Datastructure;
 
 import java.util.NoSuchElementException;
-import java.util.Scanner;
+
 
 import com.bridgelab.utility.Utility;
 

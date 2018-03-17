@@ -1,3 +1,11 @@
+/******************************************************************************
+ *  Purpose: Commercial data processing program using Queue for time and date management. 
+ *
+ *  @author  Abhishek Singh
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
 package com.bridgelab.objectOriented;
 import java.text.SimpleDateFormat;
 import java.util.Date;

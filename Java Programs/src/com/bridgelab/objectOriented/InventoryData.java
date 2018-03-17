@@ -1,3 +1,11 @@
+/******************************************************************************
+ *  Purpose: This Program refer for Inventory Data Manegment System.
+ *
+ *  @author  Abhishek Singh
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
 package com.bridgelab.objectOriented;
 
 import java.io.IOException;
@@ -9,10 +17,8 @@ public class InventoryData {
 	public static void main(String[] args) throws IOException, ParseException
 	{
 		
-		Utility utility = new Utility();
-		
-		utility.writingData();
-		utility.readingData();
+		Utility.writingData();
+		Utility.readingData();
 	}
 
 }

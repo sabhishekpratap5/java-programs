@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Purpose: this program is stand for Hashmap.
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
+
 package com.bridgelab.Datastructure;
 
 import java.io.BufferedReader;
@@ -7,7 +16,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
-import java.util.Scanner;
+
+import com.bridgelab.utility.Utility;
+
 
 public class HashingFunctionMain {
 
@@ -61,13 +72,12 @@ public class HashingFunctionMain {
 
 	//** Searches for given number 
 	void searchNumber() {
-		Scanner scanner = new Scanner(System.in);
+		Utility utility = new Utility();
 		System.out.print("Enter a number to search: ");
-		int search = scanner.nextInt(); // number to be searched
+		int search = utility.inputInteger(); // number to be searched
 
 		// getting list in which the number should be
 		OrderdLinkedList<Integer> list = myHashMap.get(search % 11);
-		scanner.close();
 
 		if (list.search(search)) { // file contains the number
 			System.out.println("File contains number. Removing it.");

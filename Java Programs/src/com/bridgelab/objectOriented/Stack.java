@@ -1,3 +1,11 @@
+/******************************************************************************
+ *  Purpose: Stack program logic. 
+ *
+ *  @author  Abhishek Singh
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
 package com.bridgelab.objectOriented;
 
 import java.util.NoSuchElementException;

@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Purpose: this program is refer for Prime number which is store in 2D Array.
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
+
 package com.bridgelab.Datastructure;
 
 import java.util.ArrayList;

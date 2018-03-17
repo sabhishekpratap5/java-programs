@@ -1,3 +1,11 @@
+/******************************************************************************
+ *  Purpose: This program is refer for Company Shares. 
+ *
+ *  @author  Abhishek Singh
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
 package com.bridgelab.objectOriented;
 
 import java.awt.List;
@@ -20,13 +28,12 @@ import com.bridgelab.utility.Utility;
 
 public class CompanyShares {
 
-	//private static Scanner scan;
+	
 
 	@SuppressWarnings({ "unused", "rawtypes", "unchecked" })
-	public static void main(String[] args) //throws IOException, ParseException 
+	public static void main(String[] args) 
 	{
 		Utility utility=new Utility();
-		//scan = new Scanner(System.in);
 		Stack stk = new Stack();
 		Queue que = new Queue();
 		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Companyshare.json");
@@ -47,8 +54,7 @@ public class CompanyShares {
 		while(itr.hasNext())
 		{
 			JSONObject obj = (JSONObject) itr.next();
-			//ll.add(obj.get(symbol));
-			//System.out.println(ll);
+			
 			if(obj.containsKey(symbol))
 			{
 				System.out.println("Share symbol already their in list");

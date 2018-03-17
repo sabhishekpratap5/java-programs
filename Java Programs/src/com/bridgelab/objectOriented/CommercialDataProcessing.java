@@ -1,8 +1,12 @@
+/******************************************************************************
+ *  Purpose: Commercial Data Processing Program
+ *
+ *  @author  Abhishek Singh
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
 package com.bridgelab.objectOriented;
-
-import java.io.IOException;
-import java.text.ParseException;
-import java.util.Scanner;
 
 import com.bridgelab.utility.Utility;
 

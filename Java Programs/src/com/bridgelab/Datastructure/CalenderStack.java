@@ -1,6 +1,13 @@
-package com.bridgelab.Datastructure;
-import java.util.Scanner;
+/******************************************************************************
+ *  Purpose: for find out the Calendar using Stack.
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
 
+package com.bridgelab.Datastructure;
 import com.bridgelab.utility.LinkedStack;
 import com.bridgelab.utility.Utility;
 

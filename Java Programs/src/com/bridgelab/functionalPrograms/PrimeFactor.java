@@ -11,7 +11,7 @@ package com.bridgelab.functionalPrograms;
 
 import com.bridgelab.utility.Utility;
 
-public class Prime_Factor {
+public class PrimeFactor {
 
 	public static void main(String args[]) {
 		Utility utility = new Utility();

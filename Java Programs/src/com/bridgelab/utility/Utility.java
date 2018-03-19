@@ -9,8 +9,8 @@
 
 package com.bridgelab.utility;
 
-import com.bridgelab.Datastructure.*;
 import com.bridgelab.Datastructure.LinkedList;
+import com.bridgelab.Datastructure.QueueStructure;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -20,6 +20,7 @@ import java.util.*;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -32,7 +33,7 @@ import org.json.simple.parser.ParseException;
 
 public class Utility {
 
-	public static Scanner scanner;
+	public static Scanner scanner = new Scanner(System.in);
 
 	/**
 	 *  
@@ -179,15 +180,12 @@ public class Utility {
 	 * @return integer value its return the percents of win && loss
 	 */
 	public int GamblerGame(int stack, int goal, int NoOfTimes) {
-		int loss = 0;
 		int wins = 0;
 		int cash = 0;
 		for (int i = 0; i < NoOfTimes; i++) {
 			cash = stack;
 
 			while (cash > 0 && cash < goal) {
-				loss++;
-
 				if (Math.random() < 0.5)
 					cash++;
 				else
@@ -230,13 +228,13 @@ public class Utility {
 
 	/**
 	 * @param argument1
-	 *            is the cofficient of X
+	 *            is the coefficient of X
 	 * @param argument2
-	 *            is the cofficient of Y
+	 *            is the coefficient of Y
 	 * @return double value its return the distance between two arguments;
 	 */
 	public double distanceOfTwoArguments(int argumentX, int argumentY) {
-		double distance = Math.sqrt(argumentX * argumentX + argumentX * argumentY);
+		double distance = Math.sqrt((argumentX * argumentX) + (argumentY * argumentY));
 		System.out.println("distance from (" + argumentX + ", " + argumentY + ") to (0, 0) = " + distance);
 		return distance;
 	}
@@ -282,13 +280,12 @@ public class Utility {
 	public long stopwatch(int choice) {
 		long startTime = 0;
 		long stopTime = 0;
-		Scanner scan = new Scanner(System.in);
 
 		while (choice == 1) {
 			startTime = System.currentTimeMillis();
 			System.out.println("start time : " + startTime);
 			System.out.println("if you want stop the stopwatch then press 0 ");
-			choice = scan.nextInt();
+			choice = inputInteger();
 		}
 		stopTime = System.currentTimeMillis();
 		System.out.println("stop time : " + stopTime);
@@ -323,6 +320,86 @@ public class Utility {
 		}
 
 		System.out.println("Prime factor is " + string);
+	}
+
+	// 2Dmatrix
+
+	public static int[][] arrayInt(int m, int n) {
+		Utility utility = new Utility();
+		int a[][] = new int[m][n];
+		System.out.println();
+		System.out.println("Integer Array");
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				a[i][j] = utility.inputInteger();
+			}
+		}
+		return a;
+	}
+
+	public static double[][] arrayDouble(int m, int n) {
+		Utility utility = new Utility();
+		double b[][] = new double[m][n];
+		System.out.println();
+		System.out.println("Double Array");
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				b[i][j] = utility.inputDouble();
+				;
+			}
+		}
+		return b;
+	}
+
+	public static String[][] arrayBoolean(int m, int n) {
+		Utility utility = new Utility();
+		String c[][] = new String[m][n];
+		System.out.println();
+		System.out.println("Boolean Array");
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				c[i][j] = utility.inputString();
+			}
+		}
+		return c;
+	}
+
+	public static void display(int[][] a, double[][] b, String[][] c, int m, int n) {
+		PrintWriter pw = new PrintWriter(System.out, true);
+
+		System.out.println();
+		pw.println("2D ARRAY INTEGER");
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				pw.print("\t" + a[i][j] + " ");
+			}
+			pw.println("\t");
+		}
+
+		System.out.println();
+		pw.println("2D ARRAY DOUBLE");
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				pw.print("\t" + b[i][j] + " ");
+			}
+			pw.println("\t");
+		}
+
+		// display boolean
+		System.out.println();
+		pw.println("2D ARRAY BOOLEAN");
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				pw.print("\t" + c[i][j] + " ");
+			}
+			pw.println("\t");
+		}
 	}
 
 	/* tic tac game */
@@ -515,11 +592,9 @@ public class Utility {
 	/**
 	 * @param low
 	 * @param power
-	 * @return int value of the assumed number.
+	 * @return integer value of the assumed number.
 	 */
 	public int questionNumber(int low, int power) {
-		Scanner scanner = new Scanner(System.in);
-
 		if (low > power) {
 			return -1;
 
@@ -533,7 +608,7 @@ public class Utility {
 		System.out.println("if yes then type true if no then type false ");
 		boolean flag = true;
 
-		if (flag != scanner.nextBoolean()) {
+		if (flag != inputBoolean()) {
 			low = middle + 1;
 		} else {
 			power = middle;
@@ -708,7 +783,7 @@ public class Utility {
 	public String[] readWordFromFile() {
 		String string[] = null;
 		try {
-			FileReader fr = new FileReader("/home/bridgelab/test.text");
+			FileReader fr = new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/test.text");
 			BufferedReader br = new BufferedReader(fr);
 
 			String string2 = "";
@@ -734,7 +809,7 @@ public class Utility {
 	public String[] insertionSortFromFile() {
 		String string[] = null;
 		try {
-			FileReader fr = new FileReader("/home/bridgelab/aps.text");
+			FileReader fr = new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/test.text");
 			BufferedReader br = new BufferedReader(fr);
 
 			String string2 = "";
@@ -992,7 +1067,7 @@ public class Utility {
 	public void writeFileOrUpdate(LinkedList list) {
 		try {
 			String string = list.toString();
-			FileWriter fw = new FileWriter("/home/bridgelab/linkedlist.text");
+			FileWriter fw = new FileWriter("/home/bridgeit/abhishek-workspace/Java Programs/src/linkedlist.text");
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(string);
 			bw.close();
@@ -1014,7 +1089,7 @@ public class Utility {
 			for (int i = 0; i < array.length; i++) {
 				string += array[i] + " ";
 			}
-			FileWriter fw = new FileWriter("/home/bridgelab/linledlistinteger.text");
+			FileWriter fw = new FileWriter("/home/bridgeit/abhishek-workspace/Java Programs/src/linkedlist.text");
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(string);
 			bw.close();
@@ -1062,7 +1137,7 @@ public class Utility {
 	public String[] readListOfInteger() {
 		String string[] = null;
 		try {
-			FileReader fr = new FileReader("/home/bridgelab/linledlistinteger.text");
+			FileReader fr = new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/linkedlist.text");
 			BufferedReader br = new BufferedReader(fr);
 
 			String string2 = "";
@@ -1221,6 +1296,7 @@ public class Utility {
 		int res = 0;
 		int i = 0;
 		int j = 0;
+		@SuppressWarnings("unchecked")
 		Iterator<Integer> iterator = (Iterator<Integer>) arr.iterator();
 		while (iterator.hasNext()) {
 			int ele = iterator.next();
@@ -1268,7 +1344,7 @@ public class Utility {
 				}
 				System.out.println("The Toatal cost of " + jsonObject1.get("Name") + " is: "
 						+ Integer.parseInt(jsonObject1.get("Price").toString())
-						* Integer.parseInt(jsonObject1.get("Weight").toString()));
+								* Integer.parseInt(jsonObject1.get("Weight").toString()));
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -1288,6 +1364,7 @@ public class Utility {
 	 * 
 	 * @throws IOException
 	 */
+	@SuppressWarnings("unchecked")
 	public static void writingData() throws IOException {
 		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/InventoryDetails.json");
 
@@ -1380,295 +1457,272 @@ public class Utility {
 
 	}
 
-	
 	/**
 	 * 
 	 */
 	@SuppressWarnings("unchecked")
-	public static void createAcc()  
-	{
+	public static void createAcc() {
 		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Demo.json");
-		if(file.exists())
-		{
+		if (file.exists()) {
 			@SuppressWarnings("unused")
 			JSONArray arr = new JSONArray();
 			Scanner scan1 = new Scanner(System.in);
-			boolean check= true;
-			while (check==true)
-			{	
+			boolean check = true;
+			while (check == true) {
 				System.out.println("Want to add user: y or n");
-				char ch = scan1.next().charAt(0); 
-				if(ch=='y')
-				{	
+				char ch = scan1.next().charAt(0);
+				if (ch == 'y') {
 					Scanner scan = new Scanner(System.in);
-					 
+
 					try {
 						FileReader fr = new FileReader(file);
-					
-					JSONParser parser = new JSONParser();
-					JSONArray arr1 = (JSONArray) parser.parse(fr);
-					JSONObject json = new JSONObject();
-			        System.out.println("Enter name");
-			        String name = scan.nextLine();
-			        System.out.println("Enter balance");
-			        int bal = scan.nextInt();
-			        json.put("Name",name);
-			        json.put("Balance",bal);
-			        json.put("ShareCount", 100);
-			    
-			        arr1.add(json);
-			      	FileWriter fw = new FileWriter(file);
-			        fw.write(JSONArray.toJSONString(arr1));
-			        fw.flush();
-			        fw.close();
-		
-				}catch (FileNotFoundException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (ParseException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				}
-				else
-				{
-					check=false;
+
+						JSONParser parser = new JSONParser();
+						JSONArray arr1 = (JSONArray) parser.parse(fr);
+						JSONObject json = new JSONObject();
+						System.out.println("Enter name");
+						String name = scan.nextLine();
+						System.out.println("Enter balance");
+						int bal = scan.nextInt();
+						json.put("Name", name);
+						json.put("Balance", bal);
+						json.put("ShareCount", 100);
+
+						arr1.add(json);
+						FileWriter fw = new FileWriter(file);
+						fw.write(JSONArray.toJSONString(arr1));
+						fw.flush();
+						fw.close();
+
+					} catch (FileNotFoundException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				} else {
+					check = false;
 				}
 			}
-			
-		}
-		else
-		{
+
+		} else {
 			System.out.println("File does not exits");
 		}
 	}
-	
 
 	/**
 	 * 
 	 */
 	@SuppressWarnings("unchecked")
-	public static void buyShare()  {
+	public static void buyShare() {
 		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Demo.json");
 		File file1 = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Demo1.json");
 		if (file.exists() && file1.exists()) {
 			Scanner scan = new Scanner(System.in);
 			// reading stock file
-			
+
 			try {
 				FileReader fr = new FileReader(file);
-			JSONParser parser = new JSONParser();
-			JSONArray stock = (JSONArray) parser.parse(fr);
-			// reading share file
+				JSONParser parser = new JSONParser();
+				JSONArray stock = (JSONArray) parser.parse(fr);
+				// reading share file
 
-			FileReader sf = new FileReader(file1);
-			JSONParser parser1 = new JSONParser();
-			JSONArray share = (JSONArray) parser1.parse(sf);
+				FileReader sf = new FileReader(file1);
+				JSONParser parser1 = new JSONParser();
+				JSONArray share = (JSONArray) parser1.parse(sf);
 
-			System.out.println("Enter the user");
-			String name = scan.nextLine();
-			Iterator<?> itr = stock.iterator();
-			Iterator<?> itr1 = share.iterator();
-			boolean flag = false;
-			while (itr.hasNext()) {
-				JSONObject obj = (JSONObject) itr.next();
-				if (obj.get("Name").equals(name)) {
-					System.out.println("Enter the share sysmbol to buy share:[@,!,#]");
-					String sym = scan.nextLine();
-					/*
-					 * obj.put("Share symbol", sym); if(obj.get("Share Symbol").equals(sym)) {
-					 */
-					while (itr1.hasNext()) {
-						JSONObject obj1 = (JSONObject) itr1.next();
-						if (obj1.get("Symbol").equals(sym)) {
-							System.out.println("Enter the amount");
-							int amt = scan.nextInt();
-							int bal = Integer.parseInt(obj.get("Balance").toString());
-							int price = Integer.parseInt(obj1.get("Price").toString());
-							int noShare = Integer.parseInt(obj.get("ShareCount").toString());
-							int stockShare = Integer.parseInt(obj1.get("Count").toString());
-							int numofshare = amt / price;
-							int newbal = bal - amt;
-							int sharecountcus = noShare + numofshare;
-							int sharecountstock = stockShare - numofshare;
-							obj.remove("Balance");
-							obj.remove("ShareCount");
-							obj1.remove("Count");
+				System.out.println("Enter the user");
+				String name = scan.nextLine();
+				Iterator<?> itr = stock.iterator();
+				Iterator<?> itr1 = share.iterator();
+				boolean flag = false;
+				while (itr.hasNext()) {
+					JSONObject obj = (JSONObject) itr.next();
+					if (obj.get("Name").equals(name)) {
+						System.out.println("Enter the share sysmbol to buy share:[@,!,#]");
+						String sym = scan.nextLine();
+						/*
+						 * obj.put("Share symbol", sym); if(obj.get("Share Symbol").equals(sym)) {
+						 */
+						while (itr1.hasNext()) {
+							JSONObject obj1 = (JSONObject) itr1.next();
+							if (obj1.get("Symbol").equals(sym)) {
+								System.out.println("Enter the amount");
+								int amt = scan.nextInt();
+								int bal = Integer.parseInt(obj.get("Balance").toString());
+								int price = Integer.parseInt(obj1.get("Price").toString());
+								int noShare = Integer.parseInt(obj.get("ShareCount").toString());
+								int stockShare = Integer.parseInt(obj1.get("Count").toString());
+								int numofshare = amt / price;
+								int newbal = bal - amt;
+								int sharecountcus = noShare + numofshare;
+								int sharecountstock = stockShare - numofshare;
+								obj.remove("Balance");
+								obj.remove("ShareCount");
+								obj1.remove("Count");
 
-							obj.put("Balance", newbal);
-							obj.put("ShareCount", sharecountcus);
-							obj1.put("Count", sharecountstock);
-							Date d = new Date();
-							String date = new SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a").format(d);
-							System.out.println("Date " + date);
-							flag = true;
-							break;
+								obj.put("Balance", newbal);
+								obj.put("ShareCount", sharecountcus);
+								obj1.put("Count", sharecountstock);
+								Date d = new Date();
+								String date = new SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a").format(d);
+								System.out.println("Date " + date);
+								flag = true;
+								break;
+							}
 						}
+
 					}
-					
+					FileWriter fs = new FileWriter(file);
+					fs.write(JSONValue.toJSONString(stock));
+					fs.flush();
+					fs.close();
 				}
-				FileWriter fs = new FileWriter(file);
-				fs.write(JSONValue.toJSONString(stock));
-				fs.flush();
-				fs.close();
+				if (flag == false) {
+					System.out.println("User name not exits");
+				}
+				FileWriter fw = new FileWriter(file1);
+				fw.write(JSONValue.toJSONString(share));
+				fw.flush();
+				fw.close();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-			if (flag == false) {
-				System.out.println("User name not exits");
-			}
-			FileWriter fw = new FileWriter(file1);
-			fw.write(JSONValue.toJSONString(share));
-			fw.flush();
-			fw.close();
-		}
-		 catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		}else {
+		} else {
 			System.out.println("File does not exits");
 		}
-		
+
 	}
-	
-	
+
 	/**
 	 * 
 	 */
 	@SuppressWarnings("unchecked")
-	public static void saleShare() 
-	{
-		
+	public static void saleShare() {
+
 		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Demo.json");
-		File file1 =new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Demo1.json");
-		if(file.exists() && file1.exists())
-		{
+		File file1 = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Demo1.json");
+		if (file.exists() && file1.exists()) {
 			Scanner scan = new Scanner(System.in);
 			// reading stock file
 			FileReader fr;
 			try {
 				fr = new FileReader(file);
-			
-			JSONParser parser = new JSONParser();
-			JSONArray stock = (JSONArray) parser.parse(fr);
-			//reading share file
-			
-			FileReader sf = new FileReader(file1);
-			JSONParser parser1 = new JSONParser();
-			JSONArray share = (JSONArray) parser1.parse(sf);
-			
-			System.out.println("Enter the user");
-			String name = scan.nextLine();
-			Iterator<?> itr = stock.iterator();
-			Iterator<?> itr1 = share.iterator();
-			boolean flag = false;
-			while (itr.hasNext())
-			{
-				JSONObject obj=(JSONObject) itr.next();
-				if(obj.get("Name").equals(name))
-				{
-					System.out.println("Enter the share sysmbol to sale share:[@,!,#]");
-					String sym = scan.nextLine();
-					System.out.println("Enter the number of share to sale");
-					int count= scan.nextInt();
-					//obj.put("Share Symbol", sym);
-					while(itr1.hasNext())
-					{
-						JSONObject obj1 = (JSONObject) itr1.next();
-						if(obj1.get("Symbol").equals(sym))
-						{	
-							int bal =  Integer.parseInt(obj.get("Balance").toString());
-							int price = Integer.parseInt(obj1.get("Price").toString());
-							int noShare =  Integer.parseInt(obj.get("ShareCount").toString());
-							int stockShare = Integer.parseInt(obj1.get("Count").toString());
-							int saleprize = count*price;
-							int newbal = bal+saleprize;
-							int sharecountcus = noShare-count;
-							int sharecountstock = stockShare+count;
-							obj.remove("Balance");
-							obj.remove("ShareCount");
-							obj1.remove("Count");
-							
-							obj.put("Balance",newbal);
-							obj.put("ShareCount",sharecountcus);
-							obj1.put("Count", sharecountstock);
-							Date d = new Date();
-							String date = new SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a").format(d);
-							System.out.println("Date "+date);
-							flag = true;
-							break;
-						}
-						
-					}
-				}
 
-				FileWriter fs = new FileWriter(file);
-				try {
-					fs.write(JSONValue.toJSONString(stock));
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+				JSONParser parser = new JSONParser();
+				JSONArray stock = (JSONArray) parser.parse(fr);
+				// reading share file
+
+				FileReader sf = new FileReader(file1);
+				JSONParser parser1 = new JSONParser();
+				JSONArray share = (JSONArray) parser1.parse(sf);
+
+				System.out.println("Enter the user");
+				String name = scan.nextLine();
+				Iterator<?> itr = stock.iterator();
+				Iterator<?> itr1 = share.iterator();
+				boolean flag = false;
+				while (itr.hasNext()) {
+					JSONObject obj = (JSONObject) itr.next();
+					if (obj.get("Name").equals(name)) {
+						System.out.println("Enter the share sysmbol to sale share:[@,!,#]");
+						String sym = scan.nextLine();
+						System.out.println("Enter the number of share to sale");
+						int count = scan.nextInt();
+						// obj.put("Share Symbol", sym);
+						while (itr1.hasNext()) {
+							JSONObject obj1 = (JSONObject) itr1.next();
+							if (obj1.get("Symbol").equals(sym)) {
+								int bal = Integer.parseInt(obj.get("Balance").toString());
+								int price = Integer.parseInt(obj1.get("Price").toString());
+								int noShare = Integer.parseInt(obj.get("ShareCount").toString());
+								int stockShare = Integer.parseInt(obj1.get("Count").toString());
+								int saleprize = count * price;
+								int newbal = bal + saleprize;
+								int sharecountcus = noShare - count;
+								int sharecountstock = stockShare + count;
+								obj.remove("Balance");
+								obj.remove("ShareCount");
+								obj1.remove("Count");
+
+								obj.put("Balance", newbal);
+								obj.put("ShareCount", sharecountcus);
+								obj1.put("Count", sharecountstock);
+								Date d = new Date();
+								String date = new SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a").format(d);
+								System.out.println("Date " + date);
+								flag = true;
+								break;
+							}
+
+						}
+					}
+
+					FileWriter fs = new FileWriter(file);
+					try {
+						fs.write(JSONValue.toJSONString(stock));
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					fs.flush();
+					fs.close();
 				}
-				fs.flush();
-				fs.close();
+				if (flag == false) {
+					System.out.println("User name not exits");
+				}
+				FileWriter fw = new FileWriter(file1);
+				fw.write(JSONValue.toJSONString(share));
+				fw.flush();
+				fw.close();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} catch (ParseException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
 			}
-			if(flag == false)
-			{
-				System.out.println("User name not exits");
-			}
-			FileWriter fw = new FileWriter(file1);
-			fw.write(JSONValue.toJSONString(share));
-			fw.flush();
-			fw.close();
-		}
-		 catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		} catch (ParseException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		}
-		else
-		{
+		} else {
 			System.out.println("File Does not exits");
 		}
 	}
+
 	// Share and Stock report
-		/**
-		 * @param <E>
-		 * @throws IOException
-		 * @throws ParseException
-		 * display the details
-		 */
-		@SuppressWarnings("unchecked")
-		public static <E> void display()  
-		{
-			File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Demo.json");
-			 
-			try {
-				FileReader fr = new FileReader(file);
-			
+	/**
+	 * @param <E>
+	 * @throws IOException
+	 * @throws ParseException
+	 *             display the details
+	 */
+	@SuppressWarnings("unchecked")
+	public static <E> void display() {
+		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Demo.json");
+
+		try {
+			FileReader fr = new FileReader(file);
+
 			JSONParser parser = new JSONParser();
 			JSONArray arr1 = (JSONArray) parser.parse(fr);
-			Iterator <E>itr = arr1.iterator();
-			while (itr.hasNext())
-			{
+			Iterator<E> itr = arr1.iterator();
+			while (itr.hasNext()) {
 				JSONObject obj = (JSONObject) itr.next();
 				System.out.println(obj);
 			}
-			
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -1679,102 +1733,313 @@ public class Utility {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		}
-		
-		//DECKOFCARD
-		/**
-		 * @param deck
-		 * to initialize deck array
-		 */
-		public void initialize(int[] deck) 
-		{
-			// Initialize cards
-		    for (int i = 0; i < deck.length; i++) 
-		    {
-		      deck[i] = i;
-		    }
-			
-		}
-		
-		/**
-		 * @param deck
-		 * to shuffle card
-		 * @return shuffles array
-		 */
-		public int[] shuffleCards(int[] deck) 
-		{
-			// Shuffle the cards
-		    for (int i = 0; i < deck.length; i++) 
-		    {
-		      int index = i + (int)(Math.random() * (52-i));
-		      int temp = deck[i];
-		      deck[i] = deck[index];
-		      deck[index] = temp;
-		      //System.out.println(i+"->"+index);
-		    }
-		    return deck;
-		}
-		
-		/**
-		 * @param arr
-		 * @param deck
-		 * @param suits
-		 * @param ranks
-		 * to generate unique cards
-		 */
-		public void generateCard(String[] arr, int[] deck, String[] suits, String[] ranks) 
-		{
-			for (int i = 0; i < 52; i++) 
-		    {
-		      String suit = suits[deck[i] / 13];
-		      String rank = ranks[deck[i] % 13];
-		      arr[i]=( rank + "->" + suit);
-		    }
+	}
+
+	// DECKOFCARD
+	/**
+	 * @param deck
+	 *            to initialize deck array
+	 */
+	public void initialize(int[] deck) {
+		// Initialize cards
+		for (int i = 0; i < deck.length; i++) {
+			deck[i] = i;
 		}
 
-		/**
-		 * @param deck
-		 * @param arr
-		 * to distribute cards
-		 */
-		
-		public void distribute(int[] deck, String[] arr) 
-		{
-			String arr1[][] = new String[4][9];
-		    Random r = new Random();
-		    int m = deck.length;
-		    for(int i=0;i<4;i++)
-			{
-				for(int j=0;j<9;j++)
-				{	
-					int a = r.nextInt(m);
-					arr1[i][j] = arr[a];
+	}
+
+	/**
+	 * @param deck
+	 *            to shuffle card
+	 * @return shuffles array
+	 */
+	public int[] shuffleCards(int[] deck) {
+		// Shuffle the cards
+		for (int i = 0; i < deck.length; i++) {
+			int index = i + (int) (Math.random() * (52 - i));
+			int temp = deck[i];
+			deck[i] = deck[index];
+			deck[index] = temp;
+			// System.out.println(i+"->"+index);
+		}
+		return deck;
+	}
+
+	/**
+	 * @param arr
+	 * @param deck
+	 * @param suits
+	 * @param ranks
+	 *            to generate unique cards
+	 */
+	public void generateCard(String[] arr, int[] deck, String[] suits, String[] ranks) {
+		for (int i = 0; i < 52; i++) {
+			String suit = suits[deck[i] / 13];
+			String rank = ranks[deck[i] % 13];
+			arr[i] = (rank + "->" + suit);
+		}
+	}
+
+	/**
+	 * @param deck
+	 * @param arr
+	 *            to distribute cards
+	 */
+
+	public void distribute(int[] deck, String[] arr) {
+		String arr1[][] = new String[4][9];
+		Random r = new Random();
+		int m = deck.length;
+		for (int i = 0; i < 4; i++) {
+			for (int j = 0; j < 9; j++) {
+				int a = r.nextInt(m);
+				arr1[i][j] = arr[a];
+			}
+		}
+		for (int i = 0; i < arr1.length; i++) {
+			System.out.print("Player" + (i + 1) + ": ");
+			for (int j = 0; j < arr1[i].length; j++) {
+				System.out.print(arr1[i][j] + "\t");
+			}
+			System.out.println();
+		}
+
+		System.out.println("--------------------------------");
+		for (String outer[] : arr1) {
+			Arrays.sort(outer);
+
+			for (String integer : outer) {
+				System.out.print(integer + "\t");
+			}
+			System.out.println();
+		}
+	}
+
+	/**
+	 * Purpose: Convert Binary And Add Padding For converting 8 bit Number
+	 * 
+	 * @param num
+	 * @return
+	 */
+	public String binaryAddPadding(int num) {
+		String bin[] = { "0", "1" };
+		String binary = " ";
+		int pading = 0;
+		while ((num > 0) || (pading % 8 != 0)) {
+			int rem = num % 2;
+			binary = bin[rem] + binary;
+			num = num / 2;
+			pading++;
+			if (pading % 4 == 0 && num != 0) {
+				binary = " " + binary;
+			}
+		}
+		return binary;
+
+	}
+	
+	/**
+	 * Purpose: Swap Nibbles
+	 * 
+	 * @param binary
+	 * @return
+	 */
+	public String swapNibbles(String binary) {
+		binary = binary.replaceAll("", "");
+		String Lower_NIBBELE = binary.substring(0, 4);
+		String UPPER_NIBBELE = binary.substring(4, 8);
+		String SwapingBinary = UPPER_NIBBELE + Lower_NIBBELE;
+		return SwapingBinary;
+	}
+	
+	
+	
+	public static String[] readFile(String filePath) {
+		String[] words= {};
+		ArrayList<String> lines = new ArrayList<String>();
+		String line, temp[];
+		BufferedReader bufferedReader;
+		FileReader file;
+
+		try {
+			file = new FileReader(filePath);
+			bufferedReader = new BufferedReader(file);
+			while ((line = bufferedReader.readLine()) != null) {
+				temp = line.split(" ");
+				for (int i = 0; i < temp.length; i++) {
+					lines.add(temp[i]);
+
 				}
 			}
-		    for(int i=0;i<arr1.length;i++)
-			{	
-				System.out.print("Player"+(i+1)+": ");
-				for(int j=0;j<arr1[i].length;j++)
-				{
-					System.out.print(arr1[i][j]+ "\t");
-				}
-				System.out.println();
-			}	
-		    
-		    System.out.println("--------------------------------");
-		   for (String outer[] : arr1) 
-		   {
-		       Arrays.sort(outer);
-
-		       for (String integer : outer) {
-		           System.out.print(integer+"\t");
-		       }
-		       System.out.println();
-		   }
+			words = lines.toArray(new String[lines.size()]);
+			bufferedReader.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 
+		return words;
+	}
+	
+	
+	public static<T> void writeFileinteger(T search) { 
+		String string = search.toString();
+		System.out.println(string);
+		try {
+			FileWriter writer = new FileWriter("/home/bridgeit/abhishek-workspace/Java Programs/src/writehashing.text");
+			BufferedWriter write = new BufferedWriter(writer);
+			write.write(string);
+
+			write.close();
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+
+	}
+	
+	public static <E> boolean anagramForQueue(String string1, String string2) {
+		boolean status = true;
+
+
+		if ( string1.length()!= string2.length()) {
+			status = false;
+		} else {
+			char [] ArrayS1 = string1.toCharArray();
+			Arrays.sort(ArrayS1);
+			char ArrayS2[] = string2.toCharArray();
+			Arrays.sort(ArrayS2);
+			status = Arrays.equals(ArrayS1, ArrayS2);
+
+		}
+		if (status) {
+
+			return true;
+		} else {
+
+			return false;
+		}
+
+	}
 	
 
+	
+	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void hashing(String[] words) {
+
+		HashMap<Integer, LinkedList> hashmap = new HashMap<Integer, LinkedList >();
+		int hash = 0;
+		int hasharray[]=new int[words.length];
+		for(int i=0;i<words.length;i++)
+		{
+			hasharray[i]=Integer.parseInt(words[i]);
+		}
+		for(int i=0;i<hasharray.length;i++)
+		{
+			hash=hasharray[i]%11;
+			if(hashmap.containsKey(hash))
+			{
+
+				LinkedList linkedlist=hashmap.get(hash);
+				linkedlist.add(hasharray[i]);
+			}
+			else
+			{
+				hashmap.put(hash, new LinkedList());
+				LinkedList linkedlist=hashmap.get(hash);
+				linkedlist.add(hasharray[i]);
+			}
+		}
+		System.out.println("Enter the key to search");
+		int search = scanner.nextInt();
+        hash= search % 11;
+
+		if(hashmap.containsKey(hash))
+		{
+
+			LinkedList linkedlist=hashmap.get(hash);
+			if(linkedlist.search(search))
+			{
+				linkedlist.remove(search);
+				Utility.writeFileinteger(hashmap);
+
+				System.out.println(search+" Element found and removed from the list");
+				
+			}
+			else
+			{
+				
+
+				linkedlist.add(search);
+				System.out.println(search+"element Not found and added to the list");
+				Utility.writeFileinteger(hashmap);
+			}
+		}
+		else
+		{
+			hashmap.put(hash, new LinkedList());
+			LinkedList linkedlist=hashmap.get(hash);
+			linkedlist.add(search);
+			Utility.writeFileinteger(hashmap);
+
+		}
+		Set<Integer> keys = hashmap.keySet(); 
+		for(Integer key1: keys)
+		{ 
+			LinkedList value = hashmap.get(key1);
+			System.out.print(key1+"->");
+			value.display();
+			System.out.println();
+		}
+		
+	}
+	
+	public static void queueAnagram(int[] strArray) {
+		// TODO Auto-generated method stub
+		QueueStructure queue=new QueueStructure();
+		for (int i = 0; i < strArray.length; i++) {
+			for (int j = i + 1; j < strArray.length; j++) {
+
+				if (Utility.anagramForQueue(strArray[i]+ " ", strArray[j]+ " ")) {
+					queue.insert(strArray[i]);
+					queue.insert(strArray[j]);
+				}
+			}
+		}
+		queue.print();
+
+
+	}
+	
+	public static ArrayList<Integer> primeNumber() {
+
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		for (int i = 2; i <= 1000; i++) {
+			int flag = 0;
+			for (int j = 2; j <= i / 2; j++) {
+				if (i % j == 0) {
+					flag = 1;
+					break;
+				}
+
+			}
+
+			if (flag == 0) {
+				System.out.print(i + " ");
+				list.add(i);
+			}
+
+		}
+		return list;
+
+	}
+
+
+
+
 }
-
-

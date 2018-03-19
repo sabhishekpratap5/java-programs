@@ -2,6 +2,8 @@ package com.bridgelab.functionalPrograms;
 
 import java.util.Scanner;
 
+import com.bridgelab.utility.Utility;
+
 public class TicTacToe {
 	private String[][] board;
 	static String player1 = "X";
@@ -139,6 +141,8 @@ public class TicTacToe {
 				}
 			}
 		}
+
+		
 	}
 
 }

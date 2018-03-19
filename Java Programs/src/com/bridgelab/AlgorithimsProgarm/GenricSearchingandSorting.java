@@ -50,7 +50,7 @@ public class GenricSearchingandSorting {
 				array[i] = utility.inputInteger();
 			}
 			array = utility.insertionSortString(array);
-			utility.print(array, array.length);
+			Utility.print(array, array.length);
 			break;
 
 		case 2:
@@ -60,7 +60,7 @@ public class GenricSearchingandSorting {
 				stringArray[i] = utility.inputString();
 			}
 			string = utility.insertionSortString(stringArray);
-			utility.print(string, stringArray.length);
+			Utility.print(string, stringArray.length);
 
 			break;
 
@@ -71,8 +71,8 @@ public class GenricSearchingandSorting {
 			for (int i = 0; i < n; i++) {
 				array[i] = utility.inputInteger();
 			}
-			array = utility.bubbleSortInt(array);
-			utility.print(array, array.length);
+			array = Utility.bubbleSortInt(array);
+			Utility.print(array, array.length);
 			break;
 
 		case 4:
@@ -81,8 +81,8 @@ public class GenricSearchingandSorting {
 			for (int i = 0; i < n; i++) {
 				stringArray[i] = utility.inputString();
 			}
-			string = utility.bubbleSortInt(stringArray);
-			utility.print(string, stringArray.length);
+			string = Utility.bubbleSortInt(stringArray);
+			Utility.print(string, stringArray.length);
 
 			break;
 
@@ -97,7 +97,7 @@ public class GenricSearchingandSorting {
 			System.out.println("enter key ");
 			Integer key = utility.inputInteger();
 			array = utility.binarySearchInt(array, key);
-			utility.print(array, array.length);
+			Utility.print(array, array.length);
 			break;
 
 		case 6:
@@ -112,7 +112,7 @@ public class GenricSearchingandSorting {
 			String stringKey = utility.inputString();
 			System.out.println();
 			string = utility.binarySearchInt(stringArray, stringKey);
-			utility.print(stringArray, stringArray.length);
+			Utility.print(stringArray, stringArray.length);
 
 			break;
 		default:

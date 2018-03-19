@@ -22,7 +22,7 @@ public class BinarySearchWordfromWordList {
 
 		String key = utility.inputString();
 		utility.binarySearchInt(string, key);
-		utility.print(string, string.length);
+		Utility.print(string, string.length);
 	}
 
 }

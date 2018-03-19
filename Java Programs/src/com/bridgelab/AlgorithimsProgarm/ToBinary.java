@@ -13,9 +13,9 @@ import com.bridgelab.utility.Utility;
 
 public class ToBinary {
 	public static void main(String[] args) {
-
-		int num, array[] = new int[32];
 		Utility utility = new Utility();
+		int num, array[] = new int[32];
+
 		System.out.println("Please Enter the Number ");
 		num = utility.inputInteger();
 		int[] string = utility.toBinary(num);

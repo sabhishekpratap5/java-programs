@@ -17,8 +17,8 @@ public class BuboolSortFromFile {
 		Utility utility = new Utility();
 		String string[] = utility.insertionSortFromFile();
 
-		utility.bubbleSortInt(string);
-		utility.print(string, string.length);
+		Utility.bubbleSortInt(string);
+		Utility.print(string, string.length);
 	}
 
 }

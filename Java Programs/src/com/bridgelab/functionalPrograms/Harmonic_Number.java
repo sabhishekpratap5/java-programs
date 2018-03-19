@@ -13,7 +13,9 @@ import com.bridgelab.utility.Utility;
 
 public class Harmonic_Number {
 
-	{
+	
+		public static void main(String[] args)
+		{
 		Utility utility = new Utility();
 		System.out.println("Enter a number: ");
 		double number = utility.inputDouble();
@@ -25,4 +27,5 @@ public class Harmonic_Number {
 			System.out.println("The number should be greater than zero");
 		}
 	}
-}
+	}
+

@@ -17,7 +17,7 @@ public class InsertionSortFromFile {
 		String string[] = utility.insertionSortFromFile();
 
 		utility.insertionSortString(string);
-		utility.print(string, string.length);
+		Utility.print(string, string.length);
 	}
 
 }

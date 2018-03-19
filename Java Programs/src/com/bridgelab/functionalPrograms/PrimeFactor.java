@@ -18,7 +18,6 @@ public class PrimeFactor {
 		System.out.println("enter number for findout the prime factor ");
 		int number = utility.inputInteger();
 
-		String string = "";
 		utility.primeFactor(number);
 
 	}

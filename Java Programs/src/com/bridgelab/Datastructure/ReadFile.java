@@ -19,7 +19,7 @@ public class ReadFile {
 		 String string[]=null;	 
 		 try
 		 {
-			 FileReader fr=new FileReader("/home/bridgelab/linkedlist.text");
+			 FileReader fr=new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/linkedlist.text");
 			 BufferedReader br=new BufferedReader(fr);
 
 			 String string2="";

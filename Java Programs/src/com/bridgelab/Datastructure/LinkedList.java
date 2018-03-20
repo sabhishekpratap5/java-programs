@@ -115,5 +115,18 @@ public class LinkedList<T> {
 	public <T> void append(T data) {
 		add(data);
 	}
+	
+	public String toString()
+	{
+     MyNode forword=first;
+     String str="";
+     while(forword!=null)
+     {
+      str=str+forword.data+" ";
+      forword=forword.next;
+     // System.out.println("r1");
+     }
+     return str; 		
+	}
 
 }

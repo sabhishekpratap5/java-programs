@@ -17,15 +17,15 @@ public class TemperaturConversion {
 
 		Utility utility = new Utility();
 
-		System.out.println("enter your choice ctf or ftc ");
-		String choice = utility.inputString();
+		System.out.println("enter your choice for celcius to fairenhite  press 1 or fairenhite to celcius for 2 ");
+		int choice = utility.inputInteger();
 
-		if (choice.equals("ctf")) {
+		if (choice==1) {
 			System.out.println("Enter temperatue in Celcious");
 			int temperatuer = utility.inputInteger();
 			int f = utility.temperaturConversiontoFarenhit(temperatuer);
 			System.out.println("temperature in Farenhit  " + f);
-		} else if (choice.equals("ftc")) {
+		} else if (choice==2) {
 			System.out.println("Enter temperatue in Fahrenheit");
 			int temperatuer1 = utility.inputInteger();
 			int c = utility.temperaturConversiontoCelcius(temperatuer1);

@@ -324,6 +324,11 @@ public class Utility {
 
 	// 2Dmatrix
 
+	/**
+	 * @param m
+	 * @param n
+	 * @return
+	 */
 	public static int[][] arrayInt(int m, int n) {
 		Utility utility = new Utility();
 		int a[][] = new int[m][n];
@@ -408,7 +413,7 @@ public class Utility {
 	 * @param number
 	 *            nothing return its generate the random number.
 	 */
-	public void random1(int number) {
+	public void coupnNumber(int number) {
 		Random r = new Random();
 		for (int i = 0; i < number; i++) {
 			System.out.print(" " + r.nextInt(9999) + " ");
@@ -446,7 +451,7 @@ public class Utility {
 	 */
 	public double windChill(double temperature, double value) {
 		double windchill = 0.0;
-		if (temperature > 50 && (value > 3 && value < 120)) {
+		if (temperature < 50 && (value >=3 && value < 120)) {
 			windchill = (35.74 + (0.6215 * temperature) + ((0.4275 * temperature) - 35.75) * Math.pow(2, 0.16));
 		}
 		return windchill;
@@ -1067,6 +1072,7 @@ public class Utility {
 	public void writeFileOrUpdate(LinkedList list) {
 		try {
 			String string = list.toString();
+			
 			FileWriter fw = new FileWriter("/home/bridgeit/abhishek-workspace/Java Programs/src/linkedlist.text");
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(string);
@@ -1108,7 +1114,7 @@ public class Utility {
 	public String[] readListOfWords() {
 		String string[] = null;
 		try {
-			FileReader fr = new FileReader("/home/bridgelab/linkedlist.text");
+			FileReader fr = new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/linkedlist.text");
 			BufferedReader br = new BufferedReader(fr);
 
 			String string2 = "";

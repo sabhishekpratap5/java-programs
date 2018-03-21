@@ -1,7 +1,7 @@
 package com.bridgelab.DesignPattern;
 
 public class LazyInslizedSinglton {
-	public static LazyInslizedSinglton instance;
+	public static LazyInslizedSinglton INSTANCE;
 	
 	private LazyInslizedSinglton()
 	{
@@ -10,11 +10,11 @@ public class LazyInslizedSinglton {
 	
 	public static LazyInslizedSinglton getInstance()
 	{
-		if(instance==null)
+		if(INSTANCE==null)
 		{
-			instance=new LazyInslizedSinglton();
+			INSTANCE=new LazyInslizedSinglton();
 		}
-		return instance;
+		return INSTANCE;
 	}
 
 }

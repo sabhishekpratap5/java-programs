@@ -2,17 +2,17 @@ package com.bridgelab.DesignPattern;
 
 public class ThreadSafeSinglton {
 	
-	private static ThreadSafeSinglton instance;
+	private static ThreadSafeSinglton INSTANCE;
 	private ThreadSafeSinglton() {
 		
 	}
 	public static synchronized ThreadSafeSinglton getInstace() {
-		if (instance==null)
+		if (INSTANCE==null)
 		{
-			instance = new ThreadSafeSinglton();
+			INSTANCE = new ThreadSafeSinglton();
 			
 		}
-		return instance;
+		return INSTANCE;
 	}
 
 }

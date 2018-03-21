@@ -1,7 +1,7 @@
 package com.bridgelab.DesignPattern;
 
 public class StaticBlockSinglaton {
-	private static StaticBlockSinglaton instance;
+	private static StaticBlockSinglaton INSTANCE;
 	
 	private StaticBlockSinglaton()
 	{
@@ -10,7 +10,7 @@ public class StaticBlockSinglaton {
 	
 	static {
 		try {
-			instance = new StaticBlockSinglaton();
+			INSTANCE = new StaticBlockSinglaton();
 		}
 		catch(Exception e)
 		{
@@ -20,7 +20,7 @@ public class StaticBlockSinglaton {
 	
 	public static StaticBlockSinglaton getInstance()
 	{
-		return instance;
+		return INSTANCE;
 	}
 
 }

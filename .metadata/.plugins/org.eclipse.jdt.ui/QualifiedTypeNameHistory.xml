@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="com.bridgeit.Program.Queue"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
-<fullyQualifiedTypeName name="com.bridgelab.utility.Node"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONValue"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
@@ -34,11 +33,18 @@
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
 <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
 <fullyQualifiedTypeName name="com.bridgelab.Datastructure.QueueStructure"/>
 <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
 <fullyQualifiedTypeName name="com.bridgelab.utility.Utility"/>
+<fullyQualifiedTypeName name="com.bridgelab.utility.Node"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.EagerInitialization"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.StaticBlockSinglaton"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.LazyInslizedSinglton"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ThreadSafeSinglton"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.BillPughSinglton"/>
 </qualifiedTypeNameHistroy>

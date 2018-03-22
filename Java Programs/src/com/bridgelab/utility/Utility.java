@@ -1274,7 +1274,7 @@ public class Utility {
 	 * @param limit
 	 * @return arraylist integer
 	 */
-	public ArrayList<Integer> primeNumbers(int starrt, int limit) {
+	public ArrayList<Integer> primeNumbers(int start, int limit) {
 		ArrayList<Integer> primeNumbersList = new ArrayList<Integer>();
 		for (int i = 2; i <= limit; i++) {
 			boolean prime = true;
@@ -2044,7 +2044,86 @@ public class Utility {
 		return list;
 
 	}
+	
+	
+	/**
+	 * @param num
+	 * @param num1
+	 * @return
+	 */
+	public static boolean anagramNum(int num, int num1) {
+		String str1 = "";
+		String str2 = "";
+		str1 = String.valueOf(num);
+		str2 = String.valueOf(num1);
+		char[] charFromWord = str1.toCharArray();
+		char[] charFromAnagram = str2.toCharArray();
+		Arrays.sort(charFromWord);
+		Arrays.sort(charFromAnagram);
+		return Arrays.equals(charFromWord, charFromAnagram);
 
+	}
+	
+	/**
+	 * @param arrayList
+	 * @return anagram array list
+	 */
+	public static TreeSet<Integer> anagramInArraylist(ArrayList<Integer> arrayList)
+	{
+		TreeSet<Integer> treeSet = new TreeSet<>();
+		for(int i = 0; i < arrayList.size()-1;i++)
+		{
+			for(int j = i +1; j< arrayList.size();j++)
+			{
+				if(anagramNum(arrayList.get(i), arrayList.get(j)))
+				{
+					treeSet.add(arrayList.get(i));
+					treeSet.add(arrayList.get(j));
+				}
+			}
+		}
+		return treeSet;
+	}
+	
+	/**
+	 * @param treeset
+	 * it is work for print anagram in 2D Array
+	 */
+	public static void twoDimentionlPrimeAnagramNumber(TreeSet<Integer> treeset)
+	{
+		
+		int row=0,column = 0,i,j,number=100;
+		Object integerArray[] =treeset.toArray();
+		String stringArray[][] = new String[10][25];
+		for(i=0;i<10;i++)
+		{
+			for(j=0;j<25;j++)
+			{
+				stringArray[i][j]="";
+			}
+		}
+		for(i=0;i<integerArray.length;i++)
+		{
+			int temperaroy = (int) integerArray[i];
+			if(temperaroy > number)
+			{
+				number = number + 100;
+				row++;
+				column=0;
+			}
+			stringArray[row][column++] = Integer.toString(temperaroy);
+		}
+		
+		System.out.println("Anagram numbers are: ");
+		for(i=0;i<10;i++)
+		{
+			for(j=0;j<25;j++)
+			{
+				System.out.print(stringArray[i][j]+ "\t");
+			}
+			System.out.println();
+		}
+	}
 
 
 

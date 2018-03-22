@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Purpose: abstract class of Computer
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
+
 package com.bridgelab.DesignPattern;
 
 public abstract class Computer {

@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Purpose: it make the Command Executor proxy.
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
+
 package com.bridgelab.DesignPattern;
 
 public class CommandExecutorProxy implements CommandExecutor{
@@ -6,7 +15,7 @@ public class CommandExecutorProxy implements CommandExecutor{
 	private CommandExecutor executor;
 	
 	public CommandExecutorProxy(String user, String pwd){
-		if("Pankaj".equals(user) && "J@urnalD$v".equals(pwd)) isAdmin=true;
+		if("Pankaj".equals(user) && "Abhishek".equals(pwd)) isAdmin=true;
 		executor = new CommandExecutorImpl();
 	}
 	

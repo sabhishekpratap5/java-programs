@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Purpose: Refelection to destroy singleton pattern
+ *
+ *  @author AbhishekSingh  
+ *  @version 1.0
+ *  @since   05-03-2018
+ *
+ ******************************************************************************/
+
 package com.bridgelab.DesignPattern;
 
 import java.lang.reflect.Constructor;

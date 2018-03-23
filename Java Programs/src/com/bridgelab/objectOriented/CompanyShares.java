@@ -15,9 +15,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Scanner;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
@@ -48,7 +45,7 @@ public class CompanyShares {
 		
 		List list = new List();
 		Iterator itr = array.iterator();
-		LinkedList ll = new LinkedList();
+		//LinkedList ll = new LinkedList();
 		System.out.println("Enter the share symbol");
 		String symbol = utility.inputString();
 		while(itr.hasNext())

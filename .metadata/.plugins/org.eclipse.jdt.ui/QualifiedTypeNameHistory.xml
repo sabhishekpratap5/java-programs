@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.bridgeit.Programs.LinkedStack"/>
-<fullyQualifiedTypeName name="com.bridgeit.Utility.LinkedStack"/>
-<fullyQualifiedTypeName name="com.bridgelab.utility.LinkedStack"/>
-<fullyQualifiedTypeName name="com.sun.corba.se.impl.orbutil.graph.Node"/>
-<fullyQualifiedTypeName name="com.bridgelab.utility.PrimeAnagramUtility"/>
-<fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="com.bridgeit.Utility.Utility"/>
-<fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="com.bridgeit.Program.Queue"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
@@ -35,7 +26,6 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
-<fullyQualifiedTypeName name="com.bridgelab.utility.Utility"/>
 <fullyQualifiedTypeName name="com.bridgelab.utility.Node"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.StaticBlockSinglaton"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.LazyInslizedSinglton"/>
@@ -52,11 +42,22 @@
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Computer"/>
 <fullyQualifiedTypeName name="java.lang.Cloneable"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Employees"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.SocketAdapter"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Socket"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Subject"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.PointerInfo"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Observer"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.MyTopic"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Book"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ShoppingCartVisitor"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ShoppingCartVisitorImpl"/>
+<fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ItemElement"/>
+<fullyQualifiedTypeName name="com.bridgelab.utility.Utility"/>
 </qualifiedTypeNameHistroy>

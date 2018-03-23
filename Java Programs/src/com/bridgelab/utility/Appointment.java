@@ -16,14 +16,17 @@ public class Appointment {
 	/**
 	 * 
 	 */
-	public void fixAppointment() {
-		try {
-
-			Scanner scanner = new Scanner(System.in);
-			File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Doctor.json");
-			File file1 = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json");
-			if (file.exists() && file.exists()) {
-				if (file.canWrite() && file.canRead() && file1.canWrite() && file1.canRead()) {
+	public void fixAppointment()
+	{
+		try
+		{
+			Scanner scan = new Scanner(System.in);
+			File file = new File ("/home/bridgeit/abhishek-workspace/Java Programs/src/Doctor.json");
+			File file1 = new File ("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json");
+			if(file.exists() && file.exists())
+			{
+				if(file.canWrite() && file.canRead() && file1.canWrite() && file1.canRead())
+				{
 					JSONParser parser = new JSONParser();
 					FileReader doctor = new FileReader(file);
 					JSONArray docArray = (JSONArray) parser.parse(doctor);
@@ -31,28 +34,36 @@ public class Appointment {
 					FileReader patient = new FileReader(file1);
 					JSONArray patArray = (JSONArray) parser.parse(patient);
 
+					//System.out.println(patArray.size());
 					Iterator<?> iterator = patArray.iterator();
 					System.out.println("Enter the Patient id to get appointment");
-					String pid = scanner.nextLine();
-					boolean flag = false;
-					while (iterator.hasNext()) {
+					String pid = scan.nextLine();
+					boolean flag=false;
+					while (iterator.hasNext())
+					{
 						JSONObject object = (JSONObject) iterator.next();
 						String key = object.get("Id").toString();
-						if (pid.equals(key)) {
+						if (pid.equals(key))
+						{
 							System.out.println("Enter the doctor id to assign patient");
-							String did = scanner.nextLine();
+							String did = scan.nextLine();
 							Iterator<?> iterator1 = docArray.iterator();
 
-							while (iterator1.hasNext()) {
+							while (iterator1.hasNext())
+							{
 								JSONObject object1 = (JSONObject) iterator1.next();
 								String key1 = object1.get("Id").toString();
-								if (key1.equals(did)) {
+								if (key1.equals(did))
+								{
 									JSONArray arr = (JSONArray) object1.get("Patient");
-
-									if (arr.size() == 2) {
+									System.out.println(arr);
+									if (arr.size()==2)
+									{
 										System.out.println("Doctor appointment is full ... Take appointment next day.");
 										break;
-									} else {
+									}
+									else
+									{
 										arr.add(object);
 										FileWriter write = new FileWriter(file);
 										write.write(JSONValue.toJSONString(docArray));
@@ -66,16 +77,23 @@ public class Appointment {
 							break;
 						}
 					}
-					if (flag == false) {
+					if(flag==false)
+					{
 						System.out.println("Wrong user id");
 					}
-				} else {
+				}
+				else
+				{
 					System.out.println("File can not read or write");
 				}
-			} else {
+			}
+			else
+			{
 				System.out.println("File Not exits in disk.");
 			}
-		} catch (Exception e) {
+		}
+		catch(Exception e)
+		{
 			e.printStackTrace();
 		}
 	}

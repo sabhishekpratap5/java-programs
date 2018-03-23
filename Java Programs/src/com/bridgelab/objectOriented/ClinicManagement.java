@@ -8,6 +8,8 @@
  ******************************************************************************/
 package com.bridgelab.objectOriented;
 
+import java.util.Scanner;
+
 import com.bridgelab.utility.Appointment;
 import com.bridgelab.utility.ClinicUtility;
 import com.bridgelab.utility.Utility;
@@ -17,9 +19,9 @@ public class ClinicManagement
 	{
 		try
 		{
-			Utility utilty = new Utility();
 			Appointment a = new Appointment();
 			ClinicUtility u = new ClinicUtility();
+			Scanner scan = new Scanner(System.in);
 			while(true)
 			{	
 				System.out.println("Enter your choice:");
@@ -29,7 +31,7 @@ public class ClinicManagement
 				System.out.println("4. Fix Appointments.");
 				System.out.println("5. Appointment Details.");
 				System.out.println("6. Exit");
-				int choice = utilty.inputInteger();
+				int choice = scan.nextInt();
 				switch(choice)
 				{
 				case 1 :	 ClinicUtility.addDoctor();
@@ -37,15 +39,15 @@ public class ClinicManagement
 				case 2 :	ClinicUtility.addPatient();
 				break;
 				case 3 :	 System.out.println("Enter whose details you want to see press D for doctor and P for Patient ");
-							char ch = utilty.inputString().charAt(0);
-							if(ch=='D')
-							{
-								ClinicUtility.doctorsDetails();
-							}
-							if(ch=='P')
-							{
-								ClinicUtility.patientDetails();
-							}
+				char ch = scan.next().charAt(0);
+				if(ch=='D')
+				{
+					ClinicUtility.doctorsDetails();
+				}
+				if(ch=='P')
+				{
+					ClinicUtility.patientDetails();
+				}
 				break;
 				case 5 	:	u.appointmentDetails();
 				break;
@@ -59,6 +61,5 @@ public class ClinicManagement
 		{
 			e.printStackTrace();
 		}
-		
 	}
 }

@@ -17,6 +17,7 @@ public class ClinicUtility
 	{
 		try
 		{
+			Scanner scan = new Scanner(System.in);
 			File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json");
 			if(file.exists())
 			{
@@ -26,13 +27,16 @@ public class ClinicUtility
 					JSONParser parser = new JSONParser();
 					JSONArray array = (JSONArray) parser.parse(fr);
 					Iterator<?> itr = array.iterator();
-					
+					//System.out.println("Enter doctor id");
+					//String id = scan.nextLine();
 					while (itr.hasNext())
 					{
 						JSONObject obj = (JSONObject) itr.next();
-						
+						//String key = obj.get("Id").toString();
+						///if(key.equals(id))
+						//{
 							System.out.println("Name : "+obj.get("Name")+"\tID : "+obj.get("Id")+"\tAge : "+obj.get("Age")+"\tMob: "+obj.get("Mob"));
-						
+						//}
 					}
 				}
 				else
@@ -53,6 +57,7 @@ public class ClinicUtility
 	}
 
 	
+	@SuppressWarnings("unchecked")
 	public static void addPatient() 
 	{
 		try
@@ -76,7 +81,8 @@ public class ClinicUtility
 			        System.out.println("Enter age:");
 			        String age = scan.nextLine();
 			        Iterator<?> itr = array.iterator();
-					
+					//System.out.println("Enter doctor id");
+					//String id = scan.nextLine();
 					while (itr.hasNext())
 					{
 						JSONObject obj = (JSONObject) itr.next();
@@ -134,12 +140,18 @@ public class ClinicUtility
 					JSONParser parser = new JSONParser();
 					JSONArray array = (JSONArray) parser.parse(fr);
 					Iterator <?>itr = array.iterator();
-					
+					//System.out.println("Enter doctor id");
+					//String id = scan.nextLine();
 					while (itr.hasNext())
 					{
 						JSONObject obj = (JSONObject) itr.next();
 						System.out.println("Name : "+obj.get("Name")+"\tID : "+obj.get("Id")+"\tSpecialization : "+obj.get("Specialization")+"\t\tAvailability : "+obj.get("Availability"));
-			
+						/*String key = obj.get("Id").toString();
+						if(key.equals(id))
+						{
+							//System.out.println(obj.get("Patient"));
+							System.out.println(obj);
+						}*/
 					}
 				}
 				else
@@ -228,6 +240,7 @@ public class ClinicUtility
 		
 	}
 
+	
 	public void appointmentDetails() 
 	{
 		try

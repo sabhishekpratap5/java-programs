@@ -66,6 +66,14 @@ public class Utility {
 		}
 		return 0;
 	}
+	public Long inputLong() {
+		try {
+			return scanner.nextLong();
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		return (long) 0;
+	}
 
 	/**
 	 * @return double value given by the user
@@ -451,7 +459,7 @@ public class Utility {
 	 */
 	public double windChill(double temperature, double value) {
 		double windchill = 0.0;
-		if (temperature < 50 && (value >=3 && value < 120)) {
+		if (temperature < 50 && (value >= 3 && value < 120)) {
 			windchill = (35.74 + (0.6215 * temperature) + ((0.4275 * temperature) - 35.75) * Math.pow(2, 0.16));
 		}
 		return windchill;
@@ -1072,7 +1080,7 @@ public class Utility {
 	public void writeFileOrUpdate(LinkedList list) {
 		try {
 			String string = list.toString();
-			
+
 			FileWriter fw = new FileWriter("/home/bridgeit/abhishek-workspace/Java Programs/src/linkedlist.text");
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(string);
@@ -1843,7 +1851,7 @@ public class Utility {
 		return binary;
 
 	}
-	
+
 	/**
 	 * Purpose: Swap Nibbles
 	 * 
@@ -1857,11 +1865,9 @@ public class Utility {
 		String SwapingBinary = UPPER_NIBBELE + Lower_NIBBELE;
 		return SwapingBinary;
 	}
-	
-	
-	
+
 	public static String[] readFile(String filePath) {
-		String[] words= {};
+		String[] words = {};
 		ArrayList<String> lines = new ArrayList<String>();
 		String line, temp[];
 		BufferedReader bufferedReader;
@@ -1888,9 +1894,8 @@ public class Utility {
 
 		return words;
 	}
-	
-	
-	public static<T> void writeFileinteger(T search) { 
+
+	public static <T> void writeFileinteger(T search) {
 		String string = search.toString();
 		System.out.println(string);
 		try {
@@ -1899,23 +1904,21 @@ public class Utility {
 			write.write(string);
 
 			write.close();
-			
+
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-
 	}
-	
+
 	public static <E> boolean anagramForQueue(String string1, String string2) {
 		boolean status = true;
 
-
-		if ( string1.length()!= string2.length()) {
+		if (string1.length() != string2.length()) {
 			status = false;
 		} else {
-			char [] ArrayS1 = string1.toCharArray();
+			char[] ArrayS1 = string1.toCharArray();
 			Arrays.sort(ArrayS1);
 			char ArrayS2[] = string2.toCharArray();
 			Arrays.sort(ArrayS2);
@@ -1931,87 +1934,71 @@ public class Utility {
 		}
 
 	}
-	
 
-	
-	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void hashing(String[] words) {
 
-		HashMap<Integer, LinkedList> hashmap = new HashMap<Integer, LinkedList >();
+		HashMap<Integer, LinkedList> hashmap = new HashMap<Integer, LinkedList>();
 		int hash = 0;
-		int hasharray[]=new int[words.length];
-		for(int i=0;i<words.length;i++)
-		{
-			hasharray[i]=Integer.parseInt(words[i]);
+		int hasharray[] = new int[words.length];
+		for (int i = 0; i < words.length; i++) {
+			hasharray[i] = Integer.parseInt(words[i]);
 		}
-		for(int i=0;i<hasharray.length;i++)
-		{
-			hash=hasharray[i]%11;
-			if(hashmap.containsKey(hash))
-			{
+		for (int i = 0; i < hasharray.length; i++) {
+			hash = hasharray[i] % 11;
+			if (hashmap.containsKey(hash)) {
 
-				LinkedList linkedlist=hashmap.get(hash);
+				LinkedList linkedlist = hashmap.get(hash);
 				linkedlist.add(hasharray[i]);
-			}
-			else
-			{
+			} else {
 				hashmap.put(hash, new LinkedList());
-				LinkedList linkedlist=hashmap.get(hash);
+				LinkedList linkedlist = hashmap.get(hash);
 				linkedlist.add(hasharray[i]);
 			}
 		}
 		System.out.println("Enter the key to search");
 		int search = scanner.nextInt();
-        hash= search % 11;
+		hash = search % 11;
 
-		if(hashmap.containsKey(hash))
-		{
+		if (hashmap.containsKey(hash)) {
 
-			LinkedList linkedlist=hashmap.get(hash);
-			if(linkedlist.search(search))
-			{
+			LinkedList linkedlist = hashmap.get(hash);
+			if (linkedlist.search(search)) {
 				linkedlist.remove(search);
 				Utility.writeFileinteger(hashmap);
 
-				System.out.println(search+" Element found and removed from the list");
-				
-			}
-			else
-			{
-				
+				System.out.println(search + " Element found and removed from the list");
+
+			} else {
 
 				linkedlist.add(search);
-				System.out.println(search+"element Not found and added to the list");
+				System.out.println(search + "element Not found and added to the list");
 				Utility.writeFileinteger(hashmap);
 			}
-		}
-		else
-		{
+		} else {
 			hashmap.put(hash, new LinkedList());
-			LinkedList linkedlist=hashmap.get(hash);
+			LinkedList linkedlist = hashmap.get(hash);
 			linkedlist.add(search);
 			Utility.writeFileinteger(hashmap);
 
 		}
-		Set<Integer> keys = hashmap.keySet(); 
-		for(Integer key1: keys)
-		{ 
+		Set<Integer> keys = hashmap.keySet();
+		for (Integer key1 : keys) {
 			LinkedList value = hashmap.get(key1);
-			System.out.print(key1+"->");
+			System.out.print(key1 + "->");
 			value.display();
 			System.out.println();
 		}
-		
+
 	}
-	
+
 	public static void queueAnagram(int[] strArray) {
 		// TODO Auto-generated method stub
-		QueueStructure queue=new QueueStructure();
+		QueueStructure queue = new QueueStructure();
 		for (int i = 0; i < strArray.length; i++) {
 			for (int j = i + 1; j < strArray.length; j++) {
 
-				if (Utility.anagramForQueue(strArray[i]+ " ", strArray[j]+ " ")) {
+				if (Utility.anagramForQueue(strArray[i] + " ", strArray[j] + " ")) {
 					queue.insert(strArray[i]);
 					queue.insert(strArray[j]);
 				}
@@ -2019,9 +2006,8 @@ public class Utility {
 		}
 		queue.print();
 
-
 	}
-	
+
 	public static ArrayList<Integer> primeNumber() {
 
 		ArrayList<Integer> list = new ArrayList<Integer>();
@@ -2044,8 +2030,7 @@ public class Utility {
 		return list;
 
 	}
-	
-	
+
 	/**
 	 * @param num
 	 * @param num1
@@ -2063,20 +2048,16 @@ public class Utility {
 		return Arrays.equals(charFromWord, charFromAnagram);
 
 	}
-	
+
 	/**
 	 * @param arrayList
 	 * @return anagram array list
 	 */
-	public static TreeSet<Integer> anagramInArraylist(ArrayList<Integer> arrayList)
-	{
+	public static TreeSet<Integer> anagramInArraylist(ArrayList<Integer> arrayList) {
 		TreeSet<Integer> treeSet = new TreeSet<>();
-		for(int i = 0; i < arrayList.size()-1;i++)
-		{
-			for(int j = i +1; j< arrayList.size();j++)
-			{
-				if(anagramNum(arrayList.get(i), arrayList.get(j)))
-				{
+		for (int i = 0; i < arrayList.size() - 1; i++) {
+			for (int j = i + 1; j < arrayList.size(); j++) {
+				if (anagramNum(arrayList.get(i), arrayList.get(j))) {
 					treeSet.add(arrayList.get(i));
 					treeSet.add(arrayList.get(j));
 				}
@@ -2084,47 +2065,509 @@ public class Utility {
 		}
 		return treeSet;
 	}
-	
+
 	/**
 	 * @param treeset
-	 * it is work for print anagram in 2D Array
+	 *            it is work for print anagram in 2D Array
 	 */
-	public static void twoDimentionlPrimeAnagramNumber(TreeSet<Integer> treeset)
-	{
-		
-		int row=0,column = 0,i,j,number=100;
-		Object integerArray[] =treeset.toArray();
+	public static void twoDimentionlPrimeAnagramNumber(TreeSet<Integer> treeset) {
+
+		int row = 0, column = 0, i, j, number = 100;
+		Object integerArray[] = treeset.toArray();
 		String stringArray[][] = new String[10][25];
-		for(i=0;i<10;i++)
-		{
-			for(j=0;j<25;j++)
-			{
-				stringArray[i][j]="";
+		for (i = 0; i < 10; i++) {
+			for (j = 0; j < 25; j++) {
+				stringArray[i][j] = "";
 			}
 		}
-		for(i=0;i<integerArray.length;i++)
-		{
+		for (i = 0; i < integerArray.length; i++) {
 			int temperaroy = (int) integerArray[i];
-			if(temperaroy > number)
-			{
+			if (temperaroy > number) {
 				number = number + 100;
 				row++;
-				column=0;
+				column = 0;
 			}
 			stringArray[row][column++] = Integer.toString(temperaroy);
 		}
-		
+
 		System.out.println("Anagram numbers are: ");
-		for(i=0;i<10;i++)
-		{
-			for(j=0;j<25;j++)
-			{
-				System.out.print(stringArray[i][j]+ "\t");
+		for (i = 0; i < 10; i++) {
+			for (j = 0; j < 25; j++) {
+				System.out.print(stringArray[i][j] + "\t");
 			}
 			System.out.println();
 		}
 	}
 
+	/**
+	 * @return Add doctors record by name, id, specialization and availability
+	 * @throws IOException
+	 * @throws Exception
+	 */
+	public void addDoctors() throws IOException, Exception {
+		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json");
+		FileReader filereader = new FileReader(file);
+		JSONParser parser = new JSONParser();
+		JSONArray array1 = (JSONArray) parser.parse(filereader);
+		JSONObject json = new JSONObject();
+		System.out.println("Enter number of doctors :");
+		int num0fDoctor = inputInteger();
 
+		for (int i = 0; i < num0fDoctor; i++) {
+
+			System.out.println("Enter name of doctor");
+			String name = inputString();
+			json.put("Doctor_Name", name);
+			System.out.println("Enter I.D doctor");
+			String id = inputString();
+			json.put("Doctor_ID", id);
+			System.out.println("Enter Specialization of doctor");
+			String specilization = scanner.next();
+			json.put("Doctor_Specialization", specilization);
+			System.out.println("Enter Availablity of doctor");
+			String available = scanner.next();
+			json.put("Doctor_Availiablity", available);
+			array1.add(json);
+		}
+		try {
+			System.out.println("Data has been uploaded :");
+			FileWriter jsonFileWriter = new FileWriter(file);
+			jsonFileWriter.write(JSONArray.toJSONString(array1));
+			jsonFileWriter.flush();
+			jsonFileWriter.close();
+			System.out.println("Doctor Added:" + array1);
+		} catch (IOException e) {
+			System.out.println("exception");
+		}
+	}
+
+	/**
+	 * Add Patients record by name, id,mobile number and age
+	 * 
+	 * @throws IOException
+	 * @throws Exception
+	 */
+	public void addPatients() throws IOException, Exception {
+		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json");
+		FileReader filereader = new FileReader(file);
+		JSONParser parser = new JSONParser();
+		JSONArray array1 = (JSONArray) parser.parse(filereader);
+		JSONObject json1 = new JSONObject();
+		System.out.println("Enter number of Patients: ");
+		int num0fPatients = inputInteger();
+		for (int i = 0; i < num0fPatients; i++) {
+
+			System.out.println("Enter name of Patient");
+			String name = inputString();
+			json1.put("Patient_Name", name);
+
+			System.out.println("Enter I.D Patient");
+			String id = inputString();
+			json1.put("Patient_ID", id);
+
+			System.out.println("Enter mobile number of Patient");
+			long mobileNumber = scanner.nextLong();
+			json1.put("Patient_mobileNumber", mobileNumber);
+
+			System.out.println("Enter  Patient age");
+			int age = inputInteger();
+			json1.put("Patient_ID", age);
+			array1.add(json1);
+		}
+		try {
+			System.out.println("Data has been uploaded :");
+			FileWriter jsonFileWriter = new FileWriter(file);
+			jsonFileWriter.write(JSONArray.toJSONString(array1));
+			jsonFileWriter.flush();
+			jsonFileWriter.close();
+			System.out.println("Patient Added:" + array1);
+		} catch (IOException e) {
+			System.out.println("exception");
+
+		}
+
+	}
+
+	/**
+	 * @throws Exception
+	 *             search Doctor by there name
+	 */
+	public void searchDoctor() throws Exception {
+
+		try {
+			JSONParser parser = new JSONParser();
+			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			System.out.println("Search Doctor_Name :");
+			String name = inputString();
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Doctor_Name").equals(name)) {
+
+					System.out.println("Patient_founded" + jsonobject);
+
+				} else {
+					flag = false;
+				}
+
+			}
+		} catch (IOException e) {
+			System.out.println("exception");
+		}
+	}
+
+	public void searchDoctorm() throws Exception {
+
+		System.out.println("enter the choice");
+		System.out.println("1.search doctor by name");
+		System.out.println("2.search doctor by id");
+		System.out.println("3.search doctor by specialization");
+		System.out.println("4.search doctor by availability");
+		int choice = inputInteger();
+		switch (choice) {
+		case 1:
+			searchbyName();
+			break;
+		case 2:
+			searchbyID();
+			break;
+		case 3:
+			searchbySpecialization();
+			break;
+		case 4:
+			searchbyAvailability();
+			break;
+		default:
+			System.out.println("invalid");
+
+		}
+	}
+
+
+
+	/**
+	 * @throws Exception
+	 *             search by Name
+	 */
+	public void searchbyName() throws Exception {
+		try {
+			JSONParser parser = new JSONParser();
+			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			System.out.println("Search Doctor_name :");
+			String name = inputString();
+
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Doctor_Name").equals(name)) {
+
+					System.out.println("Doctor_founded" + jsonobject);
+
+				} else {
+					flag = false;
+				}
+
+			}
+		}
+
+		catch (IOException e) {
+			System.out.println("exception");
+		}
+
+	}
+
+	/**
+	 * @throws Exception
+	 *             search by ID
+	 */
+	public void searchbyID() throws Exception {
+		try {
+			JSONParser parser = new JSONParser();
+			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			System.out.println("Search doctor_ID :");
+			String id = inputString();
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Doctor_ID").equals(id)) {
+
+					System.out.println("doctar_founded" + jsonobject);
+
+				} else {
+					flag = false;
+				}
+
+			}
+		}
+
+		catch (IOException e) {
+			System.out.println("exception");
+		}
+
+	}
+
+	/**
+	 * @throws Exception
+	 *             search doctor by Specialization
+	 */
+	public void searchbySpecialization() throws Exception {
+		try {
+			JSONParser parser = new JSONParser();
+			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			System.out.println("Search doctor by specialization:");
+			String name = inputString();
+
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Doctor_Specialization").equals(name)) {
+
+					System.out.println("Doctor_founded" + jsonobject);
+
+				} else {
+					flag = false;
+				}
+
+			}
+		} catch (Exception e) {
+			System.out.println(" ");
+		}
+	}
+
+	/**
+	 * @throws Exception
+	 *             search doctor by Availability
+	 */
+	public void searchbyAvailability() throws Exception {
+		try {
+			JSONParser parser = new JSONParser();
+			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			System.out.println("Search doctor by availability :");
+			String name = inputString();
+
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Doctor_Availiablity").equals(name)) {
+
+					System.out.println("doctor_founded" + jsonobject);
+
+				} else {
+					flag = false;
+				}
+
+			}
+		} catch (IOException e) {
+			System.out.println("exception");
+		}
+	}
+
+	/**
+	 * @throws Exception
+	 * 
+	 *             search patient by there name
+	 */
+	public void searchPatient() throws Exception {
+		try {
+			JSONParser parser = new JSONParser();
+			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json"));
+			System.out.println("Search Patient_Name :");
+			String name = inputString();
+
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Patient_Name").equals(name)) {
+
+					System.out.println("Patient_founded" + jsonobject);
+
+				} else {
+					flag = false;
+				}
+
+			}
+		}
+
+		catch (IOException e) {
+			System.out.println("exception");
+		}
+
+	}
+
+	/**
+	 * @throws Exception
+	 *             search Patient by Name
+	 */
+	public static  void searchPatientbyName() throws Exception {
+		try {
+			JSONParser parser = new JSONParser();
+			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json"));
+			System.out.println("Search Patient_Name :");
+			String name =scanner.next();
+
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Patient_Name").equals(name)) {
+
+					System.out.println("Patient_founded" + jsonobject);
+
+				} else {
+					flag = false;
+				}
+
+			}
+		}
+
+		catch (IOException e) {
+			System.out.println("exception");
+		}
+
+	}
+/*
+	public static void searchPatientbyID() throws Exception {
+		try {
+			JSONParser parser = new JSONParser();
+			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json"));
+			System.out.println("Search patient id :");
+			String id = scanner.next();
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Patient_ID").equals(id)) {
+
+					System.out.println("Patient_founded" + jsonobject);
+
+				} else {
+					flag = false;
+				}
+
+			}
+		}
+
+		catch (IOException e) {
+			System.out.println("exception");
+		}
+
+	}
+*/
+	/**
+	 * take an appointment of doctor with date and generate report
+	 * 
+	 * @throws Exception
+	 * @throws IOException
+	 */
+	public void takeAppointment1() throws IOException, Exception {
+		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json");
+		FileReader filereader = new FileReader(file);
+		JSONParser parser = new JSONParser();
+		JSONArray array1 = (JSONArray) parser.parse(filereader);
+		System.out.println("Please enter Patient_Name");
+		String patient_name = inputString();
+		System.out.println("Enter the date for appointment");
+		String stringDate = inputString();
+		System.out.println("Enter Doctor name for to take an Appointment");
+		String doctername = inputString();
+
+		String docInfo = null;
+		try {
+			JSONArray array = (JSONArray) parser.parse(new FileReader(file));
+			Iterator itr = array.iterator();
+
+			boolean flag = false;
+			while (itr.hasNext()) {
+				JSONObject jsonobject = (JSONObject) itr.next();
+				if (jsonobject.get("Doctor_Name").equals(doctername)) {
+
+					System.out.println("Doctor_founded" + jsonobject);
+
+				}
+
+				flag = false;
+			}
+			docInfo = doctername;
+
+			JSONArray array2 = new JSONArray();
+
+			JSONObject r = (JSONObject) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Appointment.json"));
+			JSONArray appointmentFileObj = (JSONArray) r.get("Doctor_name");
+			JSONObject obj1 = new JSONObject();
+
+			if ((obj1.containsKey(doctername)) && (appointmentFileObj.size() < 5)) {
+
+				obj1.put("Doctor_name", doctername);
+
+				obj1.put("Patient_Name", patient_name);
+				obj1.put("Booking Date ", (stringDate));
+				appointmentFileObj.add(obj1);
+				r.put("Doctor_name", appointmentFileObj);
+				FileWriter filewriter = new FileWriter("/home/bridgeit/abhishek-workspace/Java Programs/src/Appointment.json");
+				filewriter.write(JSONObject.toJSONString(r));
+				filewriter.flush();
+				filewriter.close();
+			}
+			System.out.println("hello " + patient_name + " Your Appointment is fixed  With Doctor " + docInfo + " on: "
+					+ (stringDate));
+
+		} catch (IOException e) {
+			System.out.println("exception");
+		}
+	}
+	
+	/**
+	 * @param filename
+	 * @return
+	 */
+	public static JSONObject readFromJsonFile1(String filename)
+	{
+		Object obj;
+		JSONObject jsonObject = null;
+		try
+		{
+			obj = new JSONParser().parse(new FileReader(filename));
+			jsonObject = (JSONObject) obj;
+		}
+		catch(IOException | ParseException e)
+		{
+			e.printStackTrace();
+		}
+		
+	   
+		return jsonObject; 
+	}
+	/**
+	 * @param fileName
+	 * @param jsonObject
+	 */
+	public static void writeJsonObjectToFile2(String fileName, JSONObject jsonObject) 
+	{
+		PrintWriter printWriter;
+		try {
+			printWriter = new PrintWriter(fileName);
+			printWriter.write(jsonObject.toJSONString());
+			printWriter.flush();
+			printWriter.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
 
 }

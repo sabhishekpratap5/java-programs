@@ -1,5 +1,5 @@
 /******************************************************************************
- *  Purpose:Blackberry mobile phone class which is store phone information
+ *  Purpose: Blackberry mobile phone class which is store phone information
  *
  *  @author AbhishekSingh  
  *  @version 1.0
@@ -19,3 +19,4 @@ public class Blackberry implements MobileShope {
 	}
 
 }
+

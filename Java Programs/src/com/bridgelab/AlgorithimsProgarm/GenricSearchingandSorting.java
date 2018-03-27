@@ -55,7 +55,7 @@ public class GenricSearchingandSorting {
 			long endTime=System.currentTimeMillis();
 			long elaspdTime=endTime-startTime;
 			System.out.println();
-			System.out.println("elaspedTime = "+ elaspdTime);
+			System.out.println("elaspedTime = "+ elaspdTime+ " ms");
 			break;
 
 		case 2:

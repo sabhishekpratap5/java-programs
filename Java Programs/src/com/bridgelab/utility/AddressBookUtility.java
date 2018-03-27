@@ -151,6 +151,10 @@ public class AddressBookUtility {
 		}
 	}
 
+	/**
+	 * @throws IOException
+	 * @throws ParseException
+	 */
 	public void addPerson() throws IOException, ParseException {
 		try {
 			File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/AddressBook.json");
@@ -204,6 +208,10 @@ public class AddressBookUtility {
 		}
 	}
 
+	/**
+	 * @throws IOException
+	 * @throws ParseException
+	 */
 	public void displayDetails() throws IOException, ParseException {
 		try {
 			File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/AddressBook.json");

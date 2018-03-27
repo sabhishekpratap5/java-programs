@@ -1,14 +1,1 @@
-{
-	"@": {
-		"NumberOfShare": 99999741,
-		"Price": 500
-	},
-	"#": {
-		"NumberOfShare": 99999800,
-		"Price": 100
-	},
-	"%": {
-		"NumberOfShare": 10000,
-		"Price": 200
-	}
-}
+{"@":{"NumberOfShare":99999700,"Price":500},"#":{"NumberOfShare":99999834,"Price":100},"$":{"NumberOfShare":9,"Price":720},"%":{"NumberOfShare":10000,"Price":200}}

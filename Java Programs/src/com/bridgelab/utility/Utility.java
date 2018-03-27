@@ -66,6 +66,7 @@ public class Utility {
 		}
 		return 0;
 	}
+
 	public Long inputLong() {
 		try {
 			return scanner.nextLong();
@@ -1358,7 +1359,7 @@ public class Utility {
 				}
 				System.out.println("The Toatal cost of " + jsonObject1.get("Name") + " is: "
 						+ Integer.parseInt(jsonObject1.get("Price").toString())
-								* Integer.parseInt(jsonObject1.get("Weight").toString()));
+						* Integer.parseInt(jsonObject1.get("Weight").toString()));
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -2104,6 +2105,7 @@ public class Utility {
 	 * @throws IOException
 	 * @throws Exception
 	 */
+	@SuppressWarnings("unchecked")
 	public void addDoctors() throws IOException, Exception {
 		File file = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json");
 		FileReader filereader = new FileReader(file);
@@ -2196,7 +2198,8 @@ public class Utility {
 
 		try {
 			JSONParser parser = new JSONParser();
-			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			JSONArray array = (JSONArray) parser
+					.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
 			System.out.println("Search Doctor_Name :");
 			String name = inputString();
 			Iterator itr = array.iterator();
@@ -2245,8 +2248,6 @@ public class Utility {
 		}
 	}
 
-
-
 	/**
 	 * @throws Exception
 	 *             search by Name
@@ -2254,7 +2255,8 @@ public class Utility {
 	public void searchbyName() throws Exception {
 		try {
 			JSONParser parser = new JSONParser();
-			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			JSONArray array = (JSONArray) parser
+					.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
 			System.out.println("Search Doctor_name :");
 			String name = inputString();
 
@@ -2287,7 +2289,8 @@ public class Utility {
 	public void searchbyID() throws Exception {
 		try {
 			JSONParser parser = new JSONParser();
-			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			JSONArray array = (JSONArray) parser
+					.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
 			System.out.println("Search doctor_ID :");
 			String id = inputString();
 			Iterator itr = array.iterator();
@@ -2319,7 +2322,8 @@ public class Utility {
 	public void searchbySpecialization() throws Exception {
 		try {
 			JSONParser parser = new JSONParser();
-			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			JSONArray array = (JSONArray) parser
+					.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
 			System.out.println("Search doctor by specialization:");
 			String name = inputString();
 
@@ -2349,7 +2353,8 @@ public class Utility {
 	public void searchbyAvailability() throws Exception {
 		try {
 			JSONParser parser = new JSONParser();
-			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
+			JSONArray array = (JSONArray) parser
+					.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/doctor.json"));
 			System.out.println("Search doctor by availability :");
 			String name = inputString();
 
@@ -2380,7 +2385,8 @@ public class Utility {
 	public void searchPatient() throws Exception {
 		try {
 			JSONParser parser = new JSONParser();
-			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json"));
+			JSONArray array = (JSONArray) parser
+					.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json"));
 			System.out.println("Search Patient_Name :");
 			String name = inputString();
 
@@ -2410,12 +2416,13 @@ public class Utility {
 	 * @throws Exception
 	 *             search Patient by Name
 	 */
-	public static  void searchPatientbyName() throws Exception {
+	public static void searchPatientbyName() throws Exception {
 		try {
 			JSONParser parser = new JSONParser();
-			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json"));
+			JSONArray array = (JSONArray) parser
+					.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json"));
 			System.out.println("Search Patient_Name :");
-			String name =scanner.next();
+			String name = scanner.next();
 
 			Iterator itr = array.iterator();
 
@@ -2438,35 +2445,8 @@ public class Utility {
 		}
 
 	}
-/*
-	public static void searchPatientbyID() throws Exception {
-		try {
-			JSONParser parser = new JSONParser();
-			JSONArray array = (JSONArray) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Patient.json"));
-			System.out.println("Search patient id :");
-			String id = scanner.next();
-			Iterator itr = array.iterator();
 
-			boolean flag = false;
-			while (itr.hasNext()) {
-				JSONObject jsonobject = (JSONObject) itr.next();
-				if (jsonobject.get("Patient_ID").equals(id)) {
-
-					System.out.println("Patient_founded" + jsonobject);
-
-				} else {
-					flag = false;
-				}
-
-			}
-		}
-
-		catch (IOException e) {
-			System.out.println("exception");
-		}
-
-	}
-*/
+	
 	/**
 	 * take an appointment of doctor with date and generate report
 	 * 
@@ -2505,7 +2485,8 @@ public class Utility {
 
 			JSONArray array2 = new JSONArray();
 
-			JSONObject r = (JSONObject) parser.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Appointment.json"));
+			JSONObject r = (JSONObject) parser
+					.parse(new FileReader("/home/bridgeit/abhishek-workspace/Java Programs/src/Appointment.json"));
 			JSONArray appointmentFileObj = (JSONArray) r.get("Doctor_name");
 			JSONObject obj1 = new JSONObject();
 
@@ -2517,7 +2498,8 @@ public class Utility {
 				obj1.put("Booking Date ", (stringDate));
 				appointmentFileObj.add(obj1);
 				r.put("Doctor_name", appointmentFileObj);
-				FileWriter filewriter = new FileWriter("/home/bridgeit/abhishek-workspace/Java Programs/src/Appointment.json");
+				FileWriter filewriter = new FileWriter(
+						"/home/bridgeit/abhishek-workspace/Java Programs/src/Appointment.json");
 				filewriter.write(JSONObject.toJSONString(r));
 				filewriter.flush();
 				filewriter.close();
@@ -2529,34 +2511,29 @@ public class Utility {
 			System.out.println("exception");
 		}
 	}
-	
+
 	/**
 	 * @param filename
 	 * @return
 	 */
-	public static JSONObject readFromJsonFile1(String filename)
-	{
+	public static JSONObject readFromJsonFile1(String filename) {
 		Object obj;
 		JSONObject jsonObject = null;
-		try
-		{
+		try {
 			obj = new JSONParser().parse(new FileReader(filename));
 			jsonObject = (JSONObject) obj;
-		}
-		catch(IOException | ParseException e)
-		{
+		} catch (IOException | ParseException e) {
 			e.printStackTrace();
 		}
-		
-	   
-		return jsonObject; 
+
+		return jsonObject;
 	}
+
 	/**
 	 * @param fileName
 	 * @param jsonObject
 	 */
-	public static void writeJsonObjectToFile2(String fileName, JSONObject jsonObject) 
-	{
+	public static void writeJsonObjectToFile2(String fileName, JSONObject jsonObject) {
 		PrintWriter printWriter;
 		try {
 			printWriter = new PrintWriter(fileName);
@@ -2567,7 +2544,110 @@ public class Utility {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
+	}
+
+	/**
+	 * @return
+	 */
+	Queue cardQueue = new java.util.LinkedList<>();
+
+	public String[] assignDeckOfCards() {
+		String[] suit = { "Club", "Diamond", "Heart", "Spade" };
+		String[] rank = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
+		String[] deckOfCards = new String[52];
+		int index = 0;
+		for (int i = 0; i < suit.length; i++) {
+			for (int j = 0; j < rank.length; j++) {
+				deckOfCards[index++] = suit[i] + " " + rank[j];
+			}
+		}
+		return deckOfCards;
+	}
+
+	/**
+	 * @param deckCards
+	 * @return
+	 */
+	public String[] shuffle(String[] deckCards) {
+		for (int i = 0; i < deckCards.length; i++) {
+			int random = (int) (Math.random() * (52));
+			String temp = deckCards[i];
+			deckCards[i] = deckCards[random];
+			deckCards[random] = temp;
+		}
+		return deckCards;
+	}
+
+	/**
+	 * @param deckOfShuffleCards
+	 * @param noOfPlayers
+	 * @param noOfCards
+	 * @return
+	 */
+	public String[][] distribute(String[] deckOfShuffleCards, int noOfPlayers, int noOfCards) {
+		int index = 0;
+		String[][] distributedCards = new String[noOfPlayers][noOfCards];
+		for (int i = 0; i < noOfPlayers; i++) {
+			for (int j = 0; j < noOfCards; j++) {
+				distributedCards[i][j] = deckOfShuffleCards[index++];
+			}
+		}
+		return distributedCards;
+	}
+
+	/**
+	 * @param cardsOfPlayers
+	 * @param noOfPlayers
+	 * @param noOfCards
+	 */
+	public void printDistibutedCards(String[][] cardsOfPlayers, int noOfPlayers, int noOfCards) {
+		for (int i = 0; i < noOfPlayers; i++) {
+			System.out.println("Cards of player " + (i + 1) + " are as follows :");
+			for (int j = 0; j < noOfCards; j++) {
+				System.out.println(cardsOfPlayers[i][j]);
+			}
+			System.out.println();
+		}
+	}
+
+	private void sort(String[] cards) {
+		char[] rank = { 'A', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'J', 'Q', 'K' };
+		for (int i = 0; i < rank.length; i++) {
+			for (int j = 0; j < cards.length; j++) {
+				String card = cards[j];
+				char cardRank = card.charAt(card.length() - 1);
+				if (cardRank == rank[i])
+					cardQueue.add(card);
+			}
+		}
+	}
+
+	/**
+	 * @param playerCards
+	 * @param noOfPlayers
+	 * @param noOfCards
+	 */
+	public void printSortedCards(String[][] playerCards, int noOfPlayers, int noOfCards) {
+		String[] cards = new String[noOfCards];
+		for (int i = 0; i < noOfPlayers; i++) {
+			for (int j = 0; j < noOfCards; j++) {
+				cards[j] = playerCards[i][j];
+			}
+			cardQueue.add("Cards Of Player " + (i + 1) + " are as follows..");
+			sort(cards);
+		}
+		printSortedQueue(cardQueue);
+	}
+
+	private void printSortedQueue(Queue cardQueue2) {
+		for (int i = 0; i < 40; i++) {
+			if (i % 10 == 0) {
+				System.out.println();
+			}
+			System.out.println(cardQueue2.remove());
+		}
+
 	}
 
 }

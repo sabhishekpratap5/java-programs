@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.bridgeit.Program.Queue"/>
-<fullyQualifiedTypeName name="java.util.Queue"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="org.json.simple.JSONValue"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -57,7 +53,11 @@
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ShoppingCartVisitor"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ShoppingCartVisitorImpl"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ItemElement"/>
-<fullyQualifiedTypeName name="com.bridgelab.utility.Utility"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.lang.Compiler"/>
+<fullyQualifiedTypeName name="com.bridgelab.utility.Utility"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>

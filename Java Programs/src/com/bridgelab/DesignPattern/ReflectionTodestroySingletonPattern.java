@@ -19,7 +19,7 @@ public class ReflectionTodestroySingletonPattern {
 			 Constructor[] constructors = EagerInitialization.class.getDeclaredConstructors();
 			for(Constructor constructor : constructors)
 			{
-				constructor.setAccessible(true);
+				//constructor.setAccessible(true);
 				instanceTwo=(EagerInitialization)
 						constructor.newInstance();
 				break;

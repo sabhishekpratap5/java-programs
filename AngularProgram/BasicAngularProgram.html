@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+<head >
+      <meta charset="utf-8">
+    <script src="bower_components/angular/angular.min.js"></script>
+    <!-- <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"</script> -->
+    <script src="Scrip.js"></script>
+
+    <title>java script test</title>
+  </head>
+  <body>
+    <div >
+      <!-- <input type="number" ng-init="a='5'">
+      <input type="number" ng-init="b='5'"> -->
+    10+20={{10+20}}
+  </div >
+
+  <div>
+    30+40={{30+40}}
+  </div>
+  <!-- <div>
+    {{{name:'Abhishek',age:'21'}.name.age}}
+  </div>-->
+  <div ng-controller="myController">
+
+     {{message}}
+  </div>
+
+  <div ng-controller="myController1">
+    <div>first Name:{{employee.firstName}}</div>
+    <div>last Name:{{employee.lastName}}</div>
+    <div>gender:{{employee.gender}}</div>
+  </div>
+
+  <div ng-controller="myController2">
+    <input type="text" ng-model="message1"/>
+    {{message1}}
+  </dev>
+
+  </body>
+</html>

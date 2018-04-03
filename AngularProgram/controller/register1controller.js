@@ -1,5 +1,5 @@
 var app = angular.module('myApp');
-app.controller('registercontroller', function($scope)
+app.controller('register1controller', function($scope)
 {
   $scope.name="";
   $scope.email = "";

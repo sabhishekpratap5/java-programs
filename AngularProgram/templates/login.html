@@ -1,21 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <style>
-  <body>
 
-    input[type=text], input[type=password]{
-      width:100%;
-      padding:12px 20px;
-      margin:8px 0;
-      display:inline-block;
-      border 1px solid #ccc;
-      box-sizing:border-box;
-    }
+<body >
+<form ng-submit="myFunction()" >
+      <table align="center" border="2">
+        <caption><h2>Login Page.... </h2></caption>
 
+        <tr>
+            <td>Email: </td>
+            <td><input type="email" ng-model = "email" required></input>
+
+            </td>
+          </tr>
+            <tr>
+              <td>Password:</td>
+              <td><input type="password" ng-model="password" required></input>
+
+            </td>
+            </tr>
+            <td><input type="submit" ng-model="submit" value="Submit"  ng-click="submit()"></input></td>
+          <td align="center"><a ui-sref="register">Register</a></td>
+          </tr>
+      </table>
+         <div align="center"> {{msg}} </div>
+    </form>
   </body>
-  </style>
-</html>
+  </html>

@@ -1,0 +1,29 @@
+<form ng-submit="myFunction()" >
+    <table align="center" border="1">
+      <caption><h2>Registration Page.... </h2></caption>
+
+
+      <tr>
+        <td>Name: </td>
+        <td> <input type="text" ng-model="name" required></input>
+        </td>
+      </tr>
+      <tr>
+        <td>Email: </td>
+        <td><input type="email" ng-model = "email" required></input>
+        </td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" ng-model="password" required></input>
+      </td>
+      </tr>
+
+      <tr>
+        <td><input type="submit" ng-model="submit" value="Submit" ng-click="submit()" ></input></td>
+      <td align="center"><a ui-sref="login">login</a></td>
+    </tr>
+
+    </table>
+     <div align="center"> {{msg}} </div>
+  </form>

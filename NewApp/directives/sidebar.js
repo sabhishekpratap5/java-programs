@@ -1,6 +1,7 @@
-app.directive('sidebar'.function(){
-  return{
+
+app.directive('sidebar', function() {
+  return {
     restrict:'EA',
-    templateUrl:'templete/sidebar.html'
+    templateUrl: 'templete/sidebar.html'
   };
 });

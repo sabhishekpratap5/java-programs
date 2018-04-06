@@ -13,11 +13,13 @@ app.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRo
   controller  : 'homeCtrl'
 })
 
-.state('dashboard',
+.state('readJson',
 {
-  url         : '/dashboard',
-  templateUrl : 'templates/dashboard.html',
-  controller  : 'dashboardCtrl'
+  url         : '/readJson',
+  templateUrl : 'templete/readData.html',
+  controller  : 'jsonCtrl'
 });
+
+
   $urlRouterProvider.otherwise('/login');
 }]);

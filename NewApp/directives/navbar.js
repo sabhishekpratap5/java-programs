@@ -1,6 +1,6 @@
-app.directive('navbar'.function(){
-  return{
+app.directive('navbar', function() {
+  return {
     restrict:'EA',
-    templateUrl :'templete/navbar.html'
+    templateUrl: 'templete/navbar.html'
   };
 });

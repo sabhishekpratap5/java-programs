@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+    var array_with_duplcates = ['abhishek','rakesh','pradeep','abhishek','rakesh','pradeep']
+
+function removeDuplicates(arr){
+    var unique_array = []
+    for(var i = '0';i < arr.length; i++){
+        if(unique_array.indexOf(arr[i]) == -1){
+            unique_array.push(arr[i])
+        }
+    }
+    return unique_array
+}
+
+console.log(removeDuplicates(array_with_duplcates)); 
+</script>
+  </head>
+  <body>
+
+    <script>removeDuplicates(array_with_duplcates)</script>
+  </body>
+</html>

@@ -4,10 +4,8 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.bridgelab.objectOriented.AddressBook"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
-<fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
 <fullyQualifiedTypeName name="com.bridgelab.utility.AddressBookUtility"/>
@@ -40,7 +38,6 @@
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Employees"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.SocketAdapter"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Socket"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.util.Observer"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Subject"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="com.bridgelab.utility.Utility"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

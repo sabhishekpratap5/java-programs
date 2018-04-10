@@ -1,8 +1,49 @@
-<div layout="column" style="height: 500px;">
-  <section layout="row" flex>
-    <md-sidenav style="  margin-top: 65px;"class="md-sidenav-left" md-component-id="left">
-      <md-toolbar class="md-theme-indigo">
-      </md-toolbar>
-    </md-sidenav>
-  </section>
-</div>
+<section layout="row">
+  <md-sidenav style="margin-top:4.0em;width:200px;position:fixed; z-index=1;" class="md-sidenav-left" md-component-id="left" md-disable-backdrop md-whiteframe="4">
+    <md-sidenav-layout>
+      <div layout="row" layout-wrap>
+        <div>
+          <fieldset class="standard">
+            <legend>Manufacturer </legend>
+            <md-checkbox md-no-ink ng-value="x" ng-repeat="x in jsonRecord | unique : 'specs.manufacturer'" ng-model="hasInk1" aria-label="No Ink Effects">
+              {{ x.specs.manufacturer+" " }}
+            </md-checkbox>
+          </fieldset>
+        </div>
+        <div layout="row" layout-wrap>
+          <div>
+            <fieldset class="standard">
+              <legend>Storage </legend>
+              <md-checkbox md-no-ink ng-value="x" ng-repeat="x in jsonRecord  | unique : 'specs.storage'" ng-model="hasInk1" aria-label="No Ink Effects">
+                {{ x.specs.storage+" " }}
+              </md-checkbox>
+            </fieldset>
+          </div>
+      </div>
+
+      <div layout="row" layout-wrap>
+        <div>
+          <fieldset class="standard">
+            <legend>OS </legend>
+            <md-checkbox md-no-ink ng-value="x" ng-repeat="x in jsonRecord | unique :'specs.os'" ng-model="hasInk1" aria-label="No Ink Effects">
+              {{ x.specs.os+" " }}
+            </md-checkbox>
+          </fieldset>
+        </div>
+    </div>
+
+    <div layout="row" layout-wrap>
+      <div>
+        <fieldset class="standard">
+          <legend>Camera</legend>
+          <md-checkbox md-no-ink ng-value="x" ng-repeat="x in jsonRecord | unique:'specs.camera'" ng-model="hasInk1" aria-label="No Ink Effects">
+            {{ x.specs.camera+" " }}
+          </md-checkbox>
+        </fieldset>
+      </div>
+  </div>
+
+    </md-sidenav-layout>
+  </md-sidenav>
+
+</section>

@@ -7,6 +7,7 @@ array.object.push({place:"mumbai",name:"abhishek"});
 array.object.push({place:"mumbai",name:"rakesh"});
 array.object.push({place:"mumbai",name:"pardeep"});
 array.object.push({place:"mumbai",name:"pardeep"});
+array.object.push({place:"chenni",name:"pardeep"});
 
 // assign things.thing to myData for brevity
 var myData = array.object;

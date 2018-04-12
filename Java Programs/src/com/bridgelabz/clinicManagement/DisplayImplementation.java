@@ -1,6 +1,6 @@
 package com.bridgelabz.clinicManagement;
 
-import java.util.List;
+import java.util.ArrayList;
 
 
 
@@ -8,19 +8,19 @@ public class DisplayImplementation implements Display
 {
 
 	@Override
-	public List<Patient> patientList() {
+	public ArrayList<Patient> patientList() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Doctor> doctorList() {
+	public ArrayList<Doctor> doctorList() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Appoinment> appoinmentList() {
+	public ArrayList<Appoinment> appoinmentList() {
 		// TODO Auto-generated method stub
 		return null;
 	}

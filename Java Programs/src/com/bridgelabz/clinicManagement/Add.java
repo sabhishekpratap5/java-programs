@@ -2,7 +2,7 @@ package com.bridgelabz.clinicManagement;
 
 public interface Add 
 {
-	public void addPatient();
-	public void addDoctor();
-	public void takeAppoinment();
+	 Patient addPatient();
+	 void addDoctor();
+	 void takeAppoinment();
 }

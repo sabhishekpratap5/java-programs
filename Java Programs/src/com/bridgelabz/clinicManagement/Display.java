@@ -1,12 +1,12 @@
 package com.bridgelabz.clinicManagement;
 
-import java.util.List;
+import java.util.ArrayList;
 
 
 public interface Display 
 {
-	List<Patient> patientList();
-	List<Doctor> doctorList();
-	List<Appoinment> appoinmentList();
-	public void bestDoctorOfClinique();
+	ArrayList<Patient> patientList();
+	ArrayList<Doctor> doctorList();
+	ArrayList<Appoinment> appoinmentList();
+	 void bestDoctorOfClinique();
 }

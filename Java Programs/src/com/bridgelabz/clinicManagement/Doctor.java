@@ -2,8 +2,8 @@ package com.bridgelabz.clinicManagement;
 
 public class Doctor 
 {
-	private int doctorid;
-	private String doctorName,doctorAvailability,doctorSpecialization;
+	private int doctorid ,noOfPatients;
+	private String doctorName,doctorAvailability,doctorSpecialization ;
 	public int getDoctorid() {
 		return doctorid;
 	}
@@ -27,6 +27,13 @@ public class Doctor
 	}
 	public void setDoctorSpecialization(String doctorSpecialization) {
 		this.doctorSpecialization = doctorSpecialization;
+	}
+	
+	public int getNoOfPatients() {
+		return noOfPatients;
+	}
+	public void setNoOfPatients(int noOfPatients) {
+		this.noOfPatients = noOfPatients;
 	}
 	@Override
 	public String toString() {

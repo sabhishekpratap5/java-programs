@@ -4,7 +4,7 @@ public class CliniqueManagement
 {
 	static
 	{
-		System.out.println("*****@Clinique Management System@*****");
+		System.out.println("Clinique Management System");
 	}
 	public static void main(String[] args) 
 	{
@@ -24,39 +24,39 @@ public class CliniqueManagement
 			switch(choice)
 			{
 			case 1:
-				System.out.println("*****Add Doctor*****");
+				System.out.println("Add Doctor");
 				addImpl.addDoctor();
 				break;
 			case 2:
-				System.out.println("*****Search Doctor By Name, Id or Availabilty*****");
+				System.out.println("Search Doctor By Name, Id or Availabilty");
 				searchImpl.searchDoctor();
 				break;
 			case 3:
-				System.out.println("*****Search Patients by Name ,Id or Mobile Number*****");
+				System.out.println("Search Patients by Name ,Id or Mobile Number");
 				searchImpl.searchPatient();
 				break;
 			case 4:
-				System.out.println("*****Take Appoinment*****");
+				System.out.println("Take Appoinment");
 				addImpl.takeAppoinment();
 				break;
 			case 5:
-				System.out.println("*****Doctor List*****");
+				System.out.println("Doctor List");
 				displayImpl.doctorList();
 				break;
 			case 6:
-				System.out.println("*****Patient List*****");
+				System.out.println("Patient List");
 				displayImpl.patientList();
 				break;
 			case 7:
-				System.out.println("*****Appoinment List*****");
+				System.out.println("Appoinment List");
 				displayImpl.appoinmentList();
 				break;
 			case 8:
-				System.out.println("*****Best Doctor of clinique*****");
+				System.out.println("Best Doctor of clinique");
 				displayImpl.bestDoctorOfClinique();
 				break;
 			case 9:
-				System.out.println("*****Thanks*****");
+				System.out.println("Thanks");
 				System.exit(0);
 			}
 		}while(choice > 0);

@@ -1,0 +1,24 @@
+
+fsquid:S1197"8Move the array designator from the variable to the type.(ÎÌ§…HˆRMINORZ
+CODE_SMELL
+fsquid:S1197="8Move the array designator from the variable to the type.(ØœÙƒH‚ˆRMINORZ
+CODE_SMELL
+f
+squid:S1066"9Replace this use of System.out or System.err by a logger.(äŞàıHƒˆRMAJORZ
+CODE_SMELL
+k
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH„ˆRMAJORZ
+CODE_SMELL
+k
+squid:S106<"9Replace this use of System.out or System.err by a logger.(–¦ûµùÿÿÿÿH…ˆRMAJORZ
+CODE_SMELL
+f
+squid:S106C"9Replace this use of System.out or System.err by a logger.(«òˆìH†ˆRMAJORZ
+CODE_SMELL
+k
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH‡ˆRMAJORZ
+CODE_SMELL
+Wsquid:S2140#")Use "java.util.Random.nextInt()" instead.(áÂœHˆˆRMINORZ
+CODE_SMELL
+squid:S00120	"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷“óªüÿÿÿÿH‰ˆRMINORZ
+CODE_SMELL

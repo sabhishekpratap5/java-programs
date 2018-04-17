@@ -1,0 +1,142 @@
+
+tsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Â­²âøÿÿÿÿHËRMINORZ
+CODE_SMELL
+tsquid:S1075I"ARefactor your code to get this URI from a customizable parameter.(Â­²âøÿÿÿÿHÌRMINORZ
+CODE_SMELL
+tsquid:S1075o"ARefactor your code to get this URI from a customizable parameter.(Â­²âøÿÿÿÿHÍRMINORZ
+CODE_SMELL
+usquid:S1075 "ARefactor your code to get this URI from a customizable parameter.(Â­²âøÿÿÿÿHÎRMINORZ
+CODE_SMELL
+usquid:S1075Ú"ARefactor your code to get this URI from a customizable parameter.(Â­²âøÿÿÿÿHÏRMINORZ
+CODE_SMELL
+xsquid:S1192Y"GDefine a constant instead of duplicating this literal "Mobile" 3 times.(¥áÍ‘HĞRCRITICALZ
+CODE_SMELL
+squid:S1192W"IDefine a constant instead of duplicating this literal "Lastname" 3 times.(¦ˆ€äıÿÿÿÿHÑRCRITICALZ
+CODE_SMELL
+€squid:S1192!"JDefine a constant instead of duplicating this literal "Firstname" 5 times.(Ü¤Ø¤ûÿÿÿÿHÒRCRITICALZ
+CODE_SMELL
+|squid:S1192X"FDefine a constant instead of duplicating this literal "State" 3 times.( Ù¸€şÿÿÿÿHÓRCRITICALZ
+CODE_SMELL
+¼squid:S1192"…Define a constant instead of duplicating this literal "/home/bridgeit/abhishek-workspace/Java Programs/src/AddressBook.json" 5 times.(Â­²âøÿÿÿÿHÔRCRITICALZ
+CODE_SMELL
+~squid:S1192W"HDefine a constant instead of duplicating this literal "Address" 3 times.(¦ˆ€äıÿÿÿÿHÕRCRITICALZ
+CODE_SMELL
+vsquid:S2095M"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ÕÇƒ—øÿÿÿÿHÖRBLOCKERZBUG
+vsquid:S2095r"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ÕÇƒ—øÿÿÿÿH×RBLOCKERZBUG
+wsquid:S2095Á"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¶Á²„úÿÿÿÿHØRBLOCKERZBUG
+vsquid:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ÕÇƒ—øÿÿÿÿHÙRBLOCKERZBUG
+vsquid:S2095["HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¶Á²„úÿÿÿÿHÚRBLOCKERZBUG
+wsquid:S2095¥"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ÕÇƒ—øÿÿÿÿHÛRBLOCKERZBUG
+wsquid:S2095‡"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¶Á²„úÿÿÿÿHÜRBLOCKERZBUG
+vsquid:S20950"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¶Á²„úÿÿÿÿHİRBLOCKERZBUG
+wsquid:S2095İ"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ÕÇƒ—øÿÿÿÿHŞRBLOCKERZBUG
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(øÉÛÜüÿÿÿÿHßRMAJORZ
+CODE_SMELL
+f
+squid:S106""9Replace this use of System.out or System.err by a logger.(ïá«€HàRMAJORZ
+CODE_SMELL
+f
+squid:S106$"9Replace this use of System.out or System.err by a logger.(™öÌ§HáRMAJORZ
+CODE_SMELL
+k
+squid:S106("9Replace this use of System.out or System.err by a logger.(¹”¤÷üÿÿÿÿHâRMAJORZ
+CODE_SMELL
+f
+squid:S106."9Replace this use of System.out or System.err by a logger.(ÿ•§ÔHãRMAJORZ
+CODE_SMELL
+f
+squid:S1068"9Replace this use of System.out or System.err by a logger.(‰½èHäRMAJORZ
+CODE_SMELL
+k
+squid:S106;"9Replace this use of System.out or System.err by a logger.(õĞÇÇüÿÿÿÿHåRMAJORZ
+CODE_SMELL
+k
+squid:S106P"9Replace this use of System.out or System.err by a logger.(¬êòàüÿÿÿÿHæRMAJORZ
+CODE_SMELL
+f
+squid:S106V"9Replace this use of System.out or System.err by a logger.(ÎÏª¢HçRMAJORZ
+CODE_SMELL
+f
+squid:S106a"9Replace this use of System.out or System.err by a logger.(‰½èHèRMAJORZ
+CODE_SMELL
+k
+squid:S106d"9Replace this use of System.out or System.err by a logger.(õĞÇÇüÿÿÿÿHéRMAJORZ
+CODE_SMELL
+f
+squid:S106u"9Replace this use of System.out or System.err by a logger.(«‘ßæHêRMAJORZ
+CODE_SMELL
+e
+squid:S106~"9Replace this use of System.out or System.err by a logger.( î±HëRMAJORZ
+CODE_SMELL
+g
+squid:S106„"9Replace this use of System.out or System.err by a logger.(÷½ø³HìRMAJORZ
+CODE_SMELL
+g
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(Ø§•‡HíRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ç´ÀüøÿÿÿÿHîRMAJORZ
+CODE_SMELL
+g
+squid:S106“"9Replace this use of System.out or System.err by a logger.(‰ÑíªHïRMAJORZ
+CODE_SMELL
+g
+squid:S106©"9Replace this use of System.out or System.err by a logger.(â‹şHğRMAJORZ
+CODE_SMELL
+l
+squid:S106«"9Replace this use of System.out or System.err by a logger.(”ßı¯şÿÿÿÿHñRMAJORZ
+CODE_SMELL
+g
+squid:S106­"9Replace this use of System.out or System.err by a logger.(Î”­ŒHòRMAJORZ
+CODE_SMELL
+g
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(ø°öæHóRMAJORZ
+CODE_SMELL
+g
+squid:S106±"9Replace this use of System.out or System.err by a logger.(®ˆÀĞHôRMAJORZ
+CODE_SMELL
+f
+squid:S106³"9Replace this use of System.out or System.err by a logger.(ÁíÁHõRMAJORZ
+CODE_SMELL
+g
+squid:S106µ"9Replace this use of System.out or System.err by a logger.(¹Ë¢ˆHöRMAJORZ
+CODE_SMELL
+l
+squid:S106À"9Replace this use of System.out or System.err by a logger.(ÁÁÌÿÿÿÿÿH÷RMAJORZ
+CODE_SMELL
+l
+squid:S106É"9Replace this use of System.out or System.err by a logger.(ÍĞüˆøÿÿÿÿHøRMAJORZ
+CODE_SMELL
+l
+squid:S106Ì"9Replace this use of System.out or System.err by a logger.(¸¨§îıÿÿÿÿHùRMAJORZ
+CODE_SMELL
+l
+squid:S106ã"9Replace this use of System.out or System.err by a logger.(µ×Ø¾ûÿÿÿÿHúRMAJORZ
+CODE_SMELL
+g
+squid:S106ê"9Replace this use of System.out or System.err by a logger.(ÄÕÎŠHûRMAJORZ
+CODE_SMELL
+g
+squid:S106í"9Replace this use of System.out or System.err by a logger.(ßï˜ÿHüRMAJORZ
+CODE_SMELL
+Wsquid:S1125-")Remove the literal "false" boolean value.(ûÅŸHıRMINORZ
+CODE_SMELL
+Xsquid:S1125ƒ")Remove the literal "false" boolean value.(ûÅŸHşRMINORZ
+CODE_SMELL
+dsquid:S1135>"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÿRINFOZ
+CODE_SMELL
+dsquid:S1135A"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH€RINFOZ
+CODE_SMELL
+ˆsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Öß¦ßşÿÿÿÿHRCRITICALZ
+CODE_SMELL
+ˆsquid:S3776l"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÜØ’ÓüÿÿÿÿH‚RCRITICALZ
+CODE_SMELL
+wsquid:S2147@"DCombine this catch with the one at line 61, which has the same body.(âÃƒŠıÿÿÿÿHƒRMINORZ
+CODE_SMELL
+Ysquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH„RMINORZVULNERABILITY
+Ysquid:S1148B"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH…RMINORZVULNERABILITY
+Ysquid:S1148h"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH†RMINORZVULNERABILITY
+Zsquid:S1148–"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‡RMINORZVULNERABILITY
+Zsquid:S1148Ï"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHˆRMINORZVULNERABILITY
+Zsquid:S1148ğ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‰RMINORZVULNERABILITY

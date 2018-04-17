@@ -18,7 +18,13 @@ app.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRo
   url         : '/readJson',
   templateUrl : 'templete/readData.html',
   controller  : 'jsonCtrl'
-});
+})
+
+.state("home.dashboard", {
+      url: "/dashboard",
+      templateUrl: "templete/Dashboard.html",
+      controller: "dashboardCtrl"
+    });
 
 
   $urlRouterProvider.otherwise('/login');

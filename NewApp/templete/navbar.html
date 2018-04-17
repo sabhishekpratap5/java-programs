@@ -1,14 +1,13 @@
-
-<md-toolbar>
-<div class="md-toolbar-tools">
-   <md-button ng-click="toggleLeft()" class="md-primary md-raised md-icon-button"  aria-label="sidebar">
-     <span><md-icon><i class="material-icons">menu</i></md-icon></span>
-   </md-button>
-   <h2>Single Page App Without A Framework</h2>
-   <span style="margin:0 0 0 64%;">
-   <md-button ng-click="sendLogin()" class="md-primary md-raised md-icon-button" aria-label="logout">
-   <span><md-icon><i class="material-icons">exit_to_app</i></md-icon></span>
-     </md-button>
-     </span>
- </div>
+<md-toolbar style="position:fixed;">
+  <div class="md-toolbar-tools">
+    <md-button ng-click="toggleLeft()" class="md-primary md-raised md-icon-button" aria-label="sidebar">
+      <span><md-icon><i class="material-icons">menu</i></md-icon></span>
+    </md-button>
+    <h2>Mobile App</h2>
+    <span flex></span>
+    <md-button ng-click="sendLogin()" class="md-primary md-raised" aria-label="logout">
+      <span>logout</span>
+    </md-button>
+    </span>
+  </div>
 </md-toolbar>

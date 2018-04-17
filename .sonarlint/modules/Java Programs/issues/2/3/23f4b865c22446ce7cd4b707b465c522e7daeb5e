@@ -1,0 +1,47 @@
+
+nsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(¾î˜H‘‰RMINORZ
+CODE_SMELL
+tsquid:S10754"ARefactor your code to get this URI from a customizable parameter.(Íºú§úÿÿÿÿH’‰RMINORZ
+CODE_SMELL
+tsquid:S1075S"ARefactor your code to get this URI from a customizable parameter.(òè†¥şÿÿÿÿH“‰RMINORZ
+CODE_SMELL
+tsquid:S1075q"ARefactor your code to get this URI from a customizable parameter.(Íºú§úÿÿÿÿH”‰RMINORZ
+CODE_SMELL
+Üsquid:S1192""ªDefine a constant instead of duplicating this literal "---------------------------------------------------------------------------------------------------------" 3 times.(Æ„ÿÈH•‰RCRITICALZ
+CODE_SMELL
+zsquid:S20955"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿH–‰RBLOCKERZBUG
+zsquid:S2095T"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿH—‰RBLOCKERZBUG
+zsquid:S2095r"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿH˜‰RBLOCKERZBUG
+zsquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿH™‰RBLOCKERZBUG
+f
+squid:S106!"9Replace this use of System.out or System.err by a logger.(„òåHš‰RMAJORZ
+CODE_SMELL
+f
+squid:S106""9Replace this use of System.out or System.err by a logger.(Æ„ÿÈH›‰RMAJORZ
+CODE_SMELL
+k
+squid:S106@"9Replace this use of System.out or System.err by a logger.(š¯ğ¥üÿÿÿÿHœ‰RMAJORZ
+CODE_SMELL
+f
+squid:S106A"9Replace this use of System.out or System.err by a logger.(Æ„ÿÈH‰RMAJORZ
+CODE_SMELL
+f
+squid:S106_"9Replace this use of System.out or System.err by a logger.(¸ÒÀôH‰RMAJORZ
+CODE_SMELL
+f
+squid:S106`"9Replace this use of System.out or System.err by a logger.(Æ„ÿÈHŸ‰RMAJORZ
+CODE_SMELL
+k
+squid:S106{"9Replace this use of System.out or System.err by a logger.(§İßàıÿÿÿÿH ‰RMAJORZ
+CODE_SMELL
+l
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(š¯ğ¥üÿÿÿÿH¡‰RMAJORZ
+CODE_SMELL
+\squid:S1905")Remove this unnecessary cast to "Doctor".(•ÏùãøÿÿÿÿH¢‰RMINORZ
+CODE_SMELL
+‰squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úÜŒŠH£‰RMINORZ
+CODE_SMELL
+Ysquid:S1148("#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¤‰RMINORZVULNERABILITY
+Ysquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¥‰RMINORZVULNERABILITY
+Ysquid:S1148f"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¦‰RMINORZVULNERABILITY
+Zsquid:S1148Š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH§‰RMINORZVULNERABILITY

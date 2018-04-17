@@ -11,7 +11,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
 
 
-public class AddImplementation implements Add {
+public class AddImplementation{
 	
 	Doctor doctor = new Doctor();
 	ArrayList<Patient> patientList =new ArrayList<>();
@@ -21,7 +21,7 @@ public class AddImplementation implements Add {
 	int patientId,patientAge,doctorId;
 	long patientContactNumber;
 	ObjectMapper objectmapper = new ObjectMapper();
-	@Override
+	
 	public Patient addPatient() 
 	{
 		Patient patient = new Patient();
@@ -61,7 +61,7 @@ public class AddImplementation implements Add {
 		return patient;
 	}
 
-	@Override
+
 	public void addDoctor() 
 	{
 		
@@ -103,7 +103,7 @@ public class AddImplementation implements Add {
 	
 	}
 
-	@Override
+	
 	public void takeAppoinment()
 	{	
 		File appoinmentFile = new File("/home/bridgeit/abhishek-workspace/Java Programs/src/com/bridgelabz/clinicManagement/appoinment.json");
@@ -115,6 +115,7 @@ public class AddImplementation implements Add {
 		{
 			TypeReference<ArrayList<Appoinment>> type = new TypeReference<ArrayList<Appoinment>>() {};
 			appoinmentList = objectmapper.readValue(arrayToJson1, type);
+			
 			
 		}
 		reader1.close();

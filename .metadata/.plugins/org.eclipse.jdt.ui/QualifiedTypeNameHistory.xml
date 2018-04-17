@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
 <fullyQualifiedTypeName name="com.bridgelab.utility.AddressBookUtility"/>
@@ -36,7 +34,6 @@
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Socket"/>
 <fullyQualifiedTypeName name="java.util.Observer"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Subject"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.awt.PointerInfo"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.Observer"/>
@@ -46,8 +43,6 @@
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ShoppingCartVisitor"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ShoppingCartVisitorImpl"/>
 <fullyQualifiedTypeName name="com.bridgelab.DesignPattern.ItemElement"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.lang.Compiler"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -58,6 +53,11 @@
 <fullyQualifiedTypeName name="com.bridgelabz.addressBook.AddressBookInterface"/>
 <fullyQualifiedTypeName name="org.codehaus.jackson.map.ObjectMapper"/>
 <fullyQualifiedTypeName name="com.bridgelab.utility.Utility"/>
-<fullyQualifiedTypeName name="com.bridgelabz.clinicManagement.Doctor"/>
 <fullyQualifiedTypeName name="com.bridgelabz.clinicManagement.Patient"/>
+<fullyQualifiedTypeName name="com.bridgelabz.clinicManagement.Doctor"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="Person"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

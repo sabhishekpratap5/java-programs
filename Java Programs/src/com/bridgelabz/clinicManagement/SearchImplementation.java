@@ -11,7 +11,7 @@ import org.codehaus.jackson.type.TypeReference;
 
 
 
-public class SearchImplementation implements Search
+public class SearchImplementation 
 {
 	
 	int mChoice=0;
@@ -84,7 +84,7 @@ public class SearchImplementation implements Search
 	}
 
 
-	@Override
+	
 	public void searchPatientByName() 
 	{
 		try
@@ -124,7 +124,7 @@ public class SearchImplementation implements Search
 		
 	}
 
-	@Override
+
 	public void searchPatientByContactNo() {
 		try
 		{
@@ -164,7 +164,7 @@ public class SearchImplementation implements Search
 		
 	}
 
-	@Override
+
 	public void searchPatientById() {
 		try
 		{
@@ -205,7 +205,7 @@ public class SearchImplementation implements Search
 		
 	}
 	
-	@Override
+	
 	public void searchDoctorByName() 
 	{	
 		try
@@ -242,7 +242,7 @@ public class SearchImplementation implements Search
 	
 	}
 
-	@Override
+	
 	public void searchDoctorById() {
 		try
 		{
@@ -281,7 +281,7 @@ public class SearchImplementation implements Search
 	
 	
 
-	@Override
+
 	public void searchDoctorBySpecialization() {
 		try
 		{
@@ -320,7 +320,7 @@ public class SearchImplementation implements Search
 	
 	
 
-	@Override
+
 	public void searchDoctorByAvailability() {
 		try
 		{

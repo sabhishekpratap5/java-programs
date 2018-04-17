@@ -1,0 +1,83 @@
+
+e
+squid:S106)"9Replace this use of System.out or System.err by a logger.(¹êüuHëˆRMAJORZ
+CODE_SMELL
+zsquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿHçˆRBLOCKERZBUG
+dsquid:S1135d"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHûˆRINFOZ
+CODE_SMELL
+Ysquid:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHşˆRMINORZVULNERABILITY
+^squid:S1659"0Declare "doctorAvailability" on a separate line.(¥£¼”HŞˆRMINORZ
+CODE_SMELL
+osquid:S1075m"ARefactor your code to get this URI from a customizable parameter.(«•û²HãˆRMINORZ
+CODE_SMELL
+{squid:S2095…"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿHåˆRBLOCKERZBUG
+f
+squid:S106,"9Replace this use of System.out or System.err by a logger.(¼œäêHìˆRMAJORZ
+CODE_SMELL
+zsquid:S2095G"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿHèˆRBLOCKERZBUG
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(’®Ş‘úÿÿÿÿHêˆRMAJORZ
+CODE_SMELL
+Ysquid:S1659"&Declare "doctorId" on a separate line.(Ë®Ã¾ùÿÿÿÿHàˆRMINORZ
+CODE_SMELL
+Ysquid:S1148e"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÿˆRMINORZVULNERABILITY
+f
+squid:S106b"9Replace this use of System.out or System.err by a logger.(¨ÈÊšHöˆRMAJORZ
+CODE_SMELL
+Vsquid:S1659"(Declare "doctorName" on a separate line.(¥£¼”HÜˆRMINORZ
+CODE_SMELL
+f
+squid:S106X"9Replace this use of System.out or System.err by a logger.(×Ü¨HóˆRMAJORZ
+CODE_SMELL
+nsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(¾î˜HáˆRMINORZ
+CODE_SMELL
+l
+squid:S106­"9Replace this use of System.out or System.err by a logger.(³ÓßğûÿÿÿÿH÷ˆRMAJORZ
+CODE_SMELL
+e
+squid:S1062"9Replace this use of System.out or System.err by a logger.(Éû¡]HîˆRMAJORZ
+CODE_SMELL
+tsquid:S2095p"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(úÜìHæˆRBLOCKERZBUG
+f
+squid:S106}"9Replace this use of System.out or System.err by a logger.(¡´˜®HùˆRMAJORZ
+CODE_SMELL
+nsquid:S1854z";Remove this useless assignment to local variable "patient".(’»ÈçüÿÿÿÿHüˆRMAJORZ
+CODE_SMELL
+[squid:S1659"(Declare "patientAge" on a separate line.(Ë®Ã¾ùÿÿÿÿHßˆRMINORZ
+CODE_SMELL
+f
+squid:S106€"9Replace this use of System.out or System.err by a logger.(òô“sHøˆRMAJORZ
+CODE_SMELL
+k
+squid:S106R"9Replace this use of System.out or System.err by a logger.(Á„ŠŒÿÿÿÿÿHñˆRMAJORZ
+CODE_SMELL
+`squid:S1659"2Declare "doctorSpecialization" on a separate line.(¥£¼”HİˆRMINORZ
+CODE_SMELL
+k
+squid:S106U"9Replace this use of System.out or System.err by a logger.(•ĞÎøşÿÿÿÿHòˆRMAJORZ
+CODE_SMELL
+Zsquid:S1148µ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH€‰RMINORZVULNERABILITY
+ssquid:HiddenFieldCheckQ":Rename "doctor" which hides the field declared at line 16.(š±öHúˆRMAJORZ
+CODE_SMELL
+tsquid:S1075F"ARefactor your code to get this URI from a customizable parameter.(Íºú§úÿÿÿÿHâˆRMINORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(Ô¿³õHéˆRMAJORZ
+CODE_SMELL
+k
+squid:S1068"9Replace this use of System.out or System.err by a logger.(¬ô—®ıÿÿÿÿHğˆRMAJORZ
+CODE_SMELL
+usquid:S1075„"ARefactor your code to get this URI from a customizable parameter.(Íºú§úÿÿÿÿHäˆRMINORZ
+CODE_SMELL
+k
+squid:S106["9Replace this use of System.out or System.err by a logger.(Ô¯˜ùÿÿÿÿHôˆRMAJORZ
+CODE_SMELL
+k
+squid:S106/"9Replace this use of System.out or System.err by a logger.(û•²ÅøÿÿÿÿHíˆRMAJORZ
+CODE_SMELL
+f
+squid:S106_"9Replace this use of System.out or System.err by a logger.(şõ±HõˆRMAJORZ
+CODE_SMELL
+f
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ßğä•HïˆRMAJORZ
+CODE_SMELL
+‰squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úÜŒŠHıˆRMINORZ
+CODE_SMELL

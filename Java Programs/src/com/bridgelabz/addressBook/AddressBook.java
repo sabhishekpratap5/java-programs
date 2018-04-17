@@ -4,11 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import java.util.Scanner;
 
 import com.bridgelab.utility.Utility;
 
-public class AddressBook implements AddressBookInterface
+public class AddressBook 
 {
 	Utility utility = new Utility();
 	
@@ -52,8 +51,7 @@ public class AddressBook implements AddressBookInterface
 		Person person = new Person();
 		Address address = new Address();
 		System.out.println("Enter the First name:");
-		String firstName = utility.inputString();
-		person.setFname(firstName);
+		person.setFname(utility.inputString());
 
 		System.out.println("Enter the Last name:");
 		String lastName = utility.inputString();
@@ -146,7 +144,7 @@ public class AddressBook implements AddressBookInterface
 	}
 
 	public void sortByName() {
-		@SuppressWarnings("unused")
+		
 		class SortByName implements Comparator<Person> {
 			@Override
 			public int compare(Person person1, Person person2) {

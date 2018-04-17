@@ -1,49 +1,47 @@
 <section layout="row">
-  <md-sidenav style="margin-top:4.0em;width:200px;position:fixed; z-index=1;" class="md-sidenav-left" md-component-id="left" md-disable-backdrop md-whiteframe="4">
-    <md-sidenav-layout>
-      <div layout="row" layout-wrap>
-        <div>
-          <fieldset class="standard">
-            <legend>Manufacturer </legend>
-            <md-checkbox md-no-ink ng-value="x" ng-repeat="x in jsonRecord | unique : 'specs.manufacturer'" ng-model="hasInk1" aria-label="No Ink Effects">
-              {{ x.specs.manufacturer+" " }}
+  <md-sidenav style="margin-top:4.0em;width:200px;position: fixed;z-index: 1;"
+   class="md-sidenav-left" md-component-id="left"  md-disable-backdrop md-whiteframe="4">
+    <md-content flex layout-padding>
+      <div flex="100" layout-align="center" layout="column">
+        <fieldset class="standard">
+          <legend>Manufacturer </legend>
+          <div ng-repeat="x in jsonRecord  | unique:'specs.manufacturer' | orderBy: 'specs.manufacturer'">
+            <md-checkbox md-no-ink ng-model="hasInk1" aria-label="No Ink Effects">
             </md-checkbox>
-          </fieldset>
-        </div>
-        <div layout="row" layout-wrap>
-          <div>
-            <fieldset class="standard">
-              <legend>Storage </legend>
-              <md-checkbox md-no-ink ng-value="x" ng-repeat="x in jsonRecord  | unique : 'specs.storage'" ng-model="hasInk1" aria-label="No Ink Effects">
-                {{ x.specs.storage+" " }}
-              </md-checkbox>
-            </fieldset>
+            {{ x.specs.manufacturer+" " }}
           </div>
-      </div>
+        </fieldset>
+        <div layout-padding></div>
+        <fieldset class="standard">
+          <legend>Storage </legend>
+          <div ng-repeat="x in jsonRecord| unique:'specs.storage'|orderBy: 'specs.storage'">
+            <md-checkbox md-no-ink ng-model="hasInk1" aria-label="No Ink Effects">
+              {{ x.specs.storage+" " }}
+            </md-checkbox>
 
-      <div layout="row" layout-wrap>
-        <div>
-          <fieldset class="standard">
-            <legend>OS </legend>
-            <md-checkbox md-no-ink ng-value="x" ng-repeat="x in jsonRecord | unique :'specs.os'" ng-model="hasInk1" aria-label="No Ink Effects">
+          </div>
+        </fieldset>
+        <div layout-padding></div>
+        <fieldset class="standard">
+          <legend>OS </legend>
+          <div ng-repeat="x in jsonRecord | unique :'specs.os' | orderBy : 'specs.os'">
+            <md-checkbox md-no-ink ng-model="hasInk1" aria-label="No Ink Effects">
               {{ x.specs.os+" " }}
             </md-checkbox>
-          </fieldset>
-        </div>
-    </div>
 
-    <div layout="row" layout-wrap>
-      <div>
+          </div>
+        </fieldset>
+        <div layout-padding></div>
         <fieldset class="standard">
-          <legend>Camera</legend>
-          <md-checkbox md-no-ink ng-value="x" ng-repeat="x in jsonRecord | unique:'specs.camera'" ng-model="hasInk1" aria-label="No Ink Effects">
-            {{ x.specs.camera+" " }}
-          </md-checkbox>
+          <legend>Camera </legend>
+          <div ng-repeat="x in jsonRecord | unique:'specs.camera' | orderBy:'specs.camera'">
+            <md-checkbox md-no-ink ng-model="hasInk1" aria-label="No Ink Effects">
+              {{ x.specs.camera+" " }}
+            </md-checkbox>
+          </div>
         </fieldset>
       </div>
-  </div>
-
-    </md-sidenav-layout>
   </md-sidenav>
+
 
 </section>

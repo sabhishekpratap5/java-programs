@@ -1,0 +1,25 @@
+
+Hsquid:S1220""Move this file to a named package.Hή‡RMINORZ
+CODE_SMELL
+rsquid:S1854"=Remove this useless assignment to local variable "arrayList".(Μπΰ 8Δυηπ¬,Hφ‡RMAJORZ
+CODE_SMELL
+€squid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(¨ΥΙ8―άπ¬,Hγ‡RMINORZ
+CODE_SMELL
+l
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(υ•αJ8―άπ¬,Hε‡RMAJORZ
+CODE_SMELL
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦Π ϊÿÿÿÿ8―άπ¬,Hζ‡RMAJORZ
+CODE_SMELL
+csquid:S1481".Remove this unused "arrayList" local variable.(Μπΰ 8Δυηπ¬,Hυ‡RMINORZ
+CODE_SMELL
+osquid:S1854":Remove this useless assignment to local variable "person".(‘‹ύΉ8―άπ¬,Hθ‡RMAJORZ
+CODE_SMELL
+usquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™”€ωÿÿÿÿ8Δυηπ¬,Hχ‡RMINORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Μπΰ 8―άπ¬,Hτ‡RMINORZ
+CODE_SMELL
+r
+squid:S106	"9Replace this use of System.out or System.err by a logger.(Θοφόÿÿÿÿ8―άπ¬,Hδ‡RMAJORZ
+CODE_SMELL

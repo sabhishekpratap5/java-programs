@@ -9,10 +9,10 @@ import java.util.Iterator;
 
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
-public class DisplayImplementation implements Display
+public class DisplayImplementation
 {
 	ObjectMapper objectMapper = new ObjectMapper();
-	@Override
+
 	public void patientList() {
 		ArrayList<Patient> patientList = new ArrayList<>();
 		Patient patient = new Patient();      
@@ -42,7 +42,7 @@ public class DisplayImplementation implements Display
 		
 	}
 
-	@Override
+
 	public void doctorList() 
 	{
 		ArrayList<Doctor> doctorList = new ArrayList<>();
@@ -73,7 +73,7 @@ public class DisplayImplementation implements Display
 		
 	}
 
-	@Override
+
 	public void appoinmentList()
 	{
 		ArrayList<Appoinment> appoinmentList = new ArrayList<>();
@@ -104,7 +104,6 @@ public class DisplayImplementation implements Display
 		
 	}
 
-	@Override
 	public void bestDoctorOfClinique() 
 	{
 		ArrayList<Doctor> doctorList = new ArrayList<>();

@@ -1,0 +1,40 @@
+<br>
+<div layout="row" layout-margin layout-padding>
+</div>
+<div layout="row">
+  <div flex>
+    <div>
+      <div layout="row" layout-xs="column" layout-wrap>
+        <div flex-gt-md="33" flex-sm='100' ng-repeat="x in values=(jsonRecord| commonString:arrManufacturer
+    :arrStorage:arrOs:arrCamera)">
+          <md-card>
+            <md-card-header>
+              <md-card-avatar>
+                <img class="md-user-avatar" src="{{x.image.small }}">
+              </md-card-avatar>
+              <md-card-header-text>
+                <span class="md-title"><b>{{ x.name+" "}}</b></span>
+              </md-card-header-text>
+            </md-card-header>
+            <img ng-src="{{x.image.small}}" class="md-card-image" alt="image caption">
+
+            <md-card-title>
+              <md-card-title-text>
+                <span>Manufacturer : {{ x.specs.manufacturer+" " }}</span>
+                <span>Storage:  {{ x.specs.storage+" " }}Gb</span>
+                <span>OS:  {{x.specs.os+" " }}</span>
+                <span>Camera : {{ x.specs.camera+" " }}Mpx</span>
+                <span>Price: $ {{x.price+" "}}</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="center center">
+              <md-button class="md-raised md-primary">Buy Now</md-button>
+              <md-button class="md-raised md-primary" ng-click='showDialog($event,x)'>View</md-button>
+
+            </md-card-actions>
+          </md-card>
+        </div>
+      </div>
+      <div flex>
+      </div>
+    </div>

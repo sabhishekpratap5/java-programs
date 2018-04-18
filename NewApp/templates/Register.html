@@ -1,0 +1,55 @@
+<div layout="row" layout-align="center center">
+  <center>
+    <md-card style="border;border-color:black;width:350px">
+      <md-toolbar>
+        <h2>Register</h2>
+      </md-toolbar>
+      <form name="userForm">
+
+        <md-input-container>
+          <label>First Name</label>
+          <input name="firstName" ng-model="firstName" required md-maxlength="10" minlength="4">
+          <div ng-messages="userForm.firstName.$error" ng-show="userForm.firstName.$dirty">
+            <div ng-message="required"></div>
+          </div>
+        </md-input-container>
+        <br>
+        <md-input-container>
+          <label>Last Name</label>
+          <input name="lastName" ng-model="lastName" required md-maxlength="10" minlength="4">
+          <div ng-messages="userForm.lastName.$error" ng-show="userForm.lastName.$dirty">
+            <div ng-message="required"></div>
+          </div>
+        </md-input-container>
+        <br>
+        <md-input-container>
+          <label>Email</label>
+          <input name="email" ng-model="email" required md-maxlength="25" minlength="10">
+          <div ng-messages="userForm.email.$error" ng-show="userForm.email.$dirty">
+            <div ng-message="required"></div>
+          </div>
+        </md-input-container>
+        <br>
+        <md-input-container>
+          <label>Password</label>
+          <input type="password" name="password" ng-model="password" required md-maxlength="15" minlength="4">
+          <div ng-messages="userForm.password.$error" ng-show="userForm.password.$dirty">
+            <div ng-message="required"></div>
+          </div>
+        </md-input-container>
+        <br>
+        <md-input-container>
+          <label>Contact No</label>
+          <input name="contact" ng-model="contact" required md-maxlength="12" minlength="10">
+          <div ng-messages="userForm.contact.$error" ng-show="userForm.contact.$dirty">
+            <div ng-message="required"></div>
+          </div>
+        </md-input-container>
+        <br>
+        <center>
+          <md-button ng-disabled="!userForm.$valid" class="md-primary md-raised signup_button" type="submit" ng-click="login()">Sign Up</md-button>
+        </center>
+      </form>
+    </md-card>
+  </center>
+</div>

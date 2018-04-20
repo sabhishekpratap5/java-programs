@@ -10,11 +10,7 @@
 var app = angular.module('myApp', ['ui.router', 'ngMaterial', 'angular.filter']);
 app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
   $stateProvider
-    .state('register', {
-      url: '/register',
-      templateUrl: 'templates/Register.html',
-      controller: 'registerController'
-    })
+
     .state('login', {
       url: '/login',
       templateUrl: 'templates/Login.html',

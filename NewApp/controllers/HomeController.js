@@ -1,9 +1,9 @@
 app.controller('homeCtrl', function($scope, $mdSidenav, $state, readJson,$filter) {
-  var data2;
-    var selectedManufacturer = [];
-    var selectedStorage = [];
-    var selectedOs = [];
-    var selectedCamera = [];
+
+    var manufacturer = [];
+    var storage = [];
+    var os = [];
+    var camera = [];
   $scope.toggleLeft = buildToggler('left');
   $scope.toggleRight = buildToggler('right');
 
@@ -26,52 +26,52 @@ app.controller('homeCtrl', function($scope, $mdSidenav, $state, readJson,$filter
   $scope.toggle = function(category,keyword) {
     switch (category) {
       case 'manufacturer':
-        var indexm = selectedManufacturer.indexOf(keyword);
+        var indexm = manufacturer.indexOf(keyword);
         if (indexm > -1) {
-          selectedManufacturer.splice(indexm, 1);
+          manufacturer.splice(indexm, 1);
         } else {
-          selectedManufacturer.push(keyword);
+          manufacturer.push(keyword);
         }
         break;
       case 'storage':
-        var indexs = selectedStorage.indexOf(keyword);
+        var indexs = storage.indexOf(keyword);
         if (indexs > -1) {
-          selectedStorage.splice(indexs, 1);
+          storage.splice(indexs, 1);
         } else {
-          selectedStorage.push(keyword);
+          storage.push(keyword);
         }
         break;
       case 'os':
-        var indexo = selectedOs.indexOf(keyword);
+        var indexo = os.indexOf(keyword);
         if (indexo > -1) {
-          selectedOs.splice(indexo, 1);
+          os.splice(indexo, 1);
         } else {
-          selectedOs.push(keyword);
+          os.push(keyword);
         }
         break;
       case 'camera':
-        var indexc = selectedCamera.indexOf(keyword);
+        var indexc = camera.indexOf(keyword);
         if (indexc > -1) {
-          selectedCamera.splice(indexc, 1);
+          camera.splice(indexc, 1);
         } else {
-          selectedCamera.push(keyword);
+          camera.push(keyword);
         }
         break;
     }
   };
-  $scope.arrManufacturer = selectedManufacturer;
-  $scope.arrStorage = selectedStorage;
-  $scope.arrOs = selectedOs;
-  $scope.arrCamera = selectedCamera;
+  $scope.arrManufacturer = manufacturer;
+  $scope.arrStorage = storage;
+  $scope.arrOs = os;
+  $scope.arrCamera = camera;
 
 });
-app.filter('commonString', function()
+app.filter('selectedString', function()
 {
   return function(x, arrManufacturer, arrStorage, arrOs, arrCamera) {
     var filtered = [];
     var temparr = [];
 
-    if (x != undefined) {
+    if (x !=0) {
 
       if (arrManufacturer.length > 0 || arrStorage.length > 0 || arrOs.length > 0 || arrCamera.length > 0) {
 
@@ -126,10 +126,10 @@ app.filter('commonString', function()
         }
 
         if (arrCamera.length > 0) {
-          for (var j = 0; j < temparr.length; j++) {
+          for (var j = 0; j <= temparr.length-1; j++) {
             var item = temparr[j];
 
-            for (var i = 0; i < arrCamera.length; i++) {
+            for (var i = 0; i <= arrCamera.length-1; i++) {
               var selectedItem = arrCamera[i];
               if (item.specs.manufacturer == selectedItem || item.specs.storage == selectedItem ||
                 item.specs.os == selectedItem || item.specs.camera == selectedItem) {

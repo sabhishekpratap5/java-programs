@@ -7,7 +7,7 @@
           <div ng-repeat="x in jsonRecord  | unique:'specs.manufacturer' | orderBy: 'specs.manufacturer'">
             <md-checkbox ng-click='toggle("manufacturer",x.specs.manufacturer)' aria-label="Manufacturer">
             </md-checkbox>
-            {{ x.specs.manufacturer+" " }}
+            {{ x.specs.manufacturer }}
           </div>
         </fieldset>
         <div layout-padding></div>
@@ -15,7 +15,7 @@
           <legend>Storage </legend>
           <div ng-repeat="x in jsonRecord| unique:'specs.storage'|orderBy: 'specs.storage'">
             <md-checkbox ng-click='toggle("storage",x.specs.storage)' aria-label="Storage">
-              {{ x.specs.storage+" " }}
+              {{ x.specs.storage }}
             </md-checkbox>
 
           </div>
@@ -26,7 +26,7 @@
           <div ng-repeat="x in jsonRecord | unique :'specs.os' | orderBy : 'specs.os'">
             <!-- <md-checkbox md-no-ink ng-model="hasInk1" aria-label="No Ink Effects"> -->
             <md-checkbox ng-click='toggle("os",x.specs.os)'  aria-label="OS">
-              {{ x.specs.os+" " }}
+              {{ x.specs.os }}
             </md-checkbox>
 
           </div>
@@ -36,7 +36,7 @@
           <legend>Camera </legend>
           <div ng-repeat="x in jsonRecord | unique:'specs.camera' | orderBy:'specs.camera'">
             <md-checkbox ng-click='toggle("camera",x.specs.camera)'  aria-label="Camera">
-              {{ x.specs.camera+" " }}
+              {{ x.specs.camera }}
             </md-checkbox>
           </div>
         </fieldset>

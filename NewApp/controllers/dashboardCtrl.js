@@ -2,7 +2,7 @@ app.controller('dashboardCtrl', function($scope, $mdDialog) {
   $scope.showDialog = function(clickEvent, item) {
     $mdDialog.show({
       locals: {
-        mobileData: item
+        data: item
       },
       controller: DialogController,
       templateUrl: 'templates/mobileDialog.html',
@@ -13,10 +13,15 @@ app.controller('dashboardCtrl', function($scope, $mdDialog) {
     });
   };
 
-  function DialogController($scope, $mdDialog, mobileData) {
-    $scope.mobileData = mobileData;
+  function DialogController($scope, $mdDialog, data) {
+    $scope.data = data;
     $scope.cancel = function() {
       $mdDialog.cancel();
     };
   }
+});
+app.config(function($mdThemingProvider) {
+  $mdThemingProvider.theme('dark-blue')
+    .backgroundPalette('blue').dark();
+
 });

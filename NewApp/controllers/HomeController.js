@@ -5,11 +5,20 @@ app.controller('homeCtrl', function($scope, $mdSidenav, $state, readJson,$filter
     var os = [];
     var camera = [];
   $scope.toggleLeft = buildToggler('left');
-  $scope.toggleRight = buildToggler('right');
+
 
   function buildToggler(componentId) {
     return function() {
       $mdSidenav(componentId).toggle();
+      var isOpen=$mdSidenav(componentId).isOpen();
+      if(isOpen)
+      {
+        document.getElementById('dashboard').style.marginLeft='200px';
+      }
+      else{
+        document.getElementById('dashboard').style.marginLeft='0px';
+
+      }
     };
   }
   $scope.sendLogin = function() {
@@ -23,39 +32,21 @@ app.controller('homeCtrl', function($scope, $mdSidenav, $state, readJson,$filter
 
   $state.go('home.dashboard');
 
+
+
   $scope.toggle = function(category,keyword) {
     switch (category) {
       case 'manufacturer':
-        var indexm = manufacturer.indexOf(keyword);
-        if (indexm > -1) {
-          manufacturer.splice(indexm, 1);
-        } else {
-          manufacturer.push(keyword);
-        }
+        switchCaseFunction(manufacturer,keyword)
         break;
       case 'storage':
-        var indexs = storage.indexOf(keyword);
-        if (indexs > -1) {
-          storage.splice(indexs, 1);
-        } else {
-          storage.push(keyword);
-        }
+        switchCaseFunction(storage,keyword)
         break;
       case 'os':
-        var indexo = os.indexOf(keyword);
-        if (indexo > -1) {
-          os.splice(indexo, 1);
-        } else {
-          os.push(keyword);
-        }
+        switchCaseFunction(os,keyword)
         break;
       case 'camera':
-        var indexc = camera.indexOf(keyword);
-        if (indexc > -1) {
-          camera.splice(indexc, 1);
-        } else {
-          camera.push(keyword);
-        }
+        switchCaseFunction(camera,keyword)
         break;
     }
   };
@@ -65,10 +56,20 @@ app.controller('homeCtrl', function($scope, $mdSidenav, $state, readJson,$filter
   $scope.arrCamera = camera;
 
 });
+switchCaseFunction=function(array,keyword)
+{
+  var indexm = array.indexOf(keyword);
+  if (indexm > -1) {
+    array.splice(indexm, 1);
+  } else {
+    array.push(keyword);
+  }
+}
+
 app.filter('selectedString', function()
 {
   return function(x, arrManufacturer, arrStorage, arrOs, arrCamera) {
-    var filtered = [];
+    var filter = [];
     var temparr = [];
 
     if (x !=0) {
@@ -82,13 +83,13 @@ app.filter('selectedString', function()
             var selectedItem = arrManufacturer[i];
             if (item.specs.manufacturer == selectedItem || item.specs.storage == selectedItem ||
               item.specs.os == selectedItem || item.specs.camera == selectedItem) {
-              filtered.push(item);
+              filter.push(item);
             }
           }
         }
-        if (filtered.length > 0) {
-          temparr = filtered;
-          filtered = [];
+        if (filter.length > 0) {
+          temparr = filter;
+          filter = [];
         } else {
           temparr = x;
         }
@@ -101,12 +102,12 @@ app.filter('selectedString', function()
               var selectedItem = arrStorage[i];
               if (item.specs.manufacturer == selectedItem || item.specs.storage == selectedItem ||
                 item.specs.os == selectedItem || item.specs.camera == selectedItem) {
-                filtered.push(item);
+                filter.push(item);
               }
             }
           }
-          temparr = filtered;
-          filtered = [];
+          temparr = filter;
+          filter = [];
         }
 
         if (arrOs.length > 0) {
@@ -117,12 +118,12 @@ app.filter('selectedString', function()
               var selectedItem = arrOs[i];
               if (item.specs.manufacturer == selectedItem || item.specs.storage == selectedItem ||
                 item.specs.os == selectedItem || item.specs.camera == selectedItem) {
-                filtered.push(item);
+                filter.push(item);
               }
             }
           }
-          temparr = filtered;
-          filtered = [];
+          temparr = filter;
+          filter = [];
         }
 
         if (arrCamera.length > 0) {
@@ -133,13 +134,13 @@ app.filter('selectedString', function()
               var selectedItem = arrCamera[i];
               if (item.specs.manufacturer == selectedItem || item.specs.storage == selectedItem ||
                 item.specs.os == selectedItem || item.specs.camera == selectedItem) {
-                filtered.push(item);
+                filter.push(item);
               }
             }
 
           }
-          temparr = filtered;
-          filtered = [];
+          temparr = filter;
+          filter = [];
         }
       } else {
         temparr = x;

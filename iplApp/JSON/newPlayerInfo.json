@@ -1,0 +1,2355 @@
+{
+    "Playersinfo":[
+        {
+           
+                
+                    "player_name":"Akhil Herwadkar",
+                    "player_img_url":"images/DelhiDareDevils/akhil_herwadkar.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"left_handed",
+                    "player_bowling_style":"Off-spin and medium pace",
+                    "player_nationality":"Indian",
+                    "player_dob":"31 October 1994",
+                    "team_id":"1"
+                
+            
+        },
+        {
+            
+                
+		                "player_name":"Amit Mishra",
+		                "player_img_url":"images/DelhiDareDevils/amit_mishra.png",
+		                "player_role":"Bowler",
+		                "player_batting_style":"Right-handed",
+		                "player_bowling_style":"Right-arm leg spin",
+		                "player_nationality":"Indian",
+		                "player_dob":"24 November 1982",
+		                "team_id":"1"
+             
+        },
+        {
+          
+                
+                    "player_name":"Carlos Barathwaite",
+                    "player_img_url":"images/DelhiDareDevils/carlos_brathwaite.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast-medium",
+                    "player_nationality":"West Indian",
+                    "player_dob":"18 July 1988",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Chama Milind",
+                    "player_img_url":"images/DelhiDareDevils/chama_milind.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"04 September 1994",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Imran Tahir",
+                    "player_img_url":"images/DelhiDareDevils/imran_tahir.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Leg-spinner",
+                    "player_nationality":"South African",
+                    "player_dob":"27 March 1979",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Jayant Yadav",
+                    "player_img_url":"images/DelhiDareDevils/jayant_yadav.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"22 January 1990",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"J P Duminy",
+                    "player_img_url":"images/DelhiDareDevils/jp_duminy.png",
+                    "player_role":"Batting All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"South African",
+                    "player_dob":"14 April 1984",
+                    "team_id":"1"
+             
+        },
+        {
+           
+                    "player_name":"Karun Nair",
+                    "player_img_url":"images/DelhiDareDevils/karun_nair.png",
+                    "player_role":"Batting All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"06 December 1991",
+                    "team_id":"1"
+             
+        },
+        {
+           
+                    "player_name":"Khaleel Ahemed",
+                    "player_img_url":"images/DelhiDareDevils/khaleel_ahmed.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm medium pace",
+                    "player_nationality":"Indian",
+                    "player_dob":"05 December 1997",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Mahipal Lomor",
+                    "player_img_url":"images/DelhiDareDevils/mahipal_lomror.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"16 November 1999",
+                    "team_id":"1"
+             
+        },
+        {
+           
+                    "player_name":"Mayank Agarwal",
+                    "player_img_url":"images/DelhiDareDevils/mayank_agarwal.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"18 February 1991",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Mohammed Shami",
+                    "player_img_url":"images/DelhiDareDevils/mohammed_shami.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"09 March 1990",
+                    "team_id":"1"
+            
+        },
+        {
+            
+                    "player_name":"Nathan Coulter-Nile",
+                    "player_img_url":"images/DelhiDareDevils/nathan_coulter_nile.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast",
+                    "player_nationality":"Australian",
+                    "player_dob":"11 October 1987",
+                    "team_id":"1"
+            
+        },
+        {
+            
+                    "player_name":"Pawan Negi",
+                    "player_img_url":"images/DelhiDareDevils/pawan_negi.png",
+                    "player_role":"Bowling All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"06 January 1983",
+                    "team_id":"1"
+            
+        },
+        {
+            
+                    "player_name":"Pawan Suyal",
+                    "player_img_url":"images/DelhiDareDevils/pawan_suyal.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"15 October 1989",
+                    "team_id":"1"
+             
+        },
+        {
+           
+                    "player_name":"Quinton de Kock",
+                    "player_img_url":"images/DelhiDareDevils/quinton_de_kock.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"South African",
+                    "player_dob":"17 December 1992",
+                    "team_id":"1"
+            
+        },
+        {
+            
+                    "player_name":"Pratyush Singh",
+                    "player_img_url":"images/DelhiDareDevils/pratyush_singh.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg-break",
+                    "player_nationality":"Indian",
+                    "player_dob":"04 September 1994",
+                    "team_id":"1"
+            
+        },
+        {
+            
+                    "player_name":"Rishabh Pant",
+                    "player_img_url":"images/DelhiDareDevils/rishabh_pant.png",
+                    "player_role":"Wicketkeeper-batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm leg-break",
+                    "player_nationality":"Indian",
+                    "player_dob":"04 October 1997",
+                    "team_id":"1"
+             
+        },
+        {
+           
+                    "player_name":"Sam Billings",
+                    "player_img_url":"images/DelhiDareDevils/sam_billings.png",
+                    "player_role":"Wicketkeeper Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"English",
+                    "player_dob":"15 June 1991",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Sanju Samson",
+                    "player_img_url":"images/DelhiDareDevils/sanju_samson.png",
+                    "player_role":"Wicketkeeper Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"11 November 1994",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Shahbaz Nadeem",
+                    "player_img_url":"images/DelhiDareDevils/shahbaz_nadeem.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"12 August 1989",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Shreyas Iyer",
+                    "player_img_url":"images/DelhiDareDevils/shreyas_iyer.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-break",
+                    "player_nationality":"Indian",
+                    "player_dob":"06 December 1994",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Zaheer Khan",
+                    "player_img_url":"images/DelhiDareDevils/zaheer_khan.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"07 October 1978",
+                    "team_id":"1"
+             
+        },
+        {
+            
+                    "player_name":"Virat Kohli",
+                    "player_img_url":"images/RoyalChallengersBangalore/virat_kohli.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"05 November 1988",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Varun Aaron",
+                    "player_img_url":"images/RoyalChallengersBangalore/varun_aaron.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"29 October 1989",
+                    "team_id":"7"
+             
+        },
+        {
+           
+                    "player_name":"Abu Nechim",
+                    "player_img_url":"images/RoyalChallengersBangalore/abu_nechim.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"05 November 1988",
+                    "team_id":"7"
+            
+        },
+        {
+            
+                    "player_name":"Sreenath Aravind",
+                    "player_img_url":"images/RoyalChallengersBangalore/sreenath_aravind.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"08 April 1984",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Samuel Badree",
+                    "player_img_url":"images/RoyalChallengersBangalore/samuel_badri.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"West Indian",
+                    "player_dob":"09 March 1981",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Stuart Binny",
+                    "player_img_url":"images/RoyalChallengersBangalore/stuart_binny.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"03 June 1984",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Yuzvendra Chahal",
+                    "player_img_url":"images/RoyalChallengersBangalore/yuzvendra_chahal.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"23 July 1990",
+                    "team_id":"7"
+             
+        },
+        {
+                    "player_name":"AB de Villiers",
+                    "player_img_url":"images/RoyalChallengersBangalore/ab_de_villiers.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"17 February 1984",
+                    "team_id":"7"
+             
+        },
+        {
+                    "player_name":"Praveen Dubey",
+                    "player_img_url":"images/RoyalChallengersBangalore/praveen_dubey.png",
+                    "player_role":"Bowling all-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"01 July 1993",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Chris Gayle",
+                    "player_img_url":"images/RoyalChallengersBangalore/chris_gayle.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"West Indian",
+                    "player_dob":"21 September 1979",
+                    "team_id":"7"
+            
+        },
+        {
+            
+                    "player_name":"Travis Head",
+                    "player_img_url":"images/RoyalChallengersBangalore/travis_head.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm off-break",
+                    "player_nationality":"Australian",
+                    "player_dob":"29 December 1993",
+                    "team_id":"7"
+             
+        },
+        {
+           
+                    "player_name":"Iqbal Abdulla",
+                    "player_img_url":"images/RoyalChallengersBangalore/iqbal_abdulla.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"02 December 1989",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Kedar Jadhav",
+                    "player_img_url":"images/RoyalChallengersBangalore/kedar_jadhav.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"26 March 1985",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Akshay Karnewar",
+                    "player_img_url":"images/RoyalChallengersBangalore/akshay_karnewar.png",
+                    "player_role":"Bowling",
+                    "player_batting_style":"-",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"12 October 1992",
+                    "team_id":"7"
+             
+        },
+        {
+                     "player_name":"Sarfaraz Khan",
+                    "player_img_url":"images/RoyalChallengersBangalore/sarfaraz_khan.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-hand",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"22 October 1997",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Vikramjeet Malik",
+                    "player_img_url":"images/RoyalChallengersBangalore/vikramjeet_malik.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"09 May 1983",
+                    "team_id":"7"
+             
+        },
+        {
+                     "player_name":"Mandeep Singh",
+                    "player_img_url":"images/RoyalChallengersBangalore/mandeep_singh.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"18 December 1991",
+                    "team_id":"7"
+             
+        },
+        {
+                    "player_name":"Adam Milne",
+                    "player_img_url":"images/RoyalChallengersBangalore/adam_milne.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"13 April 1992",
+                    "team_id":"7"
+             
+        },
+        {
+                    "player_name":"Harshal Patel",
+                    "player_img_url":"images/RoyalChallengersBangalore/harshal_patel.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"23 November 1990",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Lokesh Rahul",
+                    "player_img_url":"images/RoyalChallengersBangalore/lokesh_rahul.png",
+                    "player_role":"Wicketkeeper Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"18 April 1992",
+                    "team_id":"7"
+             
+        },
+        {
+               "player_name":"Parveez Rasool",
+                    "player_img_url":"images/RoyalChallengersBangalore/parveez_rasool.png",
+                    "player_role":"Bowling All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"13 February 1989",
+                    "team_id":"7"
+            
+        },
+        {
+            
+                    "player_name":"Kane Richardson",
+                    "player_img_url":"images/RoyalChallengersBangalore/kane_richardson.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Australian",
+                    "player_dob":"12 February 1991",
+                    "team_id":"7"
+            
+        },
+        {
+           
+                    "player_name":"Sachin Baby",
+                    "player_img_url":"images/RoyalChallengersBangalore/sachin_baby.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"18 December 1988",
+                    "team_id":"7"
+            
+        },
+        {
+            
+                    "player_name":"Mitchell Starc",
+                    "player_img_url":"images/RoyalChallengersBangalore/mitchell_starc.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm fast-medium",
+                    "player_nationality":"Australian",
+                    "player_dob":"30 January 1990",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Vikas Tokas",
+                    "player_img_url":"images/RoyalChallengersBangalore/vikas_tokas.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"16 October 1986",
+                    "team_id":"7"
+            
+        },
+        {
+                "player_name":"Shane Watson",
+                    "player_img_url":"images/RoyalChallengersBangalore/shane_watson.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Australian",
+                    "player_dob":"17 June 1981",
+                    "team_id":"7"
+              
+        },
+        {
+            
+                    "player_name":"David Wiese",
+                    "player_img_url":"images/RoyalChallengersBangalore/david_wiese.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-hand",
+                    "player_bowling_style":"Right-arm medium-fast",
+                    "player_nationality":"South African",
+                    "player_dob":"18 May 1985",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"Tabraiz Shamsi",
+                    "player_img_url":"images/RoyalChallengersBangalore/travis_head.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"-",
+                    "player_bowling_style":"Left-Arm Chinaman",
+                    "player_nationality":"South African",
+                    "player_dob":"18 February 1990",
+                    "team_id":"7"
+             
+        },
+        {
+            
+                    "player_name":"MS Dhoni",
+                    "player_img_url":"images/RisingPuneSuperGiants/m_s_dhoni.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"07 July 1981",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Ankit Sharma",
+                    "player_img_url":"images/RisingPuneSuperGiants/ankit_sharma.png",
+                    "player_role":"Bowling All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"20 April 1991",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Baba Aparajith",
+                    "player_img_url":"images/RisingPuneSuperGiants/baba_aparajith.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm offbreak",
+                    "player_nationality":"Indian",
+                    "player_dob":"08 July 1994",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Ravichandran Ashwin",
+                    "player_img_url":"images/RisingPuneSuperGiants/ravichandran_ashwin.png",
+                    "player_role":"Bowling All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"17 September 1986",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Murugan Ashwin",
+                    "player_img_url":"images/RisingPuneSuperGiants/murugan_ashwin.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Legbreak googly",
+                    "player_nationality":"Indian",
+                    "player_dob":"08 September 1990",
+                    "team_id":"6"
+              
+        },
+        {
+            
+                    "player_name":"Ankush Bains",
+                    "player_img_url":"images/RisingPuneSuperGiants/ankush_bains.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"16 December 1995",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Rajat Bhatia",
+                    "player_img_url":"images/RisingPuneSuperGiants/rajat_bhatia.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"22 October 1979",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Scott Boland",
+                    "player_img_url":"images/RisingPuneSuperGiants/scott_boland.png",
+                    "player_role":"Batting",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast-medium",
+                    "player_nationality":"Australian",
+                    "player_dob":"11 April 1989",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Deepak Chahar",
+                    "player_img_url":"images/RisingPuneSuperGiants/deepak_chahar.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"07 August 1992",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Ashok Dinda",
+                    "player_img_url":"images/RisingPuneSuperGiants/ashok_dinda.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"25 March 1984",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Francois du Plessis",
+                    "player_img_url":"images/RisingPuneSuperGiants/francois_du_plessis.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"South African",
+                    "player_dob":"13 July 1984",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Peter Handscomb",
+                    "player_img_url":"images/RisingPuneSuperGiants/peter_handscomb.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Australian",
+                    "player_dob":"26 April 1991",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Jaskaran Singh",
+                    "player_img_url":"images/RisingPuneSuperGiants/jaskaran_singh.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"04 September 1989",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Mitchell Marsh",
+                    "player_img_url":"images/RisingPuneSuperGiants/mitchell_marsh.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Australian",
+                    "player_dob":"20 October 1991",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Albie Morkel",
+                    "player_img_url":"images/RisingPuneSuperGiants/albie_morkel.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"South African",
+                    "player_dob":"10 June 1981",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Ishwar Pandey",
+                    "player_img_url":"images/RisingPuneSuperGiants/ishwar_pandey.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"15 August 1989",
+                    "team_id":"6"
+                
+        },
+        {
+            
+                    "player_name":"Irfan Pathan",
+                    "player_img_url":"images/RisingPuneSuperGiants/irfan_pathan.png",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"27 October 1984",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Thisara Perera",
+                    "player_img_url":"images/RisingPuneSuperGiants/thisara_perera.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Sri Lankan",
+                    "player_dob":"03 April 1989",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Kevin Pietersen",
+                    "player_img_url":"images/RisingPuneSuperGiants/kevin_pietersen.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"English",
+                    "player_dob":"27 June 1980",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Ajinkya Rahane",
+                    "player_img_url":"images/RisingPuneSuperGiants/ajinkya_rahane.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"06 June 1988",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Ishant Sharma",
+                    "player_img_url":"images/RisingPuneSuperGiants/ishant_sharma.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"02 September 1988",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"RP Singh",
+                    "player_img_url":"images/RisingPuneSuperGiants/r_p_singh.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"06 December 1985",
+                    "team_id":"6"
+            
+        },
+        {
+            
+                    "player_name":"Steve Smith",
+                    "player_img_url":"images/RisingPuneSuperGiants/steve_smith.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Australian",
+                    "player_dob":"02 June 1989",
+                    "team_id":"6"
+             
+        },
+        {
+           
+                    "player_name":"Saurabh Tiwary",
+                    "player_img_url":"images/RisingPuneSuperGiants/saurabh_tiwary.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"30 December 1989",
+                    "team_id":"6"
+             
+        },
+        {
+               "player_name":"Adam Zampa",
+                    "player_img_url":"images/RisingPuneSuperGiants/adam_zampa.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Legbreak googly",
+                    "player_nationality":"Australian",
+                    "player_dob":"31 March 1992",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Usman Khawaja",
+                    "player_img_url":"images/RisingPuneSuperGiants/usman_khawaja.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Australian",
+                    "player_dob":"18 December 1986",
+                    "team_id":"6"
+              
+        },
+        {
+            
+                    "player_name":"George Bailey",
+                    "player_img_url":"images/RisingPuneSuperGiants/george_bailey.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Australian",
+                    "player_dob":"07 September 1982",
+                    "team_id":"6"
+             
+        },
+        {
+            
+                    "player_name":"Suresh Raina",
+                    "player_img_url":"images/GujratLions/suresh_raina.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"left_handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"27 November 1986",
+                    "team_id":"2"
+             
+        },
+        {
+           
+                    "player_name":"Aaron Finch",
+                    "player_img_url":"images/GujratLions/aaron_finch.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm medium",
+                    "player_nationality":"Australian",
+                    "player_dob":"17 November 1986",
+                    "team_id":"2"
+             
+        },
+        {
+                    "player_name":"Akshdeep Nath",
+                    "player_img_url":"images/GujratLions/akshdeep_nath.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium-fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"10 May 1993",
+                    "team_id":"2"
+             
+        },
+        {
+                    "player_name":"A Mishra",
+                    "player_img_url":"images/GujratLions/a_mishra.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"11 November 1991",
+                    "team_id":"2"
+             
+        },
+        {
+            
+                    "player_name":"Andrew Tye",
+                    "player_img_url":"images/GujratLions/andrew_tye.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Australian",
+                    "player_dob":"12 December 1986",
+                    "team_id":"2"
+              
+        },
+        {
+            
+                    "player_name":"Brendon MacCullum",
+                    "player_img_url":"images/GujratLions/brendon_mcCullum.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"27 September 1981",
+                    "team_id":"2"
+             
+        },
+        {
+              "player_name":"Dale Steyn",
+                    "player_img_url":"images/GujratLions/dale_steyn.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast",
+                    "player_nationality":"South African",
+                    "player_dob":"27 June 1983",
+                    "team_id":"2"
+             
+        },
+        {
+            
+                    "player_name":"Dhawal Kulkarni",
+                    "player_img_url":"images/GujratLions/dhawal_kulkarni.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"10 December 1988",
+                    "team_id":"2"
+             
+        },
+        {
+            
+                    "player_name":"Dinesh Karthik",
+                    "player_img_url":"images/GujratLions/dinesh_karthik.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"01 June 1985",
+                    "team_id":"2"
+             
+        },
+        {
+            
+                    "player_name":"Dwayne Bravo",
+                    "player_img_url":"images/GujratLions/dwayne_bravo.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"All-rounder",
+                    "player_bowling_style":"All-rounder",
+                    "player_nationality":"West Indian",
+                    "player_dob":"07 October 1983",
+                    "team_id":"2"
+             
+        },
+        {
+            
+                    "player_name":"Dwayne Smith",
+                    "player_img_url":"images/GujratLions/dwayne_smith.png",
+                    "player_role":"Batting All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"West Indian",
+                    "player_dob":"12 April 1983",
+                    "team_id":"2"
+            
+        },
+        {
+            
+                    "player_name":"Eklavya Dwivedi",
+                    "player_img_url":"images/GujratLions/eklavya_dwivedi.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"22 July 1988",
+                    "team_id":"2"
+             
+        },
+        {
+            
+                    "player_name":"Ishan Kishan",
+                    "player_img_url":"images/GujratLions/ishan_kishan.png",
+                    "player_role":"-",
+                    "player_batting_style":"-",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"18 July 1998",
+                    "team_id":"2"
+             
+        },
+        {
+               "player_name":"James Faulkener",
+                    "player_img_url":"images/GujratLions/james_faulkner.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"All-rounder",
+                    "player_bowling_style":"All-rounder",
+                    "player_nationality":"Australian",
+                    "player_dob":"29 April 1990",
+                    "team_id":"2"
+             
+        },
+        {
+               "player_name":"Jaydev Shah",
+                    "player_img_url":"images/GujratLions/jaydev_shah.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"04 May 1983",
+                    "team_id":"2"
+            
+        },
+        {
+                 "player_name":"Paras Dogra",
+                    "player_img_url":"images/GujratLions/paras_dogra.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"19 November 1984",
+                    "team_id":"2"
+             
+        },
+        {
+            
+                    "player_name":"Pradeep Sangwan",
+                    "player_img_url":"images/GujratLions/pradeep_sangwan.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"05 November 1990",
+                    "team_id":"2"
+             
+        },
+        {
+           
+                    "player_name":"Praveen Kumar",
+                    "player_img_url":"images/GujratLions/praveen_kumar.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"02 October 1986",
+                    "team_id":"2"
+               
+        },
+        {
+           
+                    "player_name":"Pravin Tambe",
+                    "player_img_url":"images/GujratLions/pravin_tambe.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"08 October 1971",
+                    "team_id":"2"
+              
+        },
+        {
+           
+                    "player_name":"Ravindra Jadeja",
+                    "player_img_url":"images/GujratLions/ravindra_jadeja.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"06 December 1988",
+                    "team_id":"2"
+               
+        },
+        {
+            
+                    "player_name":"Sarabjit Ladda",
+                    "player_img_url":"images/GujratLions/sarabjit_ladda.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"10 July 1986",
+                    "team_id":"2"
+               
+        },
+        {
+            
+                    "player_name":"Shadab Jakati",
+                    "player_img_url":"images/GujratLions/shadab_jakati.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"27 November 1980",
+                    "team_id":"2"
+              
+        },
+        {
+            
+                    "player_name":"Shivil Kaushik",
+                    "player_img_url":"images/GujratLions/shivil_kaushik.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"09 July 1995",
+                    "team_id":"2"
+              
+        },
+        {
+            
+                    "player_name":"Umang Sharma",
+                    "player_img_url":"images/GujratLions/umang_sharma.png",
+                    "player_role":"-",
+                    "player_batting_style":"-",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"20 October 1989",
+                    "team_id":"2"
+              
+        },
+        {
+            
+                    "player_name":"Murali Vijay",
+                    "player_img_url":"images/KingsXIPunjab/murali_vijay.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"01 April 1984",
+                    "team_id":"3"
+              
+        },
+        {
+           
+                    "player_name":"David Miller",
+                    "player_img_url":"images/KingsXIPunjab/david_miller.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"South African",
+                    "player_dob":"10 June 1989",
+                    "team_id":"3"
+              
+        },
+        {
+           
+                    "player_name":"Kyle Abbott",
+                    "player_img_url":"images/KingsXIPunjab/kyle_abbott.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"South African",
+                    "player_dob":"18 June 1987",
+                    "team_id":"3"
+              
+        },
+        {
+            
+                    "player_name":"Anureet Singh",
+                    "player_img_url":"images/KingsXIPunjab/anureet_singh.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"26 February 1982",
+                    "team_id":"3"
+               
+        },
+        {
+            
+                    "player_name":"Armaan Jaffer",
+                    "player_img_url":"images/KingsXIPunjab/armaan_jaffer.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"25 October 1998",
+                    "team_id":"3"
+            
+        },
+        {
+           
+                    "player_name":"Farhaan Behardien",
+                    "player_img_url":"images/KingsXIPunjab/armaan_jaffer.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast-medium",
+                    "player_nationality":"South African",
+                    "player_dob":"09 October 1983",
+                    "team_id":"3"
+             
+        },
+        {
+           
+                    "player_name":"KC Cariappa",
+                    "player_img_url":"images/KingsXIPunjab/k_c_cariappa.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Leg-break",
+                    "player_nationality":"Indian",
+                    "player_dob":"13 April 1994",
+                    "team_id":"3"
+              
+        },
+        {
+                    "player_name":"Rishi Dhawan",
+                    "player_img_url":"images/KingsXIPunjab/rishi_dhawan.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"19 February 1990",
+                    "team_id":"3"
+                
+        },
+        {
+            
+                    "player_name":"Gurkeerat Mann Singh",
+                    "player_img_url":"images/KingsXIPunjab/gurkeerat_mannSingh.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"29 June 1990",
+                    "team_id":"3"
+               
+        },
+        {
+            
+                    "player_name":"Mitchell Johnson",
+                    "player_img_url":"images/KingsXIPunjab/mitchell_johnson.png",
+                    "player_role":"Bowling All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm fast",
+                    "player_nationality":"Australian",
+                    "player_dob":"02 November 1981",
+                    "team_id":"3"
+              
+        },
+        {
+            
+                    "player_name":"Shaun Marsh",
+                    "player_img_url":"images/KingsXIPunjab/shaun_marsh.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Australian",
+                    "player_dob":"09 July 1983",
+                    "team_id":"3"
+                
+        },
+        {
+            
+                    "player_name":"Glenn Maxwell",
+                    "player_img_url":"images/KingsXIPunjab/glenn_maxwell.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Australian",
+                    "player_dob":"14 October 1988",
+                    "team_id":"3"
+              
+        },
+        {
+            
+                    "player_name":"Nikhil Naik",
+                    "player_img_url":"images/KingsXIPunjab/nikhil_naik.png",
+                    "player_role":"Wicketkeeper-batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"09 November 1994",
+                    "team_id":"3"
+               
+        },
+        {
+            
+                    "player_name":"Axar Patel",
+                    "player_img_url":"images/KingsXIPunjab/axar_patel.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"20 January 1994",
+                    "team_id":"3"
+               
+        },
+        {
+            
+                    "player_name":"Wriddhiman Saha",
+                    "player_img_url":"images/KingsXIPunjab/wriddhiman_saha.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"24 October 1984",
+                    "team_id":"3"
+                
+        },
+        {
+            
+                    "player_name":"Pradeep Sahu",
+                    "player_img_url":"images/KingsXIPunjab/pardeep_sahu.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Leg-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"21 August 1985",
+                    "team_id":"3"
+               
+        },
+        {
+            
+                    "player_name":"Sandeep Sharma",
+                    "player_img_url":"images/KingsXIPunjab/sandeep_sharma.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"18 May 1993",
+                    "team_id":"3"
+             
+        },
+        {
+            
+                    "player_name":"Mohit Sharma",
+                    "player_img_url":"images/KingsXIPunjab/mohit_sharma.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"19 December 1991",
+                    "team_id":"3"
+               
+        },
+        {
+            
+                    "player_name":"Marcus Stonis",
+                    "player_img_url":"images/KingsXIPunjab/marcus_stoinis.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium-fast",
+                    "player_nationality":"Australian",
+                    "player_dob":"16 August 1989",
+                    "team_id":"3"
+               
+        },
+        {
+           
+                    "player_name":"Swapnil Singh",
+                    "player_img_url":"images/KingsXIPunjab/swapnil_singh.png",
+                    "player_role":"Bowling all-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"22 January 1991",
+                    "team_id":"3"
+               
+        },
+        {
+           
+                    "player_name":"Shardul Thakur",
+                    "player_img_url":"images/KingsXIPunjab/shardul_thakur.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"16 October 1991",
+                    "team_id":"3"
+               
+        },
+        {
+           
+                    "player_name":"Manan Vohra",
+                    "player_img_url":"images/KingsXIPunjab/manan_vohra.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"18 July 1993",
+                    "team_id":"3"
+               
+        },
+        {
+           
+                    "player_name":"Rohit Sharma",
+                    "player_img_url":"images/MumbaiIndians/rohit_sharma.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"30 April 1987",
+                    "team_id":"5"
+               
+        },
+        {
+           
+                    "player_name":"Akshay Wakhare",
+                    "player_img_url":"images/MumbaiIndians/akshay_wakhare.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-break",
+                    "player_nationality":"Indian",
+                    "player_dob":"03 October 1985",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Ambati Rayudu",
+                    "player_img_url":"images/MumbaiIndians/ambati_rayudu.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"23 September 1985",
+                    "team_id":"5"
+              
+        },
+        {
+            
+                    "player_name":"Corey Anderson",
+                    "player_img_url":"images/MumbaiIndians/corey_anderson.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm medium fast",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"13 December 1990",
+                    "team_id":"5"
+              
+        },
+        {
+            
+                    "player_name":"Deepak Punia",
+                    "player_img_url":"images/MumbaiIndians/deepak_punia.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"27 September 1993",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Harbhajan Singh",
+                    "player_img_url":"images/MumbaiIndians/harbhajan_singh.png",
+                    "player_role":"Bowling All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"03 July 1980",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Hardik Pandya",
+                    "player_img_url":"images/MumbaiIndians/hardik_pandya.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-hand",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"11 October 1993",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Jagadeesha Suchith",
+                    "player_img_url":"images/MumbaiIndians/jagadeesha_suchith.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-hand",
+                    "player_bowling_style":"Slow left-arm orthodox",
+                    "player_nationality":"Indian",
+                    "player_dob":"16 January 1994",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Jasprit Bumrah",
+                    "player_img_url":"images/MumbaiIndians/jasprit_bumrah.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"06 December 1993",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Jitesh Sharma",
+                    "player_img_url":"images/MumbaiIndians/jitesh_sharma.png",
+                    "player_role":"Wicketkeeper-batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"22 October 1993",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Jerome Taylor",
+                    "player_img_url":"images/MumbaiIndians/jerome_taylor.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast",
+                    "player_nationality":"West Indian",
+                    "player_dob":"22 June 1984",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Jos Buttler",
+                    "player_img_url":"images/MumbaiIndians/jos_buttler.png",
+                    "player_role":"Wicketkeeper-batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"English",
+                    "player_dob":"08 September 1990",
+                    "team_id":"5"
+                
+        },
+        {
+           
+                    "player_name":"Kieron Pollard",
+                    "player_img_url":"images/MumbaiIndians/kieron_pollard.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"West Indian",
+                    "player_dob":"12 May 1987",
+                    "team_id":"5"
+                
+        },
+        {
+            
+                    "player_name":"Kishore Kamath",
+                    "player_img_url":"images/MumbaiIndians/kishore_kamath.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"31 January 1995",
+                    "team_id":"5"
+               
+        },
+        {
+           
+                    "player_name":"Krunal Pandya",
+                    "player_img_url":"images/MumbaiIndians/krunal_pandya.png",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox",
+                    "player_nationality":"Indian",
+                    "player_dob":"24 March 1991",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Lasith Malinga",
+                    "player_img_url":"images/MumbaiIndians/lasith_malinga.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast",
+                    "player_nationality":"Sri Lankan",
+                    "player_dob":"28 August 1983",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                
+                    "player_name":"Lendl Simmons",
+                    "player_img_url":"images/MumbaiIndians/lendl_simmons.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium-fast",
+                    "player_nationality":"West Indian",
+                    "player_dob":"25 January 1985",
+                    "team_id":"5"
+                
+        },
+        {
+            
+                    "player_name":"Marchant de Lange",
+                    "player_img_url":"images/MumbaiIndians/marchant_de_lange.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"South African",
+                    "player_dob":"13 October 1990",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Mitchell McClenaghan",
+                    "player_img_url":"images/MumbaiIndians/mitchell_mcclenaghan.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm medium-fast",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"11 June 1986",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Martin Guptill",
+                    "player_img_url":"images/MumbaiIndians/martin_guptill.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm medium-fast",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"11 June 1986",
+                    "team_id":"5"
+               
+        },
+        {
+           
+                    "player_name":"Nathu Singh",
+                    "player_img_url":"images/MumbaiIndians/nathu_singh.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"-",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"12 August 1989",
+                    "team_id":"5"
+                
+        },
+        {
+            
+                    "player_name":"Nitish Rana",
+                    "player_img_url":"images/MumbaiIndians/nitish_rana.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm off-break",
+                    "player_nationality":"Indian",
+                    "player_dob":"27 December 1993",
+                    "team_id":"5"
+                
+        },
+        {
+            
+                    "player_name":"Parthiv Patel",
+                    "player_img_url":"images/MumbaiIndians/parthiv_patel.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"09 March 1985",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Shreyas Gopal",
+                    "player_img_url":"images/MumbaiIndians/shreyas_gopal.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"04 September 1993",
+                    "team_id":"5"
+               
+        },
+        {
+           
+                    "player_name":"Siddhesh Lad",
+                    "player_img_url":"images/MumbaiIndians/siddhesh_lad.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"RIght-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"23 May 1992",
+                    "team_id":"5"
+               
+        },
+        {
+           
+                    "player_name":"Tim Southee",
+                    "player_img_url":"images/MumbaiIndians/tim_southee.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"11 December 1988",
+                    "team_id":"5"
+              
+        },
+        {
+            
+                    "player_name":"Unmukt Chand",
+                    "player_img_url":"images/MumbaiIndians/unmukt_chand.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"26 March 1993",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"Vinay Kumar",
+                    "player_img_url":"images/MumbaiIndians/vinay_kumar.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"12 February 1984",
+                    "team_id":"5"
+               
+        },
+        {
+            
+                    "player_name":"David Warner",
+                    "player_img_url":"images/SunRisersHyderabad/david_warner.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Australian",
+                    "player_dob":"27 October 1986",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Ashish Reddy",
+                    "player_img_url":"images/SunRisersHyderabad/ashish_reddy.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"24 February 1981",
+                    "team_id":"8"
+              
+        },
+        {
+            
+                    "player_name":"Ricky Bhui",
+                    "player_img_url":"images/SunRisersHyderabad/ricky_bhui.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"29 September 1996",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Bipul Sharma",
+                    "player_img_url":"images/SunRisersHyderabad/bipul_sharma.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"28 September 1983",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Trent Boult",
+                    "player_img_url":"images/SunRisersHyderabad/trent_boult.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-hand",
+                    "player_bowling_style":"Left-arm fast-medium",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"22 July 1989",
+                    "team_id":"8"
+                
+        },
+        {
+            
+                    "player_name":"Ben Cutting",
+                    "player_img_url":"images/SunRisersHyderabad/ben_cutting.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast-medium",
+                    "player_nationality":"Australian",
+                    "player_dob":"30 January 1987",
+                    "team_id":"8"
+                
+        },
+        {
+            
+                    "player_name":"Shikhar Dhawan",
+                    "player_img_url":"images/SunRisersHyderabad/shikhar_dhawan.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"05 December 1985",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Moises Henriques",
+                    "player_img_url":"images/SunRisersHyderabad/moises_henriques.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Australian",
+                    "player_dob":"01 February 1987",
+                    "team_id":"8"
+              
+        },
+        {
+            
+                    "player_name":"Deepak Hooda",
+                    "player_img_url":"images/SunRisersHyderabad/deepak_hooda.png",
+                    "player_role":"Bowling All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"19 April 1995",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Siddarth Kaul",
+                    "player_img_url":"images/SunRisersHyderabad/siddarth_kaul.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"19 May 1990",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Bhuvneshwar Kumar",
+                    "player_img_url":"images/SunRisersHyderabad/bhuvneshwar_kumar.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"05 December 1990",
+                    "team_id":"8"
+               
+        },
+        {
+           
+                    "player_name":"Abhimanyu Mithun",
+                    "player_img_url":"images/SunRisersHyderabad/abhimanyu_mithun.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"25 October 1989",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Eoin Morgan",
+                    "player_img_url":"images/SunRisersHyderabad/eoin_morgan.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"English",
+                    "player_dob":"10 September 1986",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Mustafizur Rahman",
+                    "player_img_url":"images/SunRisersHyderabad/mustafizur_rahman.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm fast",
+                    "player_nationality":"Bangladeshi",
+                    "player_dob":"06 September 1995",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Ashish Nehra",
+                    "player_img_url":"images/SunRisersHyderabad/ashish_nehra.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"29 April 1979",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Naman Ojha",
+                    "player_img_url":"images/SunRisersHyderabad/naman_ojha.png",
+                    "player_role":"Wicketkeeper batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"20 July 1983",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Vijay Shankar",
+                    "player_img_url":"images/SunRisersHyderabad/vijay_shankar.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm offbreak",
+                    "player_nationality":"Indian",
+                    "player_dob":"26 January 1991",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Karn Sharma",
+                    "player_img_url":"images/SunRisersHyderabad/karn_sharma.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"23 October 1987",
+                    "team_id":"8"
+                
+        },
+        {
+            
+                    "player_name":"Barinder Sran",
+                    "player_img_url":"images/SunRisersHyderabad/barinder_sran.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"-",
+                    "player_bowling_style":"Left-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"10 December 1992",
+                    "team_id":"8"
+                
+        },
+        {
+            
+                    "player_name":"Tirumalasetti Suman",
+                    "player_img_url":"images/SunRisersHyderabad/tirumalasetti_suman.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"15 December 1983",
+                    "team_id":"8"
+              
+        },
+        {
+           
+                    "player_name":"Aditya Tare",
+                    "player_img_url":"images/SunRisersHyderabad/aditya_tare.png",
+                    "player_role":"Wicketkeeper Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"27 February 2012",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Kane Williamson",
+                    "player_img_url":"images/SunRisersHyderabad/kane_williamson.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-hand",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"08 August 1990",
+                    "team_id":"8"
+               
+        },
+        {
+            
+                    "player_name":"Yuvraj Singh",
+                    "player_img_url":"images/SunRisersHyderabad/yuvraj_singh.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"12 December 1981",
+                    "team_id":"8"
+              
+        },
+        {
+            
+                    "player_name":"Gautam Gambhir",
+                    "player_img_url":"images/KolkataKnightRiders/gautam_gambhir.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"left_handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"14 October 1981",
+                    "team_id":"4"
+                
+        },
+        {
+            
+                    "player_name":"Ankit Rajpoot",
+                    "player_img_url":"images/KolkataKnightRiders/ankit_rajpoot.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"04 December 1993",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Andre Russell",
+                    "player_img_url":"images/KolkataKnightRiders/andre_russell.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm fast",
+                    "player_nationality":"West Indian",
+                    "player_dob":"29 April 1988",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Brad Hogg",
+                    "player_img_url":"images/KolkataKnightRiders/brad_hogg.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm chinaman",
+                    "player_nationality":"Australian",
+                    "player_dob":"06 February 1971",
+                    "team_id":"4"
+                
+        },
+        {
+            
+                    "player_name":"Chris Lynn",
+                    "player_img_url":"images/KolkataKnightRiders/chris_lynn.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Australian",
+                    "player_dob":"10 April 1990",
+                    "team_id":"4"
+              
+        },
+        {
+            
+                    "player_name":"Colin Munro",
+                    "player_img_url":"images/KolkataKnightRiders/colin_munro.png",
+                    "player_role":"Batsmen",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right arm medium",
+                    "player_nationality":"New Zealander",
+                    "player_dob":"11 March 1987",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Jason Holder",
+                    "player_img_url":"images/KolkataKnightRiders/jason_holder.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-hand bat",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"West Indian",
+                    "player_dob":"05 November 1991",
+                    "team_id":"4"
+                
+        },
+        {
+           
+                    "player_name":"Jaydev Unadkat",
+                    "player_img_url":"images/KolkataKnightRiders/jaydev_unadkat.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"18 October 1991",
+                    "team_id":"4"
+            
+        },
+        {
+            
+                    "player_name":"John Hastings",
+                    "player_img_url":"images/KolkataKnightRiders/john_hastings.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Australian",
+                    "player_dob":"04 November 1985",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Kuldeep Yadav",
+                    "player_img_url":"images/KolkataKnightRiders/kuldeep_yadav.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arm orthodox spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"14 December 1994",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Manan Sharma",
+                    "player_img_url":"images/KolkataKnightRiders/manan_sharma.png",
+                    "player_role":"All -rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"left-arm spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"19 March 1991",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Manish Pandey",
+                    "player_img_url":"images/KolkataKnightRiders/manish_pandey.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"10 September 1989",
+                    "team_id":"4"
+                
+        },
+        {
+            
+                    "player_name":"Morne Morkel",
+                    "player_img_url":"images/KolkataKnightRiders/morne_morkel.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm fast",
+                    "player_nationality":"South African",
+                    "player_dob":"06 October 1984",
+                    "team_id":"4"
+              
+        },
+        {
+            
+                    "player_name":"Piyush Chawla",
+                    "player_img_url":"images/KolkataKnightRiders/piyush_chawla.png",
+                    "player_role":"Bowling All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm leg spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"24 December 1988",
+                    "team_id":"4"
+                
+        },
+        {
+            
+                    "player_name":"Rajagopal Sathish",
+                    "player_img_url":"images/KolkataKnightRiders/rajagopal_sathish.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"14 January 1981",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Robin Uthappa",
+                    "player_img_url":"images/KolkataKnightRiders/robin_uthappa.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"11 November 1985",
+                    "team_id":"4"
+                
+        },
+        {
+            
+                    "player_name":"Shakib Al Hasan",
+                    "player_img_url":"images/KolkataKnightRiders/shakib_al_hasan.png",
+                    "player_role":"All-rounder",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Left-arKrunalm orthodox spin",
+                    "player_nationality":"Bangladeshi",
+                    "player_dob":"24 March 1987",
+                    "team_id":"4"
+                
+        },
+        {
+            
+                    "player_name":"Sheldon Jackson",
+                    "player_img_url":"images/KolkataKnightRiders/sheldon_jackson.png",
+                    "player_role":"Wicketkeeper-batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"-",
+                    "player_nationality":"Indian",
+                    "player_dob":"27 September 1986",
+                    "team_id":"4"
+                
+        },
+        {
+            
+                    "player_name":"Sunil Narine",
+                    "player_img_url":"images/KolkataKnightRiders/sunil_narine.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Left-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"West Indian",
+                    "player_dob":"26 May 1988",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Suryakumar Yadav",
+                    "player_img_url":"images/KolkataKnightRiders/suryakumar_yadav.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium",
+                    "player_nationality":"Indian",
+                    "player_dob":"14 September 1990",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Umesh Yadav",
+                    "player_img_url":"images/KolkataKnightRiders/umesh_yadav.png",
+                    "player_role":"Bowler",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm medium fast",
+                    "player_nationality":"Indian",
+                    "player_dob":"25 October 1987",
+                    "team_id":"4"
+               
+        },
+        {
+            
+                    "player_name":"Yusuf Pathan",
+                    "player_img_url":"images/KolkataKnightRiders/yusuf_pathan.png",
+                    "player_role":"Batsman",
+                    "player_batting_style":"Right-handed",
+                    "player_bowling_style":"Right-arm off-spin",
+                    "player_nationality":"Indian",
+                    "player_dob":"17 November 1982",
+                    "team_id":"4"
+                
+        }
+      ]
+}

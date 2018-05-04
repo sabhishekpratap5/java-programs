@@ -1,27 +1,22 @@
 app.controller('dashboardCtrl', function($scope, $mdDialog) {
-  $scope.showDialog = function(clickEvent, item) {
+  $scope.showDialog = function(event1, item) {
     $mdDialog.show({
       locals: {
-        data: item
+        Mobile: item
       },
-      controller: DialogController,
-      templateUrl: 'templates/mobileDialog.html',
+      controller: openDialogueBox,
+      templateUrl: 'templates/DialogueBox.html',
       parent: angular.element(document.body),
-      targetEvent: clickEvent,
+      targetEvent: event1,
       clickOutsideToClose: true,
       fullscreen: $scope.customFullscreen
     });
   };
 
-  function DialogController($scope, $mdDialog, data) {
-    $scope.data = data;
+  function openDialogueBox($scope, $mdDialog, Mobile) {
+    $scope.Mobile = Mobile;
     $scope.cancel = function() {
       $mdDialog.cancel();
     };
   }
-});
-app.config(function($mdThemingProvider) {
-  $mdThemingProvider.theme('dark-blue')
-    .backgroundPalette('blue').dark();
-
 });

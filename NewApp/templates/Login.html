@@ -1,29 +1,33 @@
 <div layout="column" layout-align="center center">
   <center>
-    <md-card style="border;border-color:black;width:350px">
+    <md-content layout="row" layout-align="space-around" layout-padding="layout-padding" ng-cloak="ng-cloak">
+    <md-card class="loginCard">
       <md-toolbar>
-        <h2>Login</h2>
+        <h2>login page</h2>
       </md-toolbar>
-      <form name="userForm">
-        <md-input-container>
+      <form name="userForm" class="loginForm">
+        <md-input-container >
           <label>Email</label>
-          <input name="email" ng-model="email" required md-maxlength="25" minlength="10">
-          <div ng-messages="userForm.email.$error" ng-show="userForm.email.$dirty">
+          <input name="email" ng-model="email" required maxlength="25" minlength="10"
+            ng-pattern='/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/' >
+          <div ng-messages="userForm.email.$error" ng-show="userForm.email.$dirty" >
             <div ng-message="required"></div>
           </div>
         </md-input-container>
-        <br>
+
         <md-input-container>
           <label>Password</label>
-          <input type="password" name="password" ng-model="password" required md-maxlength="25" minlength="8">
-          <div ng-messages="userForm.password.$error" ng-show="userForm.password.$dirty">
+          <input type="password" name="password" ng-model="password" required maxlength="25" minlength="8">
+          <div ng-messages="userForm.password.$error" ng-show="userForm.password.$dirty" >
             <div ng-message="required"></div>
           </div>
         </md-input-container>
-        <br>
+
         <center>
           <md-button ng-disabled="!userForm.$valid" class="md-primary md-raised login_button" type="submit" ng-click="home()">Login</md-button>
         </center>
       </form>
+    </md-card>
+     </md-content>
   </center>
 </div>

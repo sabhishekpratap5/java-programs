@@ -1,0 +1,66 @@
+[
+  {
+    "team_name": "Delhi Daredevils",
+    "team_img_url": "http://192.168.0.121/ipl2016/team_logo/DD.jpg",
+    "team_coach": "Paddy Upton",
+    "team_captain": "Zaheer Khan",
+    "team_home_venue": "Feroz Shah Kotla Ground",
+    "team_owner": "GMR Sports Pvt Ltd"
+  },
+  {
+    "team_name": "Gujarat Lions",
+    "team_img_url": "http://192.168.0.121/ipl2016/team_logo/GL.jpg",
+    "team_coach": "Brad Hodge",
+    "team_captain": "Suresh Raina",
+    "team_home_venue": "Saurashtra Cricket Association Stadium",
+    "team_owner": "Intex Technologies"
+  },
+  {
+    "team_name": "Kings XI Punjab",
+    "team_img_url": "http://192.168.0.121/ipl2016/team_logo/KXIP.jpg",
+    "team_coach": "Sanjay Bangar",
+    "team_captain": "Murali Vijay",
+    "team_home_venue": "IS Bindra Stadium",
+    "team_owner": "KPH Dream Cricket Private Limited"
+  },
+  {
+    "team_name": "Kolkata Knight Riders",
+    "team_img_url": "http://192.168.0.121/ipl2016/team_logo/KKR.jpg",
+    "team_coach": "Jacques Kallis",
+    "team_captain": "Gautam Gambhir",
+    "team_home_venue": "Eden Gardens",
+    "team_owner": "Knight Riders Sports Private Ltd"
+  },
+  {
+    "team_name": "Mumbai Indians",
+    "team_img_url": "http://192.168.0.121/ipl2016/team_logo/MI.jpg",
+    "team_coach": "Ricky Ponting",
+    "team_captain": "Rohit Sharma",
+    "team_home_venue": "Wankhede Stadium",
+    "team_owner": "Indiawin Sports Pvt. Ltd"
+  },
+  {
+    "team_name": "Rising Pune Supergiants",
+    "team_img_url": "http://192.168.0.121/ipl2016/team_logo/RPS.jpg",
+    "team_coach": "Stephen Fleming",
+    "team_captain": "MS Dhoni",
+    "team_home_venue": "Maharashtra Cricket Association's International Stadium",
+    "team_owner": "RPSG Group"
+  },
+  {
+    "team_name": "Royal Challengers Bangalore",
+    "team_img_url": "http://192.168.0.121/ipl2016/team_logo/RCB.jpg",
+    "team_coach": "Daniel Vettori",
+    "team_captain": "Virat Kohli",
+    "team_home_venue": "M. Chinnaswamy Stadium",
+    "team_owner": "Royal Challengers Sports Private Ltd"
+  },
+  {
+    "team_name": "Sunrisers Hyderabad",
+    "team_img_url": "http://192.168.0.121/ipl2016/team_logo/SRH.jpg",
+    "team_coach": "Tom Moody",
+    "team_captain": "David Warner",
+    "team_home_venue": "Rajiv Gandhi Intl. Cricket Stadium",
+    "team_owner": "SUN TV Network"
+  }
+]

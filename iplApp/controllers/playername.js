@@ -1,6 +1,8 @@
-app.controller('Playersinfoctrl', function($scope, $location,$routeParams) {
+app.controller('Playersinfoctrl', function($scope,readJson) {
 
-  $scope.go = function () {
-    alert("Da");
-};
+  
+  $scope.getData = readJson.getJson("JSON/newPlayerInfo.json");
+  $scope.getData.then(function(response) {
+  $scope.pInfo = response['Playersinfo'];
+  })
 });

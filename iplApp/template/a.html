@@ -1,1 +1,27 @@
-<button ng-click="go()">das</button>
+<br><br> <br>
+      <div layout="row" id="dashboard" style="-webkit-transition:.5s;"  layout-xs="column" layout-wrap md-theme=" {{dark-blue}}">
+        <div flex-gt-md="33" flex-sm='100' ng-repeat="x in values=(pInfo)">
+          <md-card>
+            <md-card-header>
+              <md-card-avatar>
+                <img class="md-user-avatar" ng-src="{{x.player_img_url }}">
+              </md-card-avatar>
+              <md-card-header-text>
+                <span class="md-title"><b>{{ x.player_name}}</b></span>
+              </md-card-header-text>
+            </md-card-header>
+            <img ng-src="{{x.player_img_url}}" class="md-card-image" alt="image caption">
+
+            <md-card-title>
+              <md-card-title-text>
+                <span>player_role : {{ x.player_role}}</span>
+                <span>player_batting_style:  {{ x.player_batting_style }}</span>
+                <span>player_bowling_style:  {{player_bowling_style}}</span>
+                <span>player_Nationality : {{ x.player_nationality }}</span>
+                <span>player_dob : {{ x.player_dob }}</span>
+
+              </md-card-title-text>
+            </md-card-title>
+          </  md-card>
+        </div>
+      </div>

@@ -18,11 +18,12 @@
                 <span>Storage:  {{ x.team_captain }}Gb</span>
                 <span>OS:  {{x.team_home_venue}}</span>
                 <span>Camera : {{ x.team_owner }}Mp</span>
+                id : {{ x.team_name }}
               </md-card-title-text>
             </md-card-title>
             <md-card-actions layout="row" layout-align="center center">
               <md-button class="md-raised md-primary"  ng-click='showDialog($event,x)'>Buy Now</md-button>
-              <md-button class="md-raised md-primary"  ng-click="go('/21321')">View</md-button>
+              <md-button class="md-raised md-primary"  ng-click="go(x.team_name)">View</md-button>
 
             </md-card-actions>
           </md-card>

@@ -1,0 +1,20 @@
+
+Osquid:S1643}"Use a StringBuilder instead.(‡“åˆúÿÿÿÿH«»RMINORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ý˜ÖŸH¬»RMAJORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì ãH­»RMAJORZ
+CODE_SMELL
+f
+squid:S106n"9Replace this use of System.out or System.err by a logger.(ì ãH®»RMAJORZ
+CODE_SMELL
+osquid:S1126M"AReplace this if-then-else statement by a single return statement.(ŽÛçßH¯»RMINORZ
+CODE_SMELL
+rsquid:HiddenFieldCheckX"9Rename "count" which hides the field declared at line 26.(æÕ¿¼H°»RMAJORZ
+CODE_SMELL
+Osquid:S2326L"T is not used in the method.(ÌÏíÖûÿÿÿÿH±»RMAJORZ
+CODE_SMELL
+‰squid:S00120
+"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£þ—ÌH²»RMINORZ
+CODE_SMELL

@@ -11,15 +11,14 @@ package com.bridgelab.functionalPrograms;
 
 import com.bridgelab.utility.Utility;
 
-public class CoupnNumber {
-
+public class CouponNumber {
 	public static void main(String[] args) {
 		Utility utility = new Utility();
-		System.out.println("Please enter the number of coupen ");
+		System.out.print("Enter The Number : ");
 		int number = utility.inputInteger();
-		System.out.println("----------------------------------");
-		utility.coupnNumber(number);
-		System.out.println();
-	}
 
+		int count = Utility.calculateDistinctCoupon(number);
+		System.out.println("No. of Count     : " + count);
+
+	}
 }

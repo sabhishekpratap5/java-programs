@@ -63,7 +63,6 @@ public class AddressManager {
 				TypeReference<ArrayList<Person>> type = new TypeReference<ArrayList<Person>>() {
 				};
 				arrayList = objectMapper.readValue(arrayToJson, type);
-
 			}
 			reader.close();
 		} catch (IOException e) {
@@ -79,12 +78,13 @@ public class AddressManager {
 	}
 
 	public void saveAddressBook() {
-		ArrayList<Person> arrayList = new ArrayList<Person>();
-		arrayList = addressbook.list();
+		ArrayList<Person> arrayList1 = addressbook.list();
+		// = new ArrayList<Person>();
+		//arrayList = addressbook.list();
 
 		try {
-			objectMapper.writeValue(file, arrayList);
-			System.out.println(arrayList);
+			objectMapper.writeValue(file, arrayList1);
+			System.out.println(arrayList1);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

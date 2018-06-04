@@ -1,0 +1,31 @@
+
+esquid:S1197"8Move the array designator from the variable to the type.(‚‘¾H³»RMINORZ
+CODE_SMELL
+Œsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨Ôı­ıÿÿÿÿH´»RMINORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(Óˆó²Hµ»RMAJORZ
+CODE_SMELL
+f
+squid:S106 "9Replace this use of System.out or System.err by a logger.(â¿ø°H¶»RMAJORZ
+CODE_SMELL
+k
+squid:S106""9Replace this use of System.out or System.err by a logger.(ÉÀÚ“ùÿÿÿÿH·»RMAJORZ
+CODE_SMELL
+f
+squid:S106#"9Replace this use of System.out or System.err by a logger.(÷í‡İH¸»RMAJORZ
+CODE_SMELL
+f
+squid:S106("9Replace this use of System.out or System.err by a logger.( ˆªH¹»RMAJORZ
+CODE_SMELL
+k
+squid:S106)"9Replace this use of System.out or System.err by a logger.(ï ÍßúÿÿÿÿHº»RMAJORZ
+CODE_SMELL
+f
+squid:S106*"9Replace this use of System.out or System.err by a logger.(÷í‡İH»»RMAJORZ
+CODE_SMELL
+Nsquid:S2326"T is not used in the class.(û”æ¶ıÿÿÿÿH¼»RMAJORZ
+CODE_SMELL
+‰squid:S00120
+"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ş—ÌH½»RMINORZ
+CODE_SMELL

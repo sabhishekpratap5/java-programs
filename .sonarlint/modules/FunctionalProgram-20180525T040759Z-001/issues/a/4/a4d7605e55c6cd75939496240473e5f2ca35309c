@@ -1,0 +1,40 @@
+
+k
+squid:S106B"9Replace this use of System.out or System.err by a logger.(¨ŠƒÁøÿÿÿÿHó®RMAJORZ
+CODE_SMELL
+ksquid:S1197"8Move the array designator from the variable to the type.(íˆ„±øÿÿÿÿHí®RMINORZ
+CODE_SMELL
+k
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ñîŠûÿÿÿÿHï®RMAJORZ
+CODE_SMELL
+g
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(Ûˆ²ÆH÷®RMAJORZ
+CODE_SMELL
+k
+squid:S106`"9Replace this use of System.out or System.err by a logger.(¬Ú—ƒûÿÿÿÿHõ®RMAJORZ
+CODE_SMELL
+‰squid:S3776–"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(›Å¢ûÿÿÿÿHû®RCRITICALZ
+CODE_SMELL
+l
+squid:S106‘"9Replace this use of System.out or System.err by a logger.(„‹÷×øÿÿÿÿHö®RMAJORZ
+CODE_SMELL
+k
+squid:S1066"9Replace this use of System.out or System.err by a logger.(“Ïã¥øÿÿÿÿHğ®RMAJORZ
+CODE_SMELL
+f
+squid:S106_"9Replace this use of System.out or System.err by a logger.(¡Ü‡Hô®RMAJORZ
+CODE_SMELL
+f
+squid:S106<"9Replace this use of System.out or System.err by a logger.(ô‰³ŠHò®RMAJORZ
+CODE_SMELL
+ˆsquid:S3776d"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÁßøèÿÿÿÿÿHù®RCRITICALZ
+CODE_SMELL
+„squid:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ûô»Hú®RCRITICALZ
+CODE_SMELL
+ƒsquid:S3776@"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(‰®ÈHø®RCRITICALZ
+CODE_SMELL
+~squid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(³—ù¼şÿÿÿÿHî®RMAJORZ
+CODE_SMELL
+k
+squid:S1068"9Replace this use of System.out or System.err by a logger.(şæ£ñşÿÿÿÿHñ®RMAJORZ
+CODE_SMELL

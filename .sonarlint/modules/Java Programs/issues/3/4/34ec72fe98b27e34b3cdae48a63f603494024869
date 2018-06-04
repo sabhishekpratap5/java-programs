@@ -1,95 +1,91 @@
 
+~squid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(çÍ êûÿÿÿÿHˆ»RMAJORZ
+CODE_SMELL
+tsquid:S10752"ARefactor your code to get this URI from a customizable parameter.(Ö°³ÃşÿÿÿÿHèºRMINORZ
+CODE_SMELL
+Ysquid:S1148s"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH÷ºRMINORZVULNERABILITY
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(Øú îHåºRMAJORZ
+CODE_SMELL
+Ğ%squid:RedundantThrowsDeclarationCheck^"‡Remove the declaration of thrown exception 'org.codehaus.jackson.JsonGenerationException' which is a subclass of 'java.io.IOException'.(ÀñÖÃHşºRMINORZ
+CODE_SMELL
+f
+squid:S106W"9Replace this use of System.out or System.err by a logger.(Æ€ûÇH„»RMAJORZ
+CODE_SMELL
+zsquid:S2095<"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿHïºRBLOCKERZBUG
+wsquid:S1192""FDefine a constant instead of duplicating this literal ".json" 3 times.(´‡òıH€»RCRITICALZ
+CODE_SMELL
+Ysquid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHŠ»RMINORZVULNERABILITY
 k
-squid:S106"9Replace this use of System.out or System.err by a logger.(»‚ãÌÿÿÿÿÿH½ˆRMAJORZ
+squid:S106e"9Replace this use of System.out or System.err by a logger.(äá’•ÿÿÿÿÿHúºRMAJORZ
 CODE_SMELL
-Ğ%squid:RedundantThrowsDeclarationCheck^"‡Remove the declaration of thrown exception 'org.codehaus.jackson.JsonGenerationException' which is a subclass of 'java.io.IOException'.(ÀñÖÃHÂˆRMINORZ
+dsquid:S1135Y"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHçºRINFOZ
 CODE_SMELL
-k
-squid:S106u"9Replace this use of System.out or System.err by a logger.(³ıëÜşÿÿÿÿH¸ˆRMAJORZ
+f
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ÂÕş·HæºRMAJORZ
 CODE_SMELL
-Ñ%squid:RedundantThrowsDeclarationCheck^"ˆRemove the declaration of thrown exception 'org.codehaus.jackson.map.JsonMappingException' which is a subclass of 'java.io.IOException'.(ÀñÖÃH±ˆRMINORZ
-CODE_SMELL
-usquid:S2095i"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(«¶ÅÚHĞˆRBLOCKERZBUG
+usquid:S2095i"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(«¶ÅÚHâºRBLOCKERZBUG
 g
-squid:S106"9Replace this use of System.out or System.err by a logger.(£¾Û HÊˆRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(£¾Û H‚»RMAJORZ
+CODE_SMELL
+k
+squid:S106u"9Replace this use of System.out or System.err by a logger.(³ıëÜşÿÿÿÿH…»RMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(çÍ êûÿÿÿÿHìºRMAJORZ
 CODE_SMELL
 f
-squid:S106)"9Replace this use of System.out or System.err by a logger.(£¾Û HÈˆRMAJORZ
-CODE_SMELL
-f
-squid:S106w"9Replace this use of System.out or System.err by a logger.(úã†H´ˆRMAJORZ
-CODE_SMELL
-£squid:S1319M"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ü¦Ã¿ıÿÿÿÿHÉˆRMINORZ
-CODE_SMELL
-tsquid:S10752"ARefactor your code to get this URI from a customizable parameter.(Ö°³ÃşÿÿÿÿHÃˆRMINORZ
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ŠçÚÑHƒ»RMAJORZ
 CODE_SMELL
 k
-squid:S106"9Replace this use of System.out or System.err by a logger.(ŠŞ«€ùÿÿÿÿH­ˆRMAJORZ
+squid:S106a"9Replace this use of System.out or System.err by a logger.(»‚ãÌÿÿÿÿÿH‹»RMAJORZ
 CODE_SMELL
-~squid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(çÍ êûÿÿÿÿHÑˆRMAJORZ
+Ásquid:S1192"ŠDefine a constant instead of duplicating this literal "/home/bridgeit/abhishek-workspace/Java Programs/src/com/bridgelabz/Files/" 7 times.(Ö°³ÃşÿÿÿÿHëºRCRITICALZ
 CODE_SMELL
+£squid:S1319L"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ü¦Ã¿ıÿÿÿÿHíºRMINORZ
+CODE_SMELL
+gsquid:S2696n"6Make the enclosing method "static" or remove this set.(Ìó‚ÀHöºRCRITICALZ
+CODE_SMELL
+Ysquid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‡»RMINORZVULNERABILITY
 k
-squid:S106e"9Replace this use of System.out or System.err by a logger.(äá’•ÿÿÿÿÿHÁˆRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŠŞ«€ùÿÿÿÿHôºRMAJORZ
 CODE_SMELL
-Zsquid:S1148„"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÎˆRMINORZVULNERABILITY
-Ysquid:S1148s"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¼ˆRMINORZVULNERABILITY
-dsquid:S1135Y"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH®ˆRINFOZ
-CODE_SMELL
-Ysquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHºˆRMINORZVULNERABILITY
-e
-squid:S106%"9Replace this use of System.out or System.err by a logger.(ÿÔH¶ˆRMAJORZ
-CODE_SMELL
-k
-squid:S1064"9Replace this use of System.out or System.err by a logger.(»‚ãÌÿÿÿÿÿHÏˆRMAJORZ
-CODE_SMELL
-k
-squid:S1066"9Replace this use of System.out or System.err by a logger.(ŠŞ«€ùÿÿÿÿH·ˆRMAJORZ
-CODE_SMELL
-~squid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(çÍ êûÿÿÿÿHÀˆRMAJORZ
-CODE_SMELL
-f
-squid:S106 "9Replace this use of System.out or System.err by a logger.(ÂÕş·HÇˆRMAJORZ
-CODE_SMELL
-‡squid:S2293R"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìğà H¾ˆRMINORZ
+tsquid:S1075_"ARefactor your code to get this URI from a customizable parameter.(Ö°³ÃşÿÿÿÿHûºRMINORZ
 CODE_SMELL
 e
-squid:S106~"9Replace this use of System.out or System.err by a logger.(ÿÔHªˆRMAJORZ
+squid:S106~"9Replace this use of System.out or System.err by a logger.(ÿÔHğºRMAJORZ
 CODE_SMELL
-Ásquid:S1192"ŠDefine a constant instead of duplicating this literal "/home/bridgeit/abhishek-workspace/Java Programs/src/com/bridgelabz/Files/" 7 times.(Ö°³ÃşÿÿÿÿH¹ˆRCRITICALZ
+Ñ%squid:RedundantThrowsDeclarationCheck^"ˆRemove the declaration of thrown exception 'org.codehaus.jackson.map.JsonMappingException' which is a subclass of 'java.io.IOException'.(ÀñÖÃHøºRMINORZ
 CODE_SMELL
-Ysquid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¬ˆRMINORZVULNERABILITY
+k
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ŠŞ«€ùÿÿÿÿHüºRMAJORZ
+CODE_SMELL
 f
-squid:S1068"9Replace this use of System.out or System.err by a logger.(ŠçÚÑH²ˆRMAJORZ
+squid:S106w"9Replace this use of System.out or System.err by a logger.(úã†HêºRMAJORZ
 CODE_SMELL
-zsquid:S2095<"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õéµ¨ûÿÿÿÿHÄˆRBLOCKERZBUG
+Ysquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHóºRMINORZVULNERABILITY
+gsquid:S2696A"6Make the enclosing method "static" or remove this set.(Ìó‚ÀHõºRCRITICALZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(»‚ãÌÿÿÿÿÿH»RMAJORZ
+CODE_SMELL
 f
-squid:S106"9Replace this use of System.out or System.err by a logger.(Øú îH¨ˆRMAJORZ
+squid:S106)"9Replace this use of System.out or System.err by a logger.(£¾Û HÿºRMAJORZ
 CODE_SMELL
-Ysquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¿ˆRMINORZVULNERABILITY
-k
-squid:S106a"9Replace this use of System.out or System.err by a logger.(»‚ãÌÿÿÿÿÿHÌˆRMAJORZ
+Zsquid:S1148„"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‰»RMINORZVULNERABILITY
+‰squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ˜¦ÓHîºRMINORZ
 CODE_SMELL
-tsquid:S1075_"ARefactor your code to get this URI from a customizable parameter.(Ö°³ÃşÿÿÿÿH»ˆRMINORZ
-CODE_SMELL
-k
-squid:S106c"9Replace this use of System.out or System.err by a logger.(ŠŞ«€ùÿÿÿÿHÍˆRMAJORZ
-CODE_SMELL
-vsquid:HiddenFieldCheckR"=Rename "arrayList" which hides the field declared at line 21.(Ìğà HÅˆRMAJORZ
-CODE_SMELL
-gsquid:S2696A"6Make the enclosing method "static" or remove this set.(Ìó‚ÀHÒˆRCRITICALZ
-CODE_SMELL
-‰squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ˜¦ÓH«ˆRMINORZ
-CODE_SMELL
-wsquid:S1192""FDefine a constant instead of duplicating this literal ".json" 3 times.(´‡òıHËˆRCRITICALZ
-CODE_SMELL
-ksquid:S1854R"=Remove this useless assignment to local variable "arrayList".(Ìğà H³ˆRMAJORZ
-CODE_SMELL
-tsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Ö°³ÃşÿÿÿÿHÆˆRMINORZ
+tsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Ö°³ÃşÿÿÿÿHùºRMINORZ
 CODE_SMELL
 k
-squid:S106W"9Replace this use of System.out or System.err by a logger.(ëÊĞüÿÿÿÿÿH©ˆRMAJORZ
+squid:S1064"9Replace this use of System.out or System.err by a logger.(»‚ãÌÿÿÿÿÿHıºRMAJORZ
 CODE_SMELL
-gsquid:S2696n"6Make the enclosing method "static" or remove this set.(Ìó‚ÀH°ˆRCRITICALZ
+k
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ŠŞ«€ùÿÿÿÿHñºRMAJORZ
 CODE_SMELL
-squid:S1192"YDefine a constant instead of duplicating this literal "list of file in folder: " 3 times.(»‚ãÌÿÿÿÿÿHµˆRCRITICALZ
+…squid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(ë‹Àúÿÿÿÿ8¥¡ã¹,H»RMAJORZ
+CODE_SMELL
+squid:S1192"YDefine a constant instead of duplicating this literal "list of file in folder: " 3 times.(»‚ãÌÿÿÿÿÿHãºRCRITICALZ
+CODE_SMELL
+e
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ÿÔHéºRMAJORZ
 CODE_SMELL

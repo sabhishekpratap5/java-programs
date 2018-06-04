@@ -17,9 +17,11 @@ public class Anagram {
 		Utility utility = new Utility();
 		System.out.println("Enter first String ");
 		String s1 = utility.inputString();
+		s1 = s1.replaceAll("\\s","");
 		System.out.println("Enter second string ");
 
 		String s2 = utility.inputString();
+		s2 = s1.replaceAll("\\s","");
 
 		String string1 = s1.toLowerCase();
 		String string2 = s2.toLowerCase();

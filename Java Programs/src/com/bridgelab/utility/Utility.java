@@ -30,7 +30,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
+import static java.lang.Math.*;
 public class Utility {
 
 	public static Scanner scanner = new Scanner(System.in);
@@ -422,11 +422,32 @@ public class Utility {
 	 * @param number
 	 *            nothing return its generate the random number.
 	 */
-	public void coupnNumber(int number) {
-		Random r = new Random();
-		for (int i = 0; i < number; i++) {
-			System.out.print(" " + r.nextInt(9999) + " ");
+	public static int calculateDistinctCoupon(int number) {
+		boolean[] isCollected = new boolean[number];
+		int count = 0;
+		int distinct = 0;
+		String string = "";
+
+		while (distinct < number) {
+			int value = getCoupon(number);
+			count++;
+			if (isCollected[value]==false) {
+				distinct++;
+				isCollected[value] = true;
+				string += value + " ";
+
+			}
 		}
+		System.out.println("Distinct Number  : " + string);
+		return count;
+	}
+
+	private static int getCoupon(int number) {
+		/*
+		 * Random random=new Random(); int value=random.nextInt(10);
+		 */
+		return (int) (Math.random() * number);
+
 	}
 
 	/**
@@ -1037,7 +1058,7 @@ public class Utility {
 	 * @param num
 	 * @return integer value it is work for converting decimal to binary number
 	 */
-	public int[] toBinary(int num) {
+	public static int[] toBinary(int num) {
 		int array[] = new int[32];
 		int index = 0;
 
@@ -1055,6 +1076,7 @@ public class Utility {
 		return array;
 
 	}
+	
 
 	/**
 	 * @param c
@@ -1829,43 +1851,99 @@ public class Utility {
 			System.out.println();
 		}
 	}
-
+	
 	/**
-	 * Purpose: Convert Binary And Add Padding For converting 8 bit Number
-	 * 
-	 * @param num
-	 * @return
+	 * @param accept the decimalnumber from the user and convert it into respective binary number
 	 */
-	public String binaryAddPadding(int num) {
-		String bin[] = { "0", "1" };
-		String binary = " ";
-		int pading = 0;
-		while ((num > 0) || (pading % 8 != 0)) {
-			int rem = num % 2;
-			binary = bin[rem] + binary;
-			num = num / 2;
-			pading++;
-			if (pading % 4 == 0 && num != 0) {
-				binary = " " + binary;
+	public static String tooBinary(int lDecimalNumber)
+	{
+		int rem;
+		String binaryArray[] = { "0", "1" };
+		String binary = "";
+		int padding = 0;
+		while (lDecimalNumber > 0 || padding % 8 != 0) 
+		{
+			rem = lDecimalNumber % 2;
+			binary = binaryArray[rem] + binary;
+			lDecimalNumber = lDecimalNumber / 2;
+			padding++;
+			if (padding % 4 == 0 && lDecimalNumber != 0) 
+			{
+				binary = "  " + binary;
+
 			}
 		}
 		return binary;
-
-	}
-
+	} 
 	/**
-	 * Purpose: Swap Nibbles
-	 * 
-	 * @param binary
+	 * @param swap nibbles
 	 * @return
 	 */
-	public String swapNibbles(String binary) {
-		binary = binary.replaceAll("", "");
-		String Lower_NIBBELE = binary.substring(0, 4);
-		String UPPER_NIBBELE = binary.substring(4, 8);
-		String SwapingBinary = UPPER_NIBBELE + Lower_NIBBELE;
-		return SwapingBinary;
+	public static String swappedNibbles(String binary) 
+	{
+		binary = binary.replaceAll(" ", "");
+		String lowerNibble = binary.substring(0, 4);
+		String upperNibble = binary.substring(4, 8);
+		String swappedBinary = upperNibble + lowerNibble;
+		return swappedBinary;
 	}
+	
+	/**
+	 * @param binary to decimal number conversion
+	 * @return
+	 */
+	public static int binaryToDecimal(String binary) 
+	{
+		  double j=0;
+		   for(int i=0;i<binary.length();i++)
+		    {
+		       if(binary.charAt(i)== '1')
+		       {
+		    	   j=j+ Math.pow(2,binary.length()-1-i);
+		       }
+
+		    }
+		    return (int) j;
+	}
+	
+	
+	 public boolean isPowerOfTwo(int n)
+	    {
+	        if (n == 0)
+	            return false;
+	         
+	        while (n != 1)
+	        {
+	            if (n % 2 != 0)
+	                return false;
+	            n = n / 2;
+	        }
+	        return true;
+	    }
+	 
+	 
+	 /**
+		 * @param display method for tictactoe game
+		 */
+		public static void displayArray(String[][] stringArray) 
+		{
+			for (int i = 0; i < stringArray.length; i++) 
+			{
+				for (int j = 0; j < stringArray[i].length; j++) 
+				{
+					System.out.print("|_" + stringArray[i][j] + "_|");
+				}
+				System.out.println();
+			}
+
+			System.out.println("\n");
+		}
+		
+
+
+	
+	
+	
 
 	public static String[] readFile(String filePath) {
 		String[] words = {};

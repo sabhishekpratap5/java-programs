@@ -1,0 +1,6 @@
+
+dsquid:S2440"1Remove this instantiation of "BillPughSingleton".(›‰ûÍúÿÿÿÿHß»RMAJORZ
+CODE_SMELL
+Žsquid:S00120
+"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒôõ³ûÿÿÿÿHà»RMINORZ
+CODE_SMELL

@@ -1,0 +1,332 @@
+
+Ssquid:S1659Š"Declare "j" on a separate line.(¦¢ÉëùÿÿÿÿH“¯RMINORZ
+CODE_SMELL
+~squid:S3008"PRename this field "RANGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öî¡ìHª¯RMINORZ
+CODE_SMELL
+k
+squid:S106+"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿH½¯RMAJORZ
+CODE_SMELL
+l
+squid:S106›"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHí¯RMAJORZ
+CODE_SMELL
+~squid:S3008"PRename this field "LOWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öî¡ìH¬¯RMINORZ
+CODE_SMELL
+g
+squid:S106á"9Replace this use of System.out or System.err by a logger.(„HÌ¯RMAJORZ
+CODE_SMELL
+g
+squid:S106²"9Replace this use of System.out or System.err by a logger.(Í€óÍHï¯RMAJORZ
+CODE_SMELL
+› squid:ForLoopCounterChangedCheck÷"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄKH‰¯RMAJORZ
+CODE_SMELL
+gsquid:S1197ë"8Move the array designator from the variable to the type.(¹ÂÜËH›¯RMINORZ
+CODE_SMELL
+g
+squid:S106Ã"9Replace this use of System.out or System.err by a logger.(Í…äóHç¯RMAJORZ
+CODE_SMELL
+Wsquid:S1659À"(Declare "lnot_found" on a separate line.(«Øø†H™¯RMINORZ
+CODE_SMELL
+tsquid:S1854ß"ERemove this useless assignment to local variable "lPercentageOfHead".(â…í×H’°RMAJORZ
+CODE_SMELL
+lsquid:S1197†"8Move the array designator from the variable to the type.(¦Ã£şÿÿÿÿH§¯RMINORZ
+CODE_SMELL
+lsquid:S1197†"8Move the array designator from the variable to the type.(ò²š¡ùÿÿÿÿH¯RMINORZ
+CODE_SMELL
+l
+squid:S106—"9Replace this use of System.out or System.err by a logger.(¿”ú–ùÿÿÿÿHİ¯RMAJORZ
+CODE_SMELL
+"squid:ClassVariableVisibilityCheck"VMake mStopTimer a static final constant or non-public and provide accessors if needed.(¡±_HŠ°RMINORZVULNERABILITY
+squid:S3008"QRename this field "MIDDLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öî¡ìH®¯RMINORZ
+CODE_SMELL
+Qsquid:S1659"#Declare "UPPER" on a separate line.(Öî¡ìHŒ¯RMINORZ
+CODE_SMELL
+l
+squid:S106•"9Replace this use of System.out or System.err by a logger.(ó¼œ‡úÿÿÿÿHĞ¯RMAJORZ
+CODE_SMELL
+tsquid:S1854à"ERemove this useless assignment to local variable "lPercentageOfTail".(¹·™˜H‘°RMAJORZ
+CODE_SMELL
+™"squid:ClassVariableVisibilityCheck"QMake RANGE a static final constant or non-public and provide accessors if needed.(Öî¡ìHƒ°RMINORZVULNERABILITY
+ƒsquid:S3008"PRename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ­³ÅÿÿÿÿÿH¯¯RMINORZ
+CODE_SMELL
+f
+squid:S106µ"9Replace this use of System.out or System.err by a logger.(é‚­HÉ¯RMAJORZ
+CODE_SMELL
+Nsquid:S1659Œ"Declare "k" on a separate line.(˜ÌçH¯RMINORZ
+CODE_SMELL
+g
+squid:S106¹"9Replace this use of System.out or System.err by a logger.(ÿöì©HÖ¯RMAJORZ
+CODE_SMELL
+—squid:S4165Å"hRemove this useless assignment; "chararray2" already holds the assigned value along all execution paths.(°àˆâH±¯RMAJORZ
+CODE_SMELL
+l
+squid:S106û"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿHş¯RMAJORZ
+CODE_SMELL
+k
+squid:S106|"9Replace this use of System.out or System.err by a logger.(İ®ƒñøÿÿÿÿHÃ¯RMAJORZ
+CODE_SMELL
+Rsquid:S1659À"#Declare "llen1" on a separate line.(«Øø†H”¯RMINORZ
+CODE_SMELL
+l
+squid:S106¨"9Replace this use of System.out or System.err by a logger.(ºÄôÎùÿÿÿÿHÈ¯RMAJORZ
+CODE_SMELL
+Ssquid:S1659À"$Declare "lfound" on a separate line.(«Øø†H˜¯RMINORZ
+CODE_SMELL
+¤"squid:ClassVariableVisibilityCheck"WMake mStartTimer a static final constant or non-public and provide accessors if needed.(†ãåâøÿÿÿÿH‰°RMINORZVULNERABILITY
+l
+squid:S106ª"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHâ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106¬"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHã¯RMAJORZ
+CODE_SMELL
+gsquid:S1197û"8Move the array designator from the variable to the type.(µÂèœH¥¯RMINORZ
+CODE_SMELL
+squid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Øø†H”°RMINORZ
+CODE_SMELL
+l
+squid:S106½"9Replace this use of System.out or System.err by a logger.(Ô‘«æùÿÿÿÿH×¯RMAJORZ
+CODE_SMELL
+Qsquid:S1659"#Declare "COUNT" on a separate line.(Öî¡ìHŠ¯RMINORZ
+CODE_SMELL
+l
+squid:S106›"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHß¯RMAJORZ
+CODE_SMELL
+k
+squid:S106K"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿH¿¯RMAJORZ
+CODE_SMELL
+Zsquid:S1148—"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH•°RMINORZVULNERABILITY
+asquid:S1444"+Make this "public static INPUT" field final(Ÿ­³ÅÿÿÿÿÿH·¯RMINORZVULNERABILITY
+}squid:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(õ·°âûÿÿÿÿH»¯RBLOCKERZBUG
+g
+squid:S106¨"9Replace this use of System.out or System.err by a logger.(€ÿ®Há¯RMAJORZ
+CODE_SMELL
+g
+squid:S106Ú"9Replace this use of System.out or System.err by a logger.(ıÚîµHñ¯RMAJORZ
+CODE_SMELL
+rsquid:S2184¬"ECast one of the operands of this subtraction operation to a "double".(·†„øÿÿÿÿH‡¯RMINORZBUG
+gsquid:S1197û"8Move the array designator from the variable to the type.(µÂèœH£¯RMINORZ
+CODE_SMELL
+lsquid:S1197ˆ"8Move the array designator from the variable to the type.(«¬æ·úÿÿÿÿH¯RMINORZ
+CODE_SMELL
+gsquid:S1197û"8Move the array designator from the variable to the type.(µÂèœH¤¯RMINORZ
+CODE_SMELL
+g
+squid:S106‹"9Replace this use of System.out or System.err by a logger.( åù¦HÜ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106™"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHŞ¯RMAJORZ
+CODE_SMELL
+usquid:S1126ê"AReplace this if-then-else statement by a single return statement.(¶¿ ¬úÿÿÿÿH°RMINORZ
+CODE_SMELL
+‰squid:S1488à"ZImmediately return this expression instead of assigning it to the temporary variable "lD".(¿…š€H‚°RMINORZ
+CODE_SMELL
+™"squid:ClassVariableVisibilityCheck"QMake LOWER a static final constant or non-public and provide accessors if needed.(Öî¡ìH…°RMINORZVULNERABILITY
+gsquid:S1197Â"8Move the array designator from the variable to the type.(æŸî²H ¯RMINORZ
+CODE_SMELL
+k
+squid:S106;"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿH¾¯RMAJORZ
+CODE_SMELL
+g
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(†íÄHÒ¯RMAJORZ
+CODE_SMELL
+g
+squid:S106£"9Replace this use of System.out or System.err by a logger.(â°Æ¸HÆ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106€"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHë¯RMAJORZ
+CODE_SMELL
+l
+squid:S106à"9Replace this use of System.out or System.err by a logger.(Ç›ÓóøÿÿÿÿHÙ¯RMAJORZ
+CODE_SMELL
+lsquid:S1197Â"8Move the array designator from the variable to the type.(”ºÇêüÿÿÿÿH¨¯RMINORZ
+CODE_SMELL
+g
+squid:S106·"9Replace this use of System.out or System.err by a logger.(¶õ°¿HÕ¯RMAJORZ
+CODE_SMELL
+f
+squid:S106b"9Replace this use of System.out or System.err by a logger.(©ĞŒÎHÁ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106š"9Replace this use of System.out or System.err by a logger.(ºò·øÿÿÿÿHù¯RMAJORZ
+CODE_SMELL
+gsquid:S1197Ã"8Move the array designator from the variable to the type.(¥«ñ‹H©¯RMINORZ
+CODE_SMELL
+l
+squid:S106³"9Replace this use of System.out or System.err by a logger.(ÏÏ—¾üÿÿÿÿHå¯RMAJORZ
+CODE_SMELL
+Wsquid:S3010"$Remove this assignment of "scanner".(À’·êøÿÿÿÿHš¯RMAJORZ
+CODE_SMELL
+™"squid:ClassVariableVisibilityCheck"QMake COUNT a static final constant or non-public and provide accessors if needed.(Öî¡ìH„°RMINORZVULNERABILITY
+g
+squid:S106³"9Replace this use of System.out or System.err by a logger.(Î’á´Hğ¯RMAJORZ
+CODE_SMELL
+lsquid:S1197Ö"8Move the array designator from the variable to the type.(°ûË´ûÿÿÿÿH¡¯RMINORZ
+CODE_SMELL
+l
+squid:S106×"9Replace this use of System.out or System.err by a logger.(úãßŠúÿÿÿÿHè¯RMAJORZ
+CODE_SMELL
+vsquid:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(çŞÚ;H¼¯RBLOCKERZBUG
+Qsquid:S1659"#Declare "LOWER" on a separate line.(Öî¡ìH‹¯RMINORZ
+CODE_SMELL
+gsquid:S1197‰"8Move the array designator from the variable to the type.(“¼§¥HŸ¯RMINORZ
+CODE_SMELL
+l
+squid:S106Ş"9Replace this use of System.out or System.err by a logger.(ô„ÅøÿÿÿÿHØ¯RMAJORZ
+CODE_SMELL
+lsquid:S1197é"8Move the array designator from the variable to the type.(–¡†òüÿÿÿÿH¢¯RMINORZ
+CODE_SMELL
+Nsquid:S1659Œ"Declare "j" on a separate line.(˜ÌçH¯RMINORZ
+CODE_SMELL
+ysquid:S2147™"ECombine this catch with the one at line 789, which has the same body.(É˜ÙúÿÿÿÿH“°RMINORZ
+CODE_SMELL
+`squid:S1444"0Make this "public static mStopTimer" field final(¡±_H¹¯RMINORZVULNERABILITY
+dsquid:S1481Ğ"6Remove this unused "lPercentageOfHead" local variable.(‹»†HŒ°RMINORZ
+CODE_SMELL
+f
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(Ä›¶Hö¯RMAJORZ
+CODE_SMELL
+f
+squid:S106g"9Replace this use of System.out or System.err by a logger.(Ù©È±HÂ¯RMAJORZ
+CODE_SMELL
+]squid:S1444",Make this "public static MIDDLE" field final(Öî¡ìH¶¯RMINORZVULNERABILITY
+l
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHæ¯RMAJORZ
+CODE_SMELL
+—squid:S4165Ä"hRemove this useless assignment; "chararray1" already holds the assigned value along all execution paths.(•÷‰úH°¯RMAJORZ
+CODE_SMELL
+g
+squid:S106³"9Replace this use of System.out or System.err by a logger.(¡œ¡HÔ¯RMAJORZ
+CODE_SMELL
+g
+squid:S106ó"9Replace this use of System.out or System.err by a logger.(¾½“ĞHÛ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106€"9Replace this use of System.out or System.err by a logger.(”™‚ÿúÿÿÿÿHõ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù°¦¸ıÿÿÿÿH÷¯RMAJORZ
+CODE_SMELL
+Tsquid:S1659ª" Declare "lD" on a separate line.(Ü÷£˜øÿÿÿÿH’¯RMINORZ
+CODE_SMELL
+g
+squid:S106â"9Replace this use of System.out or System.err by a logger.(²ÌÊÊHÍ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106€"9Replace this use of System.out or System.err by a logger.(‘Ä¸ÉùÿÿÿÿHÏ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106²"9Replace this use of System.out or System.err by a logger.(í‚ßúùÿÿÿÿHÓ¯RMAJORZ
+CODE_SMELL
+~squid:S3008"PRename this field "UPPER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öî¡ìH­¯RMINORZ
+CODE_SMELL
+l
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(ñòƒªıÿÿÿÿHÇ¯RMAJORZ
+CODE_SMELL
+\squid:S1444"+Make this "public static LOWER" field final(Öî¡ìH´¯RMINORZVULNERABILITY
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHì¯RMAJORZ
+CODE_SMELL
+Nsquid:S1659À"Declare "j" on a separate line.(«Øø†H—¯RMINORZ
+CODE_SMELL
+g
+squid:S106ê"9Replace this use of System.out or System.err by a logger.(ø¢ÎòHé¯RMAJORZ
+CODE_SMELL
+esquid:S1481Ñ"6Remove this unused "lPercentageOfTail" local variable.(‚í“øH°RMINORZ
+CODE_SMELL
+Rsquid:S1659À"#Declare "llen2" on a separate line.(«Øø†H•¯RMINORZ
+CODE_SMELL
+Nsquid:S1659À"Declare "i" on a separate line.(«Øø†H–¯RMINORZ
+CODE_SMELL
+ "squid:ClassVariableVisibilityCheck"XMake mElapsedTime a static final constant or non-public and provide accessors if needed.(Ø÷ÜàH‹°RMINORZVULNERABILITY
+g
+squid:S106­"9Replace this use of System.out or System.err by a logger.(–ºÈ‰Hä¯RMAJORZ
+CODE_SMELL
+Ssquid:S1659Œ"$Declare "lCount" on a separate line.(˜ÌçH¯RMINORZ
+CODE_SMELL
+l
+squid:S106ê"9Replace this use of System.out or System.err by a logger.(æ¥øŒüÿÿÿÿHÚ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(¤ŒîşùÿÿÿÿHú¯RMAJORZ
+CODE_SMELL
+\squid:S1444"+Make this "public static COUNT" field final(Öî¡ìH³¯RMINORZVULNERABILITY
+š"squid:ClassVariableVisibilityCheck"RMake MIDDLE a static final constant or non-public and provide accessors if needed.(Öî¡ìH‡°RMINORZVULNERABILITY
+g
+squid:S106–"9Replace this use of System.out or System.err by a logger.(·ÿº£HÅ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106ã"9Replace this use of System.out or System.err by a logger.(ıÚëÙøÿÿÿÿHó¯RMAJORZ
+CODE_SMELL
+g
+squid:S106ı"9Replace this use of System.out or System.err by a logger.(ûõï¨Hê¯RMAJORZ
+CODE_SMELL
+Rsquid:S1659"$Declare "MIDDLE" on a separate line.(Öî¡ìH¯RMINORZ
+CODE_SMELL
+l
+squid:S106ü"9Replace this use of System.out or System.err by a logger.(Ÿ©¡ŞúÿÿÿÿHÎ¯RMAJORZ
+CODE_SMELL
+„squid:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(³Û£H°RCRITICALZ
+CODE_SMELL
+csquid:S1444"2Make this "public static mElapsedTime" field final(Ø÷ÜàHº¯RMINORZVULNERABILITY
+ssquid:S1854Ğ"ERemove this useless assignment to local variable "lPercentageOfHead".(‹»†H°RMAJORZ
+CODE_SMELL
+rsquid:S2184ø"ECast one of the operands of this subtraction operation to a "double".(‘ìöúÿÿÿÿÿHˆ¯RMINORZBUG
+lsquid:S1197Î"8Move the array designator from the variable to the type.(×ÿ›‚üÿÿÿÿH¦¯RMINORZ
+CODE_SMELL
+gsquid:S1444"1Make this "public static mStartTimer" field final(†ãåâøÿÿÿÿH¸¯RMINORZVULNERABILITY
+g
+squid:S106«"9Replace this use of System.out or System.err by a logger.(Ïı·°HÑ¯RMAJORZ
+CODE_SMELL
+~squid:S3008"PRename this field "COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öî¡ìH«¯RMINORZ
+CODE_SMELL
+k
+squid:S106X"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿHÀ¯RMAJORZ
+CODE_SMELL
+g
+squid:S106±"9Replace this use of System.out or System.err by a logger.(ÇÃîÓHî¯RMAJORZ
+CODE_SMELL
+g
+squid:S106’"9Replace this use of System.out or System.err by a logger.(ğ€ŒHÿ¯RMAJORZ
+CODE_SMELL
+g
+squid:S106¹"9Replace this use of System.out or System.err by a logger.(ÿÉ´ÂHÊ¯RMAJORZ
+CODE_SMELL
+l
+squid:S106Ş"9Replace this use of System.out or System.err by a logger.(êµ —üÿÿÿÿHò¯RMAJORZ
+CODE_SMELL
+psquid:S1126Í"AReplace this if-then-else statement by a single return statement.(†Â¤¤H€°RMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡İ×ûÿÿÿÿHø¯RMAJORZ
+CODE_SMELL
+g
+squid:S106»"9Replace this use of System.out or System.err by a logger.(â°Æ¸Hû¯RMAJORZ
+CODE_SMELL
+™"squid:ClassVariableVisibilityCheck"QMake UPPER a static final constant or non-public and provide accessors if needed.(Öî¡ìH†°RMINORZVULNERABILITY
+\squid:S1444"+Make this "public static RANGE" field final(Öî¡ìH²¯RMINORZVULNERABILITY
+"squid:ClassVariableVisibilityCheck"QMake INPUT a static final constant or non-public and provide accessors if needed.(Ÿ­³ÅÿÿÿÿÿHˆ°RMINORZVULNERABILITY
+lsquid:S1197Š"8Move the array designator from the variable to the type.(õş‡ƒúÿÿÿÿHœ¯RMINORZ
+CODE_SMELL
+l
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(±Í¡óşÿÿÿÿHà¯RMAJORZ
+CODE_SMELL
+l
+squid:S106ø"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHı¯RMAJORZ
+CODE_SMELL
+g
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(ìğäøHÄ¯RMAJORZ
+CODE_SMELL
+tsquid:S1854Ñ"ERemove this useless assignment to local variable "lPercentageOfTail".(‚í“øH°RMAJORZ
+CODE_SMELL
+\squid:S1444"+Make this "public static UPPER" field final(Öî¡ìHµ¯RMINORZVULNERABILITY
+g
+squid:S106ö"9Replace this use of System.out or System.err by a logger.(¼†çïHü¯RMAJORZ
+CODE_SMELL
+Xsquid:S1659ª"$Declare "lRoot2" on a separate line.(Ü÷£˜øÿÿÿÿH‘¯RMINORZ
+CODE_SMELL
+l
+squid:S106Å"9Replace this use of System.out or System.err by a logger.(‹¹‡“şÿÿÿÿHË¯RMAJORZ
+CODE_SMELL
+l
+squid:S106ù"9Replace this use of System.out or System.err by a logger.(ãıªùÿÿÿÿHô¯RMAJORZ
+CODE_SMELL
+Zsquid:S1148›"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH–°RMINORZVULNERABILITY

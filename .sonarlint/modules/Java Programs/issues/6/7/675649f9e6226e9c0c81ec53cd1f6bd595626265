@@ -1,0 +1,16 @@
+
+csquid:S1751"5Remove this "break" statement or make it conditional.(›ûä·Hï»RMAJORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(º°¼£Hð»RMAJORZ
+CODE_SMELL
+f
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¬å®ÙHñ»RMAJORZ
+CODE_SMELL
+e
+squid:S106%"9Replace this use of System.out or System.err by a logger.(èáÓ1Hò»RMAJORZ
+CODE_SMELL
+osquid:S2259%"IA "NullPointerException" could be thrown; "instanceTwo" is nullable here.(èáÓ1Hó»RMAJORZBUG
+Žsquid:S00120
+"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒôõ³ûÿÿÿÿHô»RMINORZ
+CODE_SMELL
+Ysquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHõ»RMINORZVULNERABILITY

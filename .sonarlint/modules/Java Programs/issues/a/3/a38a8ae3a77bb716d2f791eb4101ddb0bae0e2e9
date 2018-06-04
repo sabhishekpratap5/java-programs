@@ -1,0 +1,16 @@
+
+ksquid:S1197"8Move the array designator from the variable to the type.(¼´úÿÿÿÿH°—RMINORZ
+CODE_SMELL
+fsquid:S1197"8Move the array designator from the variable to the type.(à¨ÎÀH±—RMINORZ
+CODE_SMELL
+fsquid:S1197"8Move the array designator from the variable to the type.(„á¨÷H²—RMINORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(õËÿšH³—RMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(êÏÉ·ÿÿÿÿÿH´—RMAJORZ
+CODE_SMELL
+squid:S00120
+"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÍı°ÿÿÿÿÿHµ—RMINORZ
+CODE_SMELL

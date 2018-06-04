@@ -1,78 +1,78 @@
 
+k
+squid:S106u"9Replace this use of System.out or System.err by a logger.(ÆÕıËıÿÿÿÿHÓºRMAJORZ
+CODE_SMELL
+k
+squid:S106~"9Replace this use of System.out or System.err by a logger.(ËŠ”´ÿÿÿÿÿHÂºRMAJORZ
+CODE_SMELL
 f
-squid:S1065"9Replace this use of System.out or System.err by a logger.(£’•éH¡ˆRMAJORZ
-CODE_SMELL
-o"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(öÉŸ§ıÿÿÿÿHœˆRCRITICALZ
+squid:S1068"9Replace this use of System.out or System.err by a logger.(™üØüHÊºRMAJORZ
 CODE_SMELL
 k
-squid:S106I"9Replace this use of System.out or System.err by a logger.(à•‡ùÿÿÿÿH•ˆRMAJORZ
+squid:S106A"9Replace this use of System.out or System.err by a logger.(şÇúğûÿÿÿÿHÉºRMAJORZ
 CODE_SMELL
 k
-squid:S106~"9Replace this use of System.out or System.err by a logger.(ËŠ”´ÿÿÿÿÿH–ˆRMAJORZ
+squid:S106z"9Replace this use of System.out or System.err by a logger.(¸òŞüÿÿÿÿHÒºRMAJORZ
+CODE_SMELL
+f
+squid:S106\"9Replace this use of System.out or System.err by a logger.(ÌƒöÈH¼ºRMAJORZ
 CODE_SMELL
 g
-squid:S106"9Replace this use of System.out or System.err by a logger.(œ•é‹H‘ˆRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(œ•é‹H»ºRMAJORZ
 CODE_SMELL
 g
-squid:S106‡"9Replace this use of System.out or System.err by a logger.(­„µH—ˆRMAJORZ
-CODE_SMELL
-f
-squid:S1068"9Replace this use of System.out or System.err by a logger.(™üØüH¦ˆRMAJORZ
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(œ•é‹HÀºRMAJORZ
 CODE_SMELL
 k
-squid:S106z"9Replace this use of System.out or System.err by a logger.(¸òŞüÿÿÿÿHˆRMAJORZ
+squid:S106="9Replace this use of System.out or System.err by a logger.(ûòò†üÿÿÿÿHººRMAJORZ
 CODE_SMELL
-f
-squid:S106E"9Replace this use of System.out or System.err by a logger.(óÜ¨‡HˆRMAJORZ
-CODE_SMELL
-k
-squid:S106`"9Replace this use of System.out or System.err by a logger.(ğ†‹‘ıÿÿÿÿH ˆRMAJORZ
+g
+squid:S106®"9Replace this use of System.out or System.err by a logger.(··ÛëHÇºRMAJORZ
 CODE_SMELL
 k
-squid:S106T"9Replace this use of System.out or System.err by a logger.(ê­ÍúûÿÿÿÿHšˆRMAJORZ
+squid:S106I"9Replace this use of System.out or System.err by a logger.(à•‡ùÿÿÿÿHËºRMAJORZ
 CODE_SMELL
-‰squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ˜¦ÓH¤ˆRMINORZ
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞÎÛùıÿÿÿÿHÑºRMAJORZ
 CODE_SMELL
-f
-squid:S106Z"9Replace this use of System.out or System.err by a logger.(ÆÀûıHŒˆRMAJORZ
+Œsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ¾ÌƒûÿÿÿÿHÅºRMINORZ
 CODE_SMELL
 e
-squid:S106j"9Replace this use of System.out or System.err by a logger.(£Ã‰HH“ˆRMAJORZ
+squid:S106j"9Replace this use of System.out or System.err by a logger.(£Ã‰HHĞºRMAJORZ
 CODE_SMELL
-¤squid:S1319²"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…†ØŒùÿÿÿÿH£ˆRMINORZ
-CODE_SMELL
-e
-squid:S106e"9Replace this use of System.out or System.err by a logger.(’´©HˆRMAJORZ
-CODE_SMELL
-k
-squid:S106p"9Replace this use of System.out or System.err by a logger.(Œê”ÿÿÿÿÿHˆRMAJORZ
-CODE_SMELL
-k
-squid:S106A"9Replace this use of System.out or System.err by a logger.(şÇúğûÿÿÿÿHˆRMAJORZ
+‰squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ˜¦ÓH¿ºRMINORZ
 CODE_SMELL
 f
-squid:S106"9Replace this use of System.out or System.err by a logger.(•ÅªĞH˜ˆRMAJORZ
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(ÆÀûıHÎºRMAJORZ
+CODE_SMELL
+k
+squid:S106T"9Replace this use of System.out or System.err by a logger.(ê­ÍúûÿÿÿÿHÍºRMAJORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(•ÅªĞHÃºRMAJORZ
+CODE_SMELL
+o"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(öÉŸ§ıÿÿÿÿHÌºRCRITICALZ
+CODE_SMELL
+k
+squid:S106`"9Replace this use of System.out or System.err by a logger.(ğ†‹‘ıÿÿÿÿHÁºRMAJORZ
+CODE_SMELL
+e
+squid:S106e"9Replace this use of System.out or System.err by a logger.(’´©HÆºRMAJORZ
+CODE_SMELL
+¤squid:S1319²"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…†ØŒùÿÿÿÿH½ºRMINORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢ÔùÿÿÿÿH›ˆRMAJORZ
-CODE_SMELL
-Œsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ¾ÌƒûÿÿÿÿHŸˆRMINORZ
-CODE_SMELL
-k
-squid:S106u"9Replace this use of System.out or System.err by a logger.(ÆÕıËıÿÿÿÿH”ˆRMAJORZ
-CODE_SMELL
-g
-squid:S106®"9Replace this use of System.out or System.err by a logger.(··ÛëH§ˆRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢ÔùÿÿÿÿH¾ºRMAJORZ
 CODE_SMELL
 f
-squid:S106\"9Replace this use of System.out or System.err by a logger.(ÌƒöÈH™ˆRMAJORZ
+squid:S106E"9Replace this use of System.out or System.err by a logger.(óÜ¨‡H¹ºRMAJORZ
+CODE_SMELL
+f
+squid:S1065"9Replace this use of System.out or System.err by a logger.(£’•éHÈºRMAJORZ
 CODE_SMELL
 g
-squid:S106œ"9Replace this use of System.out or System.err by a logger.(œ•é‹H¢ˆRMAJORZ
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(­„µHÏºRMAJORZ
 CODE_SMELL
 k
-squid:S106"9Replace this use of System.out or System.err by a logger.(ĞÎÛùıÿÿÿÿH¥ˆRMAJORZ
-CODE_SMELL
-k
-squid:S106="9Replace this use of System.out or System.err by a logger.(ûòò†üÿÿÿÿH’ˆRMAJORZ
+squid:S106p"9Replace this use of System.out or System.err by a logger.(Œê”ÿÿÿÿÿHÄºRMAJORZ
 CODE_SMELL

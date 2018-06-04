@@ -1,0 +1,46 @@
+
+Usquid:S16597""Declare "rear" on a separate line.(ß²¼ÓùÿÿÿÿH¾»RMINORZ
+CODE_SMELL
+f
+squid:S106a"9Replace this use of System.out or System.err by a logger.(ÖñË§H¿»RMAJORZ
+CODE_SMELL
+k
+squid:S106c"9Replace this use of System.out or System.err by a logger.(¤é§ÎıÿÿÿÿHÀ»RMAJORZ
+CODE_SMELL
+k
+squid:S106h"9Replace this use of System.out or System.err by a logger.(öç¤ÑıÿÿÿÿHÁ»RMAJORZ
+CODE_SMELL
+k
+squid:S106k"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÂ»RMAJORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßªğÛHÃ»RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(å…¦ºıÿÿÿÿHÄ»RMAJORZ
+CODE_SMELL
+f
+squid:S106†"9Replace this use of System.out or System.err by a logger.(‹ÊHÅ»RMAJORZ
+CODE_SMELL
+g
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(ğòÏéHÆ»RMAJORZ
+CODE_SMELL
+g
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(×•œ²HÇ»RMAJORZ
+CODE_SMELL
+g
+squid:S106"9Replace this use of System.out or System.err by a logger.(´ ¿½HÈ»RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÉ»RMAJORZ
+CODE_SMELL
+osquid:S1126"AReplace this if-then-else statement by a single return statement.(Àİš)HÊ»RMINORZ
+CODE_SMELL
+‡squid:S1488˜"YImmediately return this expression instead of assigning it to the temporary variable "d".(…æ§HË»RMINORZ
+CODE_SMELL
+"squid:ClassVariableVisibilityCheck8"PMake size a static final constant or non-public and provide accessors if needed.(õ˜óøÿÿÿÿHÌ»RMINORZVULNERABILITY
+squid:S001016"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(§Ùô«øÿÿÿÿHÍ»RMINORZ
+CODE_SMELL
+‰squid:S00120
+"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ş—ÌHÎ»RMINORZ
+CODE_SMELL

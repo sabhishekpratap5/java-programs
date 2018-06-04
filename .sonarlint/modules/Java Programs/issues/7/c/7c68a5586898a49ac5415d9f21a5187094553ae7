@@ -1,0 +1,15 @@
+
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(İÎ¤ÂşÿÿÿÿH‚˜RMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(»ÏÂŠıÿÿÿÿHƒ˜RMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñ×ı·øÿÿÿÿH„˜RMAJORZ
+CODE_SMELL
+squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éí¶•øÿÿÿÿH…˜RMINORZ
+CODE_SMELL
+squid:S00120
+"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÍı°ÿÿÿÿÿH†˜RMINORZ
+CODE_SMELL

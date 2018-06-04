@@ -16,7 +16,7 @@ public class Permutation {
 	public static void main(String[] args) {
 		Utility utility = new Utility();
 
-		String string = "pqr";
+		String string = "wxyz";
 		int stringLength = string.length();
 		utility.permute(string, 0, stringLength - 1);
 	}

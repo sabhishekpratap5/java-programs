@@ -21,7 +21,7 @@ public class StopWatch {
 
 		long elapsed = utility.stopwatch(choice);
 
-		System.out.println(elapsed);
+		System.out.println("elasped time is : "+elapsed+"ms");
 	}
 
 }
